@@ -6,6 +6,12 @@ A collection of my university coursework, organized by semester.
 
 ---
 
+## Recents
+
+- [ECE 302H HW 10](./ECE_302H/assignments/hw-10/main.pdf)
+
+---
+
 ## Course Directory
 
 - [Courses](#courses)
