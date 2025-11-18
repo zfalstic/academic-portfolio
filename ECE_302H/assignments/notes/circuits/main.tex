@@ -1,0 +1,90 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\newcommand{\coursename}{\textbf{Introduction to Electrical Engineering}}
+\newcommand{\coursecode}{ECE 302H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ Hanson}
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Linearity}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[C]{\leftmark}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\section{System}
+
+Everything can be a system. A system just needs to have a form of input,
+whether that is doing something or not, and an output, which is just 
+some reaction that we care about.
+
+In a circuit specifically, inputs are usually independent sources, and
+outputs are any $v$, or $i$ of interest anywhere in the circuit.
+
+\begin{remark}
+"System" is a very broad category and the one form of system that we are
+particularly interested in right now is "Linear Systems" or linearity.
+\end{remark}
+
+\section{Linearity}
+
+\begin{definition}
+An equation is linear if it takes the follonwg form: $C_y y^1 = C_u u^1$
+\end{definition}
+
+\begin{definition}
+A SISO (single input single output) system is defined as:
+
+\begin{align*}
+y &= f(u) \\
+u &\Rightarrow y
+\end{align*}
+
+For some specific input $u_1$, $u_1 \Rightarrow y_1$.
+
+$y = f(u)$ is linear if, for any constants $a$, $b$
+
+\begin{equation*}
+f(au_1 + bu_2) = af(u_1) + bf(u_2)  
+\end{equation*}
+\end{definition}
+
+Going back to the first definition,
+
+\begin{align*}
+C_y y &= C_u u \\
+y &= \frac{C_u}{C_y} u \\
+\end{align*}
+
+\begin{align*}
+f(a u_1 + b u_2) &= \frac{C_u}{C_y}(a u_1 + b u_2) \\
+&= a \left( \frac{C_u}{C_y} u_1 \right) + b \left( \frac{C_u}{C_y} u_2 \right) \\
+&= a f(u_1) + b f(u_2)
+\end{align*}
+
+\end{document}

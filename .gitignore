@@ -16,11 +16,14 @@
 /TEMPLATE/*.png
 /TEMPLATE/*.jpg
 
-/*/Homework/*/*.png
-/*/Homework/*/*.jpg
+/*/assignments/*/*.png
+/*/assignments/*/*.jpg
 
-/*/Notes/*/*.png
-/*/Notes/*/*.jpg
+/*/notes/*/*.png
+/*/notes/*/*.jpg
+
+# Textbooks
+*textbook.pdf
 
 # KiCad
 *.gm1
@@ -37,4 +40,5 @@
 *.obj
 
 # Course Specific
-/ECE 306H/ARM Development/
+/ECE_302H/labs/pcbs/
+/ECE_306H/arm-development/
