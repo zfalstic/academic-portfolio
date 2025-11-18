@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage[siunitx]{circuitikz}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{chemformula}
+\usepackage{booktabs}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{statistics}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{teal},
+  frame=single,
+  breaklines=true
+}
+
+\newcommand{\coursename}{\textbf{Coursename}}
+\newcommand{\coursecode}{ECE 302H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ }
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Homework 1}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\setcounter{section}{1}
+
+\end{document}

@@ -1,0 +1,40 @@
+# OS specific
+.DS_Store
+
+# Initialization Files
+*.ini
+
+# LaTeX Compilation Files
+*.aux
+*.fdb_latexmk
+*.fls
+*.pre
+*.synctex.gz
+*.log
+*.out
+
+/TEMPLATE/*.out
+/TEMPLATE/*.png
+
+/*/Homework/*.out
+/*/Homework/*.png
+
+/*/Notes/*.out
+/*/Notes/*.out
+
+# KiCad
+*.gm1
+*.gbrjob
+*.gbl
+*.gbs
+*.gbo
+*.gtl
+*.gts
+*.gto
+*.drl
+
+# Assembly
+*.obj
+
+# Course Specific
+/ECE 306H/ARM Development/

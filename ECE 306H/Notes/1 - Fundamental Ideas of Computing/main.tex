@@ -1,0 +1,432 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+
+\newcommand{\coursename}{\textbf{Introduction to Computing}}
+\newcommand{\coursecode}{ECE 306H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ Yerraballi}
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Fundamental Ideas of Computing}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[C]{\leftmark}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\section{"Computing" in a Nutshell}
+
+\subsection{Physics in Computing}
+\begin{itemize}
+  \item Voltages
+  \item Bits
+\end{itemize}
+
+\subsection{Math in Computing}
+\begin{itemize}
+  \item Logic - NOT, AND, OR
+  \item Numbers - int, char
+\end{itemize}
+
+\subsection{Higher Level Concepts}
+\begin{itemize}
+  \item Circuits - combinatoric logic, sequential logic
+  \item Computers
+  \begin{itemize}
+    \item ISA Architechture - x86, x64, ARM, RISC-V
+    \begin{remark}
+    ISA's have syntaxical differences between their assembly syntaxes
+    because of the separate choices that were taken to develop the 
+    architechture.
+    \end{remark}
+    \item \textbf{LC3} is what we will be working on
+    \begin{remark}
+    Dr. Y believes in a "META" view of ISA Architechture so instead of
+    learning one specific architechture, his goal for us is to be able 
+    to transfer knowledge between separate ISA's and gain a big picture
+    idea to ask the right questions when it comes to different 
+    architechture.
+    \end{remark}
+  \end{itemize}
+  \item Assembly Tools - make, gcc
+\end{itemize}
+
+\section{The Modern Model of Computation}
+we have Alan Turing to thank for this :)
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{turing.png}
+\end{figure}
+
+\begin{definition}
+An \textbf{algorithm} is a process or set of rules to be followed in 
+calculations or other problem-solving operations, especially by a 
+computer.
+\end{definition}
+
+\subsection{Turing Machine \& the Turing Thesis}
+``A Turing machine is a mathematical model of computation describing an 
+abstract machine that manipulates symbols on a strip of tape according 
+to a table of rules. Despite the model's simplicity, it is capable of 
+implementing any computer algorithm.''
+\begin{remark}
+Dr. Y compares the 1970s Cray 1 supercomputer of its time to the first
+generation iPhone and makes a point about the evolution of computing
+although the basic capabilities of computation have remained the same.
+\end{remark}
+
+\section{What is Data?}
+
+\subsection{Data Representation}
+
+\begin{itemize}
+  \item Text
+  \item Numbers
+  \item Images
+  \item Audio
+  \item Video
+\end{itemize}
+
+\begin{remark}
+Dr. Y asks the class what we think ``data'' is, the above are the responses
+that the students give. He explains that for the most part, computers
+understand of ``data'' as text and numbers.
+\end{remark}
+
+\subsection{Computer Binary}
+
+How do computers understand binary? Based on voltages. For the mspm0
+machine,
+
+$2.31-3.6$ V : 1
+
+$0-0.99$ V : 0
+
+\begin{conjecture}
+For the most park, computer logic of binary is performed at a
+maximum of 3.3 V
+\end{conjecture}
+
+\subsection{Text Characters}
+
+\textbf{ASCII}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{ascii.png}
+\end{figure}
+
+\section{Numbers}
+
+\begin{itemize}
+\item Integers
+\begin{itemize}
+\item Unsigned (only positive)
+\item Signed (both positive and negative)
+\end{itemize}
+\item Real
+\item Floating-point
+\end{itemize}
+
+\subsection{Positional Number System}
+
+\begin{example}
+\[
+(4705)_{\text{base} 10}
+\]
+\end{example}
+
+\[
+4 \times 1000 + 7 \times 100 + 0 \times 10 + 5 \times 1 = 4705
+\]
+
+\begin{example}
+\[
+  (10011)_{\text{base} 2}
+\]
+\end{example}
+
+\[
+1 \times 2^4 + 0 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 1 \times 2^0 = 19
+\]
+
+\begin{example}
+\[
+  (23)_{\text{base} 8}
+\]
+\end{example}
+
+\[
+2 \times 8^1 + 3 \times 8^0 = 19
+\]
+
+\begin{example}
+\[
+  (88)_{\text{base} 8}
+\]
+\end{example}
+
+\begin{remark}
+Notice that the coefficients of given base $n$ can only go up to
+$n-1$
+\end{remark}
+
+\begin{tabular}{c c}
+  base-10 & base-2 \\ \hline
+  0 & 000 \\
+  1 & 001 \\
+  2 & 010 \\
+  3 & 011 \\
+  4 & 100 \\
+  5 & 101 \\
+  6 & 110 \\
+  7 & 111 \\
+\end{tabular}
+
+\begin{remark}
+This is probably the most important point that Dr. Y reinforces in the class:
+``Computers don't know anything.'' What he means when he says this is that
+computers only see binary in the form of n-bit packages. If you tell it
+that this package is an integer, it will process it as an integer. If
+you tell it that this package is a character, it will process it as
+a character.
+\end{remark}
+
+What about signed numbers? Numbers that can be both positive
+and negative?
+
+\subsection{Signed Magnitude}
+
+Same as binary except you stick a signed bit $0$ for positive and $1$
+for negative in front of the binary.
+
+\subsection{1s Complement}
+
+\begin{enumerate}
+
+\item
+Convert magntiude $(|xyz|)$ to binary in $n-1$ bits given that $xyz$ is
+a signed number $(xyz)_{10}$
+\item
+Append a $0$ to make room for sign bit
+\item
+If $xyz$ is positive $\Rightarrow$ done. \\
+If $xyz$ is negative $\Rightarrow$ flip all bits.
+
+\end{enumerate}
+
+\begin{example}
+$(45)_{10}$ where $n = 7$ bits.
+\end{example}
+
+\begin{soln}
+\end{soln}
+\begin{enumerate}
+
+\item
+Convert base-10 to binary \\
+$(45)_{10} = (101101)_{2}$
+
+\item
+Append a $0$. \\
+$\boxed{(0101101)_{\text{1s comp}}}$
+
+\end{enumerate}
+
+\begin{example}
+$(-25)_{10}$ where $n = 7$ bits.
+\end{example}
+
+\begin{soln}
+\end{soln}
+\begin{enumerate}
+
+\item
+Convert base-10 to binary \\
+$(-25)_{10} = (011001)_{2}$
+
+\item
+Append a $0$. \\
+$(0011001)$
+
+\item
+Flip bits \\
+$\boxed{(1100110)_{\text{1s comp}}}$
+
+\end{enumerate}
+
+\begin{remark}
+The issue with the 1s complement system is that there is both a $0$ and
+a $-0$ represented as $(0000)_{\text{1s comp}}$ and $(1111)_{\text{1s comp}}$
+respectively.
+\end{remark}
+
+\subsection{2s Complement}
+
+\begin{enumerate}
+
+\item
+Convert magntiude $(|xyz|)$ to binary in $n-1$ bits given that $xyz$ is
+a signed number $(xyz)_{10}$
+\item
+Append a $0$ to make room for sign bit
+\item
+If $xyz$ is positive $\Rightarrow$ done. \\
+If $xyz$ is negative $\Rightarrow$ flip all bits and add $1$.
+
+\end{enumerate}
+
+\begin{remark}
+Dr. Y says here that 2s complement is a Positional Number System.
+\end{remark}
+
+\begin{example}
+$(-25)_{10}$ where $n = 7$ bits.
+\end{example}
+
+\begin{soln}
+\end{soln}
+
+\begin{align*}
+  (-25)_{10} &= (011001)_{2} \\
+             &= (1100110)_{\text{1s comp}} \\
+             &= (1100110)_{\text{1s comp}} + (00000001)_{\text{2s comp}}\\
+             &= \boxed{(1100111)_{\text{2s comp}}}
+\end{align*}
+
+\subsection{Floating Point}
+
+$(125.32)_{10} = 1 \times 10^2 + 2 \times 10^1 + 5 \times 10^0 + 3 \times 10 ^{-1} + 2 \times 10 ^{-2}$ \\
+$(1.011)_{2} = 1 \times 2^0 + 0 \times 2 ^{-1} + 1 \times 2 _{-2} + 1 \times 2 _{-3}$
+
+Scientific notation tells us where the period (.) is.
+
+\begin{equation*}
+\boxed{-}1.\boxed{101011} \times 2 ^{\boxed{3}}  
+\end{equation*}
+
+\begin{enumerate}
+
+\item
+Convert iii to binary by division with 2
+
+\item
+Convert fff to binary by multiplication with 2
+
+\item
+Write in scientific notation $1.xxxx \times 2^n$
+
+\item
+Write in fp standard
+
+\end{enumerate}
+
+\begin{example}
+Convert $(6.875) _{10}$ to floating point with $n = 12, e = 4$
+\end{example}
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}
+
+\item
+$(6) _{10} \Rightarrow (110)_{2}$
+
+\item
+$(.875)_{10} \Rightarrow (.111)_{2}$ \\
+$(110.111)_{2}$
+
+\item
+$1.10111 \times 2^2$ \\
+$(0|1001|1011100)$
+
+\end{enumerate}
+
+\section{Logic}
+
+\subsection{Boolean Logic}
+
+Booleans only consist of two states: (0, 1), (yes, no), (T, F), etc. What operations can we perform on booleans?
+
+\begin{tabular}{c c}
+  X & NOT(X) \\ \hline
+  0 & 1 \\
+  1 & 0 \\
+\end{tabular}
+
+\begin{tabular}{c c c}
+  X & Y & AND(X, Y) \\ \hline
+  0 & 0 & 0 \\
+  0 & 1 & 0 \\
+  1 & 0 & 0 \\
+  1 & 1 & 1
+\end{tabular}
+
+\begin{tabular}{c c c}
+  X & Y & OR(X, Y) \\ \hline
+  0 & 0 & 0 \\
+  0 & 1 & 1 \\
+  1 & 0 & 1 \\
+  1 & 1 & 1
+\end{tabular}
+
+\begin{tabular}{c c c}
+  X & Y & XOR(X, Y) \\ \hline
+  0 & 0 & 0 \\
+  0 & 1 & 1 \\
+  1 & 0 & 1 \\
+  1 & 1 & 0
+\end{tabular}
+
+\begin{example}
+NOT(001101)
+\end{example}
+
+\begin{soln}
+110010
+\end{soln}
+
+\begin{example}
+Suppose you are a car security system and the following table represents
+the state of the doors (D), hatch (H), and windows (W) \\
+\begin{tabular}{c c c c c}
+LD & RD & H & LW & RW \\ \hline
+1 & 1 & 0 & 0 & 1
+\end{tabular}
+\end{example}
+
+Lets say you are tasked with determining the state of just the right door
+(RD). Given the current state how would you isolate the bit of RD?
+
+\begin{soln}
+11001 AND 01000
+\end{soln}
+
+\end{document}
