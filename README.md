@@ -6,12 +6,16 @@ A collection of my university coursework, organized by semester.
 
 ---
 
-## Table of Contents
+## Course Directory
 
-- [Structure](#structure)
 - [Courses](#courses)
   - [Fall 2025](#fall-2025)
-    - [ECE 302H](./ECE%20302H/)
+    - [ECE 302H](./ECE_302H/)
+    - [ECE 306H](./ECE_306H/)
+    - [M 408D](./M_408D/)
+    - [BA 324H](./BA_324H/)
+    - [BA 101H](./BA_101H/)
+    - [MAN 101H](./MAN_101H/)
 
 ---
 
@@ -19,57 +23,21 @@ A collection of my university coursework, organized by semester.
 
 ```text
 .
-├── BA 101H
-├── BA 324H
-├── ECE 302H
-│   ├── Exams
-│   ├── Homework
-│   │   ├── Completed
-│   │   ├── HW 01
-│   │   ├── HW 02
-│   │   ├── HW 03
-│   │   ├── HW 04
-│   │   ├── HW 05
-│   │   ├── HW 06
-│   │   ├── HW 07
-│   │   ├── HW 08
-│   │   ├── HW 09
-│   │   └── HW 10
-│   ├── Labs
-│   │   ├── Lab 4
-│   │   ├── Lab 5
-│   │   └── Lab 7
-│   ├── Notes
-│   │   ├── 1 - Fundamentals of Electricity
-│   │   └── 2 - Circuits
-│   └── Past Exams
-├── ECE 306H
-│   ├── ARM Development
-│   │   └── yarm
-│   ├── Exams
-│   │   └── Exam 2
-│   ├── Homework
-│   │   ├── Completed
-│   │   ├── HW 1
-│   │   ├── HW 2
-│   │   ├── HW 3
-│   │   ├── HW 4
-│   │   ├── HW 5
-│   │   ├── HW 6
-│   │   ├── Program 0
-│   │   ├── Program 1
-│   │   ├── Program 2
-│   │   ├── Program 3
-│   │   └── Program 4
-│   ├── Notes
-│   │   └── 1 - Fundamental Ideas of Computing
-│   ├── Past Exams
-│   └── Quizzes
-│       └── Quiz 8
-├── M 408D
-│   ├── Homework
-│   │   └── HW 1
-│   └── Notes
-├── MAN 101H
+├── BA_101H
+├── BA_324H
+├── ECE_302H
+│   ├── assignments
+│   ├── exams
+│   ├── labs
+│   ├── notes
+│   └── past-exams
+├── ECE_306H
+│   ├── arm-development
+│   ├── assignments
+│   ├── exams
+│   ├── notes
+│   └── past-exams
+├── M_408D
+├── MAN_101H
 └── TEMPLATE
 ```
