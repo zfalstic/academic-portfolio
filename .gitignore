@@ -16,11 +16,11 @@
 /TEMPLATE/*.out
 /TEMPLATE/*.png
 
-/*/Homework/*.out
-/*/Homework/*.png
+/*/Homework/*/*.out
+/*/Homework/*/*.png
 
-/*/Notes/*.out
-/*/Notes/*.out
+/*/Notes/*/*.out
+/*/Notes/*/*.out
 
 # KiCad
 *.gm1
