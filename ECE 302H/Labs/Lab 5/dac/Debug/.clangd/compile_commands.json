@@ -1,0 +1,12 @@
+[
+   {
+      "directory" : "/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac\" -I\"/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac/Debug\" -I\"/Users/dawson/ti/mspm0_sdk_1_10_00_05/source/third_party/CMSIS/Core/Include\" -I\"/Users/dawson/ti/mspm0_sdk_1_10_00_05/source\" -I\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/newlib-nano\" -I\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/c++/9.2.1\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/c++/9.2.1/arm-none-eabi\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/c++/9.2.1/backward\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/lib/gcc/arm-none-eabi/9.2.1/include\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/lib/gcc/arm-none-eabi/9.2.1/include-fixed\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include\" -std=c99 -xc",
+      "file"      : "/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac/dac.c"
+   },
+   {
+      "directory" : "/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac/Debug",
+      "command"   : "clang++ -D__MSPM0G3507__ -I\"/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac\" -I\"/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac/Debug\" -I\"/Users/dawson/ti/mspm0_sdk_1_10_00_05/source/third_party/CMSIS/Core/Include\" -I\"/Users/dawson/ti/mspm0_sdk_1_10_00_05/source\" -I\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/newlib-nano\" -I\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/c++/9.2.1\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/c++/9.2.1/arm-none-eabi\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include/c++/9.2.1/backward\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/lib/gcc/arm-none-eabi/9.2.1/include\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/lib/gcc/arm-none-eabi/9.2.1/include-fixed\" -isystem\"/Users/dawson/ti/gcc_arm_none_eabi_9_2_1/arm-none-eabi/include\" -std=c99 -xc",
+      "file"      : "/Users/dawson/Documents/Classes/ECE 302H/Labs/Lab 5/dac/gcc/startup_mspm0g3507_gcc.c"
+   }
+]

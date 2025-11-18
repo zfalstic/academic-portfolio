@@ -1,0 +1,450 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage[siunitx]{circuitikz}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{chemformula}
+\usepackage{booktabs}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{statistics}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{teal},
+  frame=single,
+  breaklines=true
+}
+
+\newcommand{\coursename}{\textbf{Introduction to Electrical Engineering}}
+\newcommand{\coursecode}{ECE 302H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ Hanson}
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Homework 10}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\setcounter{section}{10}
+
+\begin{problem}
+
+\textbf{Poles and Zeros}
+
+Transfer functions of linear systems always look like,
+
+\begin{align*}
+T = \frac{\text{polynomial of } \omega}{\text{other polynomial of } \omega}
+\end{align*}
+
+If those polynomials are factored, then the transfer function looks like,
+
+\begin{align*}
+T = A \frac{\left( 1 + \frac{j \omega}{\omega _{z1}} \right)\left( 1 + \frac{j \omega}{\omega _{z2}} \right)\left( 1 + \frac{j \omega}{\omega _{z3}} \right) \cdots}{\left( 1 + \frac{j \omega}{\omega _{p1}} \right)\left( 1 + \frac{j \omega}{\omega _{p2}} \right)\left( 1 + \frac{j \omega}{\omega _{p3}} \right) \cdots}
+\end{align*}
+
+where $A$ is a constant scaling factor. The known frequency elements $\omega_z$ (they come from factoring the
+polynomial in the numerator) are called zeros, while the elements labeled $\omega_p$ are called poles. Note that
+poles and zeros can be real, imaginary, or complex, and can have positive or negative values.
+(Throughout this problem, be careful to distinguish the complex-valued $T$ from the real-valued $\abs{T}$ and
+$\angle T$)
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+What are the poles and zeros of $T = 3 \frac{\left( 1 - \frac{j \omega}{100} \right)\left( 1 - \frac{j \omega}{1,000} \right)}{\left( 1 - \frac{j \omega}{10} \right)\left( 1 - \frac{j \omega}{10,000} \right)}$ , assuming that the numerical frequencies
+have units of \SI{}{\radian / \second}? Are they real, imaginary, or complex? Are they positive or negative?
+
+\item
+
+The scaling factor $A$ is often called the ``dc gain.'' Explain why by letting $\omega \rightarrow 0$. Are there any
+values of $\omega_z$ or $\omega_p$ that would ruin this interpretation?
+
+\item
+
+Sketch the magnitude of $T$ on a log-log plot (y axis in \SI{}{\decibel}) as follows:
+
+\begin{itemize}
+
+\item
+
+Start from low frequency. What is $T$ approximately equal to? What is $\abs{T}$ approximately
+equal to in this region? At what frequency does this approximation break down? Sketch
+$\abs{T}$ up until this frequency.
+
+\item
+
+Above the frequency you just found, what is $T$ approximately equal to? What should
+the slope of $\abs{T}$ be in this region? At what frequency does this approximation break
+down? Continue sketching $\abs{T}$, starting where you left off and ending at the frequency
+you just found.
+
+\item
+
+Continue increasing frequency, identifying the slope of $\abs{T}$ in each region until you have
+a complete graph
+
+\end{itemize}
+
+\item
+
+As frequency increases, what do you notice about the slope of $\abs{T}$ each time you hit a pole?
+Each time you hit a zero?
+
+\item
+
+Sketch the phase of $T$ on a semilog-x plot in a similar way:
+
+\begin{itemize}
+
+\item
+
+Start from low frequency. What is $T$ approximately equal to? What is the phase of $T$ in
+this region? At what frequency does this approximation break down? Sketch the phase
+of $T$ up until this frequency.
+
+\item
+
+Above the frequency you just found, what is $T$ approximately equal to? What is the
+phase of $T$ in this region? At what frequency does this approximation break down?
+Sketch the phase of $T$ in this frequency region. Roughly sketch a smooth connection
+from the phase in the last region to the phase in this region.
+
+\item
+
+Continue increasing frequency, identifying the phase of $T$ in each region until you have a
+complete graph
+
+\end{itemize}
+
+\item
+
+As frequency increases, what do you notice about the phase of $T$ each time you hit a pole? Each
+time you hit a zero?
+
+\item
+
+Suppose $A$ were changed from $3$ to $30$. Describe in words how the magnitude and phase plots
+would change.
+
+\end{enumerate}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+This transfer function has poles ($-10, -10,000$) and zeros ($-100, -1,000$) that only have a real part and are negative.
+
+\item
+
+By letting $\omega \rightarrow 0$, the terms with any poles $\frac{j \omega}{\omega _{p}}$ or zeros $\frac{j \omega}{\omega _{z}}$
+zero out, letting $T = A$. This makes sense as an interpretation for DC gain.
+
+\item
+
+Low frequency: $\omega \rightarrow 0 \quad \Rightarrow \quad T \approx \abs{T} \approx 3$
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{How Oscilloscope Probes Work and the ``Doublet'' Problem}
+
+An oscilloscope probe can be modeled as one resistor $R_1$ in parallel with a capacitor $C_1$. This parallel
+combination appears in series with the scope itself, which is modeled as another resistor $R_2$ in parallel
+with a capacitor $C_2$. The bottom of $R_2$ and $C_2$ is ground, which connects back to the device under test,
+completing the circuit. The midpoint voltage between $R_1$ and $R_2$ is what the oscilloscope itself
+measures.
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Use circuit analysis to determine the differential equation that relates the input (the voltage of
+the device under test) and the output (the midpoint voltage) in the time domain.
+
+\item
+
+Let the input be a cosine wave, $v _{in}(t) = V _{in} \cos(\omega t)$. What form must the output $v _{out}(t)$ take,
+and which parameters of $v _{out}(t)$ are known or unknown at this stage?
+
+\item
+
+Write the input and output voltages as the real part of complex exponentials.
+
+\item
+
+Plug your answers into the differential equation; perform any derivatives; reduce the problem
+to $Re\{ A e ^{j \omega t} \} = Re\{ B e ^{j \omega t} \}$ and use the theorem we learned in class to conclude that $A = B$. In
+the resulting equation, identify the input voltage phasor $\vec{V} _{in}$ and the output voltage phasor $\vec{V} _{out}$.
+
+\item
+
+Solve for the complex transfer function and calculate its magnitude and phase as functions of $\omega$.
+
+\item
+
+Prove that the magnitude and phase of the transfer function are independent of frequency if $\frac{R_1}{R_2} = \frac{C_1}{C_2}$.
+(We call this ``pole-zero cancellation'').
+
+\item
+
+Suppose you have a square wave voltage source applied to the circuit input. If the above
+condition is met, what do you expect the output (midpoint) voltage to look like? Why? (Hint:
+How does the transfer function affect the different frequency components of a square wave?)
+
+\item
+
+Let $R_1 = \SI{90.9}{\kilo \ohm}$, $R_2 = \SI{9.42}{\kilo \ohm}$, $C_2 = \SI{145}{\pico \farad}$, $C_1 = \SI{15}{\pico \farad}$ and simulate the circuit in LTSpice.
+Let the voltage source be a PULSE from $\SI{0}{\volt}$ to \SI{10}{\volt} with rise and fall times of $\SI{1}{\nano \second}$ at a frequency
+of $\SI{10}{\kilo \hertz}$ and 50\% duty cycle (also set its AC amplitude to 1V for ac analysis simulations). Run
+transient simulation from $0$ to $\SI{300}{\micro \second}$ and an ac simulation from $\SI{10}{\hertz}$ to $\SI{10}{\mega \hertz}$ (on the ac
+simulation, adjust the magnitude scale to be from $\SI{-40}{\decibel}$ to $\SI{0}{\decibel}$ and the phase scale to be from
+$\SI{-90}{\degree}$ to $\SI{+90}{\degree}$). Include both plots.
+
+\item
+
+Repeat (h) for $C_1 = \SI{20}{\pico \farad}$ and $C_1 = \SI{10}{\pico \farad}$. Include the plots and describe what you see in the
+time domain simulation. (In the transfer function, the close-but-imperfect cancellation of poles
+and zeros is called a ``doublet'')
+
+\item
+
+Suppose $C_1$ is adjustable (e.g., with a screwdriver), describe how you could properly tune an
+oscilloscope probe.
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{2.png}
+\end{figure}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{Inductors and RLC Circuits}
+
+An inductor is a coil of wire, sometimes wrapped around a magnetic core. Its component law is the dual
+of the capacitor’s, namely $v_L = L \frac{di_L}{dt}$. Imagine an LCR circuit like the one below (which happens to be the
+same as the circuit in your final project):
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{3.png}
+\end{figure}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Find the differential equation that relates the input voltage to the output voltage.
+
+\item
+
+If the input is a sine wave, we needn't go through the whole rigmarole of writing it as the real
+part of a complex exponential, plugging it in, etc. We've done this enough times to know what
+will happen. Instead, look directly at the differential equation and replace $v _{in}$ and $v _{out}$ with
+their phasors, recognizing that $\frac{d}{dt}v _{out}$ will turn into $j\omega \vec{v}_{out}$ and $\frac{d}{dt} v _{in}$ will turn into $j \omega \vec{v}_{in}$ in the
+frequency domain.
+
+\item
+
+Solve for the complex transfer function of the circuit, namely $\frac{\vec{v}_{out}}{\vec{v}_{in}}$. Calculate the magnitude and
+phase as a function of frequency $\omega$.
+
+\item
+
+On a log-log plot (Bode Plot), what is the slope of the magnitude at low frequencies (far below
+the LC resonance, $\omega_r = 1 / \sqrt{LC}$) and high frequencies (far above resonance)?
+
+\item
+
+Create this circuit in LTSpice. Right click on the voltage source, choose ``advanced,'' and set the
+AC amplitude to 1. Then, run a simulation but, in the dialog box, change from ``Transient'' to
+``AC Analysis.'' Select ``Decade'' with 100 points per decade with a start frequency of $\SI{100}{\hertz}$ and
+a stop frequency of $\SI{1}{\mega \hertz}$. Submit the plot of $v _{out}$ (since $v _{in}$ is a cosine wave with a
+magnitude of 1 and a phase of 0, then plotting $v _{out}$ is the same as plotting $v _{out}/v _{in}$).
+
+\item
+
+A square wave, like all waves in the frequency domain, consists of a dc component, a
+fundamental component at the square wave frequency, and a sequence of harmonics at twice,
+thrice, and so forth of the fundamental frequency, of generally decreasing magnitude. If a
+square wave of frequency much less than resonance is applied to the above circuit, what do you
+expect the output to approximately look like? If a square wave of frequency much greater than
+resonance is applied to the above circuit, what do you expect the output to approximately look
+like?
+
+\item
+
+Verify your answer in LTSpice by right-clicking on the voltage source -> ``Pulse'' and assigning
+the following parameters to create a $\SI{100}{\hertz}$ square wave that goes from $\SI{0}{\volt}$ to $\SI{20}{\volt}$. Change the
+simulation type back to Transient and run the simulation for $\SI{50}{\milli \second}$. Submit the time-domain
+plot of $v _{in}$ and $v _{out}$. Does this match your intuition about this case?
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{3g.png}
+\end{figure}
+
+\item
+
+Further verify your intuition from the frequency domain by adjusting the voltage source to have
+a frequency of $\SI{100}{\kilo \hertz}$. Run the simulation for $\SI{300}{\micro \second}$ but only saving the last $\SI{150}{\micro \second}$. Submit
+the time-domain plot of Vin and Vout. Does this match your intuition about this case?
+
+\item
+
+For the $\SI{100}{\kilo \hertz}$ case, right-click on the plot and select view -> FFT (Fast Fourier Transform, i.e.
+the frequency-domain representation of the signals). Make sure both $v _{in}$ and $v _{out}$ are selected
+and click ok. Make sure $v _{in}$ and $v _{out}$ are selected for visibility and then click ok again. Submit
+the plot.
+
+\item
+
+Finally, note that the dc value of the output is $\SI{10}{\volt}$ in the $\SI{100}{\kilo \hertz}$ case because the duty cycle of
+the input, i.e. the fraction of time that it is $\SI{20}{\volt}$ instead of $\SI{0}{\volt}$, is 50\%. If the duty cycle were
+25\%, what would you expect the dc value of $v _{out}$ to be?
+
+\end{enumerate}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{Rapid AC Solutions}
+
+Having multiple times gone through the process of writing out the differential equations in the time
+domain and then converting to the frequency domain, we are now prepared to do direct ac analysis in
+the frequency domain. Treating all resistors, inductors, and capacitors as \textit{impedances} and using all the
+same circuit analysis tools that we used for resistors, answer the following questions:
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Find the total \textit{impedance} to the right of the voltage source and use your answer to solve for $i$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{4a.png}
+\end{figure}
+
+\item
+
+Use node analysis to solve for $v_o$ if $\omega = \SI{2}{\kilo \radian / \second}$
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{4b.png}
+\end{figure}
+
+\item
+
+Find the Thevenin equivalent for this circuit:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{4c.png}
+\end{figure}
+
+\end{enumerate}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{Extra Credit: Degree Plan}
+
+Choose the tech core that you are most likely to choose and craft an accelerated degree plan for that
+tech core. You can use whatever criteria you want to craft your plan – including early and deep
+concentration, intentional hybridization, maintaining the opportunity to pivot, and so forth – but your
+plan must not be the same as the 4-year plan put forward by the ECE department. You can leave the
+gen-ed classes unspecified, but you do have to say which semesters they will occur in. Choose the
+elective ECE classes specifically, though. Write a short 1-2 paragraphs about the key features of your
+degree plan and your reasoning for some of the key choices.
+
+You are in no way committing to that tech core or the accelerated degree plan, but going through the
+exercise will help you think creatively about your degree plan.
+
+Only complete plans with sensible rationale will be awarded credit.
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+
+
+\end{document}

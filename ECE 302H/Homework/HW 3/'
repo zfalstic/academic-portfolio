@@ -1,0 +1,368 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{statistics}
+
+\newcommand{\coursename}{\textbf{Introduction to Electrical Engineering}}
+\newcommand{\coursecode}{ECE 302H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ Hanson}
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Homework 3}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\setcounter{section}{3}
+
+\begin{problem}
+Consider the circuit below which is composed of resistors (which you know) and a new component
+called a comparator. Comparators are quite easy to understand – they simply compare the voltages at
+their inputs. If the positive input is greater than the negative input, then the comparator outputs a
+digital “1”. If the negative input is greater, then the comparator outputs a digital “0”. Comparators do
+not draw any current from their inputs, i.e. they do not disturb the circuit they are measuring. If the
+outputs of the comparators are (from top down) [0001] then we interpret the digital output D as “D=1”;
+if the output of the comparators is [0011] then we interpret the digital output D as “2”, and so forth.
+This is “thermometer code” because the 1’s at the output rise like mercury in an old thermometer.
+
+\begin{enumerate}[\alph*)]
+
+\item
+Calculate the voltage at the positive input to each comparator assuming vin is set by a voltage
+source. Call it vin,low (note that this node is not connected to the other resistor string; the wire
+lines “hop over” the other resistor string). You expect the maximum value of vin to be 19.8 V
+and each pin of the comparator is rated to handle up to 3.3 V; what must the ratio R1 / R2 be so
+that you can measure the full input voltage range while using the full pin rating? Please use that
+value for the rest of the problem.
+
+\item
+Calculate the voltage at the negative input to each comparator assuming VDD is set by a voltage
+source. Call them Vref1, Vref2, and Vref3. Let VDD = 3.3V.
+
+\item
+Sketch a graph of the digital output D (“1”, “2”, etc.) as a function of vin. How many different
+levels can D represent? How many bits would you need to represent this number of levels in
+binary code (i.e., how many bits of resolution are there)?
+
+\item
+How many more resistors and comparators would you need to add one more bit of precision?
+
+\item
+Discrete resistors are typically rated to dissipate about 1/4 W of power each. Using this rating
+and the ratio you found in (a), calculate the minimum allowable values for R1,R2, and R3.
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.293\textwidth]{problem1.png}
+\end{figure}
+
+\end{problem}
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+Redraw circuit and use node analysis to solve for $V_a$:
+
+\begin{align*}
+\sum I = I _{R _{1}} - I _{R _{2}} &= 0 \\
+\frac{V _{in} - V _{a}}{R _{1}} - \frac{V _{a} - 0}{R _{2}} &= 0 \\
+\frac{V _{in} - V _{a}}{R _{1}} &= \frac{V _{a}}{R _{2}} \\
+\frac{V _{in}}{R _{1}} &= \frac{V _{a}}{R _{2}} + \frac{V _{a}}{R _{1}} \\
+&= V _{a} \left( \frac{1}{R _{1}} + \frac{1}{R _{2}} \right) \\
+&= V _{a} \left( \frac{R _{1} + R _{2}}{R _{1} R _{2}} \right) \\
+V _{a} &= \boxed{\frac{V _{in} R _{2}}{R _{1} + R _{2}}}
+\end{align*}
+
+Plug in $\SI{3.3}{\volt}$ for $V _{a}$ and $\SI{19.8}{\volt}$ for $V _{in}$:
+
+\begin{align*}
+V _{a} &= \frac{V _{in} R _{2}}{R _{1} + R _{2}} \\
+3.3 &= \frac{19.8 R _{2}}{R _{1} + R _{2}} \\
+\frac{3.3}{19.8} &= \frac{R _{2}}{R _{1} + R _{2}} \\
+\frac{19.8}{3.3} &= \frac{R _{1} + R _{2}}{R _{2}} \\
+&= \frac{R _{1}}{R _{2}} + 1 \\
+\frac{R _{1}}{R _{2}} &= \frac{19.8}{3.3} - 1 \\
+&= \boxed{5}
+\end{align*}
+
+\item
+Use node analysis on node B to set up KCL equation:
+
+\begin{align*}
+\sum I = \frac{V _{DD} - V _{b}}{R _{3} / 2} - \frac{V _{b} - V _{c}}{R _{3}} = 0
+\end{align*}
+
+Use node analysis on node C to set up KCL equation:
+
+\begin{align*}
+\sum I = \frac{V _{b} - V _{c}}{R _{3}} - \frac{V _{c} - V _{d}}{R _{3}} = 0
+\end{align*}
+
+Use node analysis on node D to set up KCL equation:
+
+\begin{align*}
+\sum I = \frac{V _{c} - V _{d}}{R _{3}} - \frac{V _{d} - 0}{R _{3} / 2} = 0
+\end{align*}
+
+\begin{remark*}
+Notice now that we have a scenario with 3 unknown variables: $V_b$, $V_c$, and $V_d$
+and 3 equations. That means that we can solve for each unkown variable
+\end{remark*}
+
+\begin{align*}
+\frac{2 V _{DD}}{R _{3}} - \frac{2 V_b}{R_3} - \frac{V_b}{R_3} + \frac{V_c}{R_3} = 0 \quad &\Rightarrow \quad V_c = 3 V_b - 2 V _{DD} \\
+\frac{V_b}{R_3} - \frac{V_c}{R_3} - \frac{V_c}{R_3} + \frac{V_d}{R_3} = 0 \quad &\Rightarrow \quad V_b = 2V_c - V_d \\
+\frac{V_c}{R_3} - \frac{V_d}{R_3} - \frac{2V_d}{R_3} = 0 \quad &\Rightarrow \quad V_c = 3 V_d
+\end{align*}
+
+Solve system of equations:
+
+\begin{align*}
+V_c &= 3 V_b - 2 V _{DD} \\
+&= 3 (2 V_c - V_d) - 2 V _{DD} \\
+&= 6 V_c - 3 V_d - 2 V _{DD} \\
+-5 V_c &= -3 V_d - 2 V _{DD}
+\end{align*}
+
+\begin{align*}
+V_c &= 3 V_d \\
+5 V_c &= 15 V_d
+\end{align*}
+
+\[
+\left\{
+\begin{aligned}
+-5 V_c &= -3 V_d - 2 V _{DD} \\
+5 V_c &= 15 V_d
+\end{aligned}
+\right.
+\quad \Rightarrow \quad
+0 = 12 V_d - 2 V _{DD}
+\quad \Rightarrow \quad
+V_d = \frac{1}{6} V _{DD}
+\]
+
+\begin{align*}
+V_c &= 3 V_d \\
+&= 3 (\frac{1}{6} V _{DD}) \\
+&= \frac{1}{2} V _{DD}
+\end{align*}
+
+\begin{align*}
+V_b &= 2 V_c - V_d \\
+&= 2 (\frac{1}{2} V _{DD}) - \frac{1}{6} V _{DD} \\
+&= \frac{5}{6} V _{DD}
+\end{align*}
+
+Plug in $V _{DD} = \SI{3.3}{\volt}$ and solve for reference voltages:
+
+\begin{align*}
+V_d = V _{ref1} = \frac{1}{6} (3.3) &= \boxed{\SI{0.55}{\volt}} \\
+V_c = V _{ref2} = \frac{1}{2} (3.3) &= \boxed{\SI{1.65}{\volt}} \\
+V_b = V _{ref3} = \frac{5}{6} (3.3) &= \boxed{\SI{2.75}{\volt}}
+\end{align*}
+
+\item
+This problem asks us to find digital output $D$ as a function of
+$V _{in}$. The issue is that $D$ is a non-continuous piece-wise
+of $V_a$. But this is okay because $V_a$ is a function of $V _{in}$, so
+in the end, we are really graphing $D(V_a(V _{in}))$.
+
+\begin{remark*}
+I just wanted to make that clear.
+\end{remark*}
+
+Consider what $D$ would be given a particular $V_a$:
+
+\begin{align*}
+D &= 0 \text{:} \quad 0 < V_a < 0.55 \\
+D &= 1 \text{:} \quad 0.55 < V_a < 1.65 \\
+D &= 2 \text{:} \quad 1.65 < V_a < 2.75 \\
+D &= 3 \text{:} \quad 2.75 < V_a < 3.3 \\
+\end{align*}
+
+Rewrite $V_a$ in the form of $V_a(V _{in})$:
+
+\begin{align*}
+V_a &= \frac{V _{in} R_2}{R_1 + R_2} \\
+\frac{1}{V_a} &= \frac{1}{V _{in}} \frac{R_1 + R_2}{R_2} \\
+V _{in} &= V_a \frac{R_1}{R_2} + 1 \\
+&= 5 V_a + 1 \\
+V_a &= \frac{1}{5}V _{in} - \frac{1}{5}
+\end{align*}
+
+Graph $D(V_a)$:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{31c1.png}
+\end{figure}
+
+$D$ can represent 4 different levels: 000, 001, 011, 111. You would need
+3 bits in binary to represent 4 levels.
+
+\item
+You would only need 1 more resistor and 1 more comparator to add another
+level of precision.
+
+\item
+insert answer LMAO
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+In radio-frequency (rf) systems, it is common to have a high-power source of energy and
+a sensitive detector or load that can’t absorb very much power. In these cases, you can use an
+attenuator to reduce the amount of power absorbed by the load by a known amount. Let the energy
+source be modeled by a voltage vin with a resistor Rs in series; let the load be modeled by a resistor RL.
+Refer to the Figure.
+
+\begin{enumerate}[\alph*)]
+
+\item
+Calculate the power delivered to the load when no attenuator is used.
+
+\item
+Consider the attenuator in the Figure, which consists of a T-network of two resistors of values R1
+and one resistor of value R2. Calculate what the new network “looks like” from the perspective
+of the generator. In other words, calculate the equivalent resistance Rnet of everything to the
+right of the generator.
+
+\item
+Generators of rf energy often behave best when they are loaded with the same resistance as the
+generator’s internal resistance (i.e., when RL
+=RS), but when we add the attenuator we risk
+changing the resistance that the source “sees” (i.e., Rnet). Let RL = Rs = 50 ohm. Normally our
+design task would be to find values for R1 and R2 that give a target attenuation while making the
+load+attenuator resistance look like 50 ohm. This is pretty messy to calculate in the general case so
+let’s do a specific case instead. Suppose that R2 = 25.975 ohm. Calculate the required value of R1 to
+make the equivalent resistance of the load+attenuator combination equal to 50 ohm.
+
+\item
+Calculate the attenuation of the resulting attenuator circuit, i.e., the ratio of power delivered to
+the actual load when the attenuator is inserted in the circuit divided by the power delivered to
+the load with no attenuator.
+
+\item
+Simulate the circuit you designed in LTspice. What measurements would you take, and what
+calculations would you make based on those measurements, to evaluate if your circuit does
+what you want it to do? Submit a screenshot of your LTSpice graphs and circuit and, separately,
+any calculations you need to do to prove that the circuit works. Be sure to label any nodes
+whose voltage you will be measuring so that the graph is self-explanatory. (Currents and powers
+don’t need to be labeled since they’re named after their component)
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.46\textwidth]{problem2.png}
+\end{figure}
+
+\end{problem}
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+Recall that $P = V \times I$ and that $V$ in a resistor is $IR$. Thus,
+power through a resistor can be represented as $P _{\text{resistor}} = I^2R$.
+
+\begin{align*}
+\sum V &= V _{in} - V_S - V_L = 0 \\
+&= V _{in} - I_S R_S - I_L R_L = 0 \\
+&= V _{in} - I_L R_S - I_L R_L = 0 \\
+I_L R_L + I_L R_S &= V _{in} \\
+I_L &= \frac{V _{in}}{R_L + R_S}
+\end{align*}
+
+\begin{align*}
+P_L &= I_L^2 R_L \\
+&= \boxed{\frac{V _{in}^{2} R_L}{(R_L + R_S)^{2}}}
+\end{align*}
+
+\item
+For this problem we can just use equivalent resistances to solve for
+$R _{eq}$.
+
+\begin{align*}
+R _{eq1} &= R_1 + R_L \\
+\frac{1}{R _{eq2}} &= \frac{1}{R_2} + \frac{1}{R _{eq1}} \\
+&= \frac{1}{R_2} + \frac{1}{R_1 + R_L} \\
+&= \frac{R_1 + R_2 + R_L}{R_2(R_1 + R_L)} \\
+R _{eq2} &= \frac{R_2(R_1 + R_L)}{R_1 + R_2 + R_L} \\
+R _{eq} &= R_1 + R _{eq2} \\
+&= \boxed{R_1 + \frac{R_2(R_1 + R_L)}{R_1 + R_2 + R_L}}
+\end{align*}
+
+\item
+Plug in values of $R_2$, $R_L$, and $R _{eq}$:
+
+\begin{align*}
+R _{eq} &= R_1 + \frac{R_2(R_1 + R_L)}{R_1 + R_2 + R_L} \\
+50 &= R_1 + \frac{25.975(R_1 + 50)}{R_1 + 25.975 + 50} \\
+R_1 &= \boxed{\SI{30.37}{\ohm}}
+\end{align*}
+
+\item
+Label circuit and perform node analysis.
+
+Node A:
+
+\begin{align*}
+\sum I = \frac{V _{in} - V_a}{R_1 + R_L} - \frac{V_a - V_b}{R_1} - \frac{V_a - 0}{R-2} &= 0 \\
+\frac{V _{in} - V_a}{30.37 + 50} - \frac{V_a - V_b}{30.37} - \frac{V_a}{25.975} &= 0 \\
+\frac{V _{in} - V_a}{80.37} - \frac{V_a - V_b}{30.37} - \frac{V_a}{25.975} &= 0 \\
+\end{align*}
+
+Node B:
+
+\begin{align*}
+\sum I = \frac{V_a - V_b}{R_1} - \frac{V_b - 0}{R_L} &= 0 \\
+\frac{V_a - V_b}{30.37} - \frac{V_b}{50} &= 0
+\end{align*}
+
+\begin{remark*}
+Notice now that we have a 2 equation 2 unknown: $V_a$ and $V_b$ system
+of equations that we can solve using algebra.
+\end{remark*}
+
+\end{enumerate}
+
+\end{document}

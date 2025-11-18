@@ -1,0 +1,8 @@
+"./dac.o"
+"./gcc/startup_mspm0g3507_gcc.o"
+-Wl,-T"../mspm0g3507.lds"
+"/Users/dawson/ti/mspm0_sdk_1_10_00_05/source/ti/driverlib/lib/gcc/m0p/mspm0g1x0x_g3x0x/driverlib.a"
+-lgcc
+-lc
+-lm
+-lnosys

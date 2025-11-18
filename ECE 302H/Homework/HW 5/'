@@ -1,0 +1,528 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{statistics}
+
+\newcommand{\coursename}{\textbf{Introduction to Electrical Engineering}}
+\newcommand{\coursecode}{ECE 302H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ Hanson}
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Homework 5}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\setcounter{section}{5}
+
+\begin{problem}
+
+In rf circuits, it is very important to ''match'' the resistance of loads (the things that receive rf power)
+with signal sources. When we speak of the ''resistance'' of the signal source, we mean its Thevenin
+equivalent resistance. Let’s examine an rf ''power splitter'' which has one signal source $v _{in}$ with output
+resistance $R_0$ and it sends a signals to two loads, each a resistor of value $R_0$. A power splitting circuit
+composed of three resistors of value $R_1$ may be included. The three ports labeled are understood to be
+from the labeled point to ground.
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Explain why the splitting circuit is necessary. In other words, imagine the two loads simply
+connected in parallel to Port 1. What equivalent resistance would the source see, i.e. what is
+the equivalent resistance to the right of ''Port 1''? Does it match the source’s output resistance?
+
+\item
+
+Now analyze the full circuit. In particular, find the Thevenin Equivalent resistance from the
+perspective of each of the three ports. For Port 1, this includes everything but the signal source
+and its output impedance. For Port 2, this includes everything except Load 2. For Port 3, this
+includes everything except Load 3. Show that if $R_1 = R_0/3$, then the source and each load
+''sees'' a matched Thevenin resistance looking into the rest of the circuit.
+
+(if you take ECE 363M Microwave and Radio Frequency Engineering, you’ll learn more about why this
+matching is so important)
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.65\textwidth]{1.png}
+\end{figure}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+If we imagine the two loads simply being in parallel to Port 1 without
+the power splitter, the equivalent resistance to the right of Port 1 would
+just be two resistors of $R_0$ in parallel.
+
+\begin{align*}
+R _{eq} &= \frac{R_0 R_0}{R_0 + R_0} \\
+R _{eq} &= \frac{R_0^2}{2R_0} \\
+R _{eq} &= \boxed{\frac{R_0}{2}}
+\end{align*}
+
+The output Thevenin resistance of the source $R_0$ does not equal $R_0 / 2$
+so the it's not matched. Hence why the circuit splitting is necessary.
+
+\item
+
+The Thevenin Equivalent resistance from the perspective of Port 1 would be,
+
+\begin{align*}
+R _{eq} &= R_1 + \frac{(R_1 + R_0)(R_1 + R_0)}{R_1 + R_0 + R_1 + R_0} \\
+R _{eq} &= R_1 + \frac{(R_1 + R_0)^{2}}{2(R_1 + R_0)} \\
+R _{eq} &= R_1 + \frac{R_1 + R_0}{2} \\
+R _{eq} &= \boxed{\frac{3}{2} R_1 + \frac{1}{2} R_0}
+\end{align*}
+
+The Thevenin Equivalent resistance from the perspective of Port 2 and 3 would be,
+
+\begin{align*}
+R _{eq} &= R_1 + \frac{(R_1 + R_0)(R_1 + R_0)}{R_1 + R_0 + R_1 + R_0} \\
+R _{eq} &= R_1 + \frac{(R_1 + R_0)^{2}}{2(R_1 + R_0)} \\
+R _{eq} &= R_1 + \frac{R_1 + R_0}{2} \\
+R _{eq} &= \boxed{\frac{3}{2} R_1 + \frac{1}{2} R_0}
+\end{align*}
+
+\begin{remark*}
+Notice that they are the same.
+\end{remark*}
+
+If we plug in $R_1 = \frac{R_0}{3}$,
+
+\begin{align*}
+R _{eq} &= \frac{3}{2} R_1 + \frac{1}{2} R_0 \\
+R _{eq} &= \frac{3}{2} \frac{1}{3} R_1 + \frac{1}{2} R_0 \\
+R _{eq} &= \boxed{R_0}
+\end{align*}
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+The circuit for this problem is similar to what you will use in Lab 7 to study Op Amp gain and also FETs.
+The circuit consists of a function generator with an output impedance of $\SI{50}{\ohm}$ (the source plus
+$R _{FNG}$) feeding an amplifier based on an op-amp. In the amplifier, one of the resistors ($\SI{1000}{\ohm}$) has a
+MOSFET in parallel with it. $R _{FNG}$, $ R _{FET}$, and the $\SI{1000}{\ohm}$ resistor ($R_1$) collectively have a value of $R_s$.
+We will learn in a couple of weeks that a MOSFET, in certain operating conditions, can be modeled as a
+variable resistor $R _{FET}$. The amplifier supplies a load whose equivalent resistance is $\SI{5}{\kilo \ohm}$. The Op
+Amp supply voltage is $\SI{5}{\volt}$.
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Calculate the value of the equivalent resistance $R_s$ (which is a combination of $R _{FNG}$, $R _{FET}$ and
+$\SI{1000}{\ohm}$, as shown in the figure) and the output voltage of the Op Amp $v_0$ for $R_f$ = $\SI{200}{\ohm}$ and $R_1$
+= $\SI{1000}{\ohm}$. Assume $R _{FNG} = \SI{50}{\ohm}$ and take $R _{FET}$ to be $\SI{60}{\ohm}$.
+
+\item
+
+Repeat with $R _{FET} = \SI{2}{\kilo \ohm}$ and all other resistors and $v_s$ being the same.
+
+\item
+
+For $R _{FET}$ = \SI{60}{\ohm}, the input voltage (which is initially at $\SI{-0.2}{\volt}$) is increased in magnitude. What
+is the maximum input voltage magnitude for which the Op Amp still operates in the linear
+region?
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.65\textwidth]{2.png}
+\end{figure}
+
+\end{problem}
+
+\pagebreak
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Solve for the equivalent resistance $R_s$,
+
+\begin{align*}
+R_s &= R _{FNG} + \frac{1000R _{FET}}{1000 + R _{FET}} \\
+R_s &= 50 + \frac{1000 (60)}{1000 + 60} \\
+R_s &= \frac{5650}{53} = \boxed{\SI{106.604}{\ohm}}
+\end{align*}
+
+Solve for $V_o$ using node analysis,
+
+\begin{align*}
+\frac{-0.2 - 0}{R_s} &= \frac{0 - V_o}{R_f} \\
+\frac{-0.2}{R_s} &= \frac{- V_o}{R_f} \\
+V_o &= 0.2 \frac{R_f}{R_s} \\
+V_o &= 0.2 \frac{200}{106.604} = \boxed{\SI{375.221}{\milli \volt}}
+\end{align*}
+
+\item
+
+Find new $R_s$ value for $R _{FET} = \SI{2}{\kilo \ohm}$,
+
+\begin{align*}
+R_s &= R _{FNG} + \frac{1000R _{FET}}{1000 + R _{FET}} \\
+R_s &= 50 + \frac{1000 (2000)}{1000 + 2000} \\
+R_s &= \frac{2150}{3} = \boxed{\SI{716.667}{\ohm}}
+\end{align*}
+
+Plug in $R_s$ to find new $V_o$,
+
+\begin{align*}
+V_o &= 0.2 \frac{R_f}{R_s} \\
+V_o &= 0.2 \frac{200}{716.667} = \boxed{\SI{55.814}{\milli \volt}}
+\end{align*}
+
+\item
+
+The Op Amp can output a maximum voltage of $\SI{5}{\volt}$ across it's output terminal. We can 
+rewrite the earlier equation to solve for $V _{in}$ from the source instead of $V _{o}$,
+
+\begin{align*}
+V_o &= 0.2 \frac{200}{106.604} \\
+5 &= V _{in} \frac{200}{106.604} \\
+V _{in} &= 5 \frac{106.604}{200} = \boxed{\SI{2.665}{\volt}}
+\end{align*}
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+A negative resistor is an object whose current is proportional to its voltage $i = -v/R$ where the
+constant of proportionality $-R$ is a negative number.
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Calculate the power in a negative resistor of value $-R$ (where $R$ itself is positive, such that $-R$
+is negative) as a function of the voltage applied to it and use it to show that a negative resistor
+always \textit{supplies} power.
+
+\item
+
+It is impossible for a passive component to supply net power, so true negative resistors do not
+exist in real life. However, it is possible to synthesize circuits that behave as negative resistors.
+Consider the circuit in the Figure. Calculate its input current $I_S$ as a function of its input voltage
+$V_S$ and show that the circuit emulates a negative resistor of value $-R$. Calculate the value of $R$
+assuming an ideal op amp.
+
+\item
+
+Suppose that this circuit (the op amp and the three resistors) were placed in series with a real
+resistor of value $+R$ – what would the net resistance of the series combination be? How about
+if they were placed in parallel?
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.65\textwidth]{3.png}
+\end{figure}
+
+\end{problem}
+
+\pagebreak
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Recall that we know power to be $P = i \times V$. Subtitute in the current of the negative
+resistor to solve for it's power as a function of the voltage applied to it,
+
+\begin{align*}
+P(V) &= i \times V \\
+P(V) &= \frac{V}{-R} V \\
+P(V) &= \boxed{- \frac{V^2}{R}}
+\end{align*}
+
+From this equation we can see that a negative resistory always \textit{supplies} power because
+$P$ remains negative regardless of voltage polraity since it is squared.
+
+\item
+
+Use node analysis to solve for $I_S$,
+
+\begin{align*}
+\frac{V_o - V_S}{R_2} &= \frac{V_S - 0}{R_1} \\
+\frac{V_o}{R_2} - \frac{V_S}{R_2} &= \frac{V_S}{R_1} \\
+V_o &= V_S \frac{R_2}{R_1} + V_S \\
+\end{align*}
+
+\begin{align*}
+I_S &= \frac{V_S - V_o}{R_3} \\
+I_S &= \frac{V_S}{R_3} - \frac{V_o}{R_3} \\
+I_S &= \frac{V_S}{R_3} - V_S \frac{R_2}{R_1 R_3} - \frac{V_S}{R_3} \\
+I_S &= \boxed{- V_S \frac{R_2}{R_1 R_3}} \\
+\end{align*}
+
+From the equation $i = - v / R$,
+
+\begin{align*}
+\frac{1}{R} &= \frac{R_2}{R_1 R_3} \\
+R &= \boxed{\frac{R_1 R_3}{R_2}}
+\end{align*}
+
+\item
+
+In series, we know $R _{eq} = R_1 + R_2$,
+
+\begin{align*}
+R _{eq} &= R - R = \boxed{\SI{0}{\ohm}}
+\end{align*}
+
+In parallel, we know $\frac{1}{R _{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$,
+
+\begin{align*}
+\frac{1}{R _{eq}} &= \frac{1}{R} - \frac{1}{R} \\
+\frac{1}{R _{eq}} &= 0 \\
+R _{eq} &\rightarrow \boxed{\infty}
+\end{align*}
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+Feedback can be used to create a circuit that behaves as a current source. This is known as a
+transconductance amplifier, i.e. one that converts a voltage in one place into a current (''conductance'')
+in another place (''trans''). Consider the circuit below with an op-amp arranged in feedback with a
+MOSFET. Assume that the drain (top) of the MOSFET is connected to some circuit (not open-circuited),
+but that we don’t know what that circuit is. The output current of the circuit $i_o$ is the drain-source
+current of the MOSFET, indicated by an arrow near the top of the diagram.
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Assume that the MOSFET behaves such that the higher the voltage applied to its gate (on the
+left), the higher the current that will flow from its drain (top) to its source (bottom). Does the
+configuration below qualify as negative feedback? Explain.
+
+\item
+
+If the amplifier gain is infinite, what will the voltage $v_1$ be? Other than the assumption above,
+do you need to know the IV characteristics of the MOSFET or of the load circuit (not shown) in
+order to solve for $v_1$?
+
+\item
+
+What is $i_o$? Other than the assumption above, do you need to know the IV characteristics of
+the MOSFET or of the load circuit not shown in order to solve for $i_o$?
+
+\item
+
+What accounts for the circuit’s remarkable lack of dependence on the details of its components
+or the load connected to it? In other words, explain how the circuit can maintain constant $i_o$
+even if you replaced the MOSFET with a different MOSFET with a different IV characteristic?
+
+\item
+
+What are the input resistance and the Thevenin equivalent output resistance of the circuit?
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.45\textwidth]{4.png}
+\end{figure}
+
+\end{problem}
+
+\pagebreak
+
+\begin{problem}
+
+A transimpedance (or transresistance) amplifier is shown in the Figure. The name comes from
+''resistance,'' which turns a current into a voltage, and ''trans,'' which means that the current in one
+place gets converted into a voltage in another place.
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Calculate the transimpedance of the circuit, $r = V_o / I _{in}$, assuming that the op-amp gain is $A$.
+Then let $A \rightarrow \infty$. Use the $A \rightarrow \infty$ result for the rest of the problem.
+
+\item
+
+Often $I _{in}$ is provided by a relatively poor current source. When learning about Thevenin and
+Norton equivalents, we learned that a good current source has near-infinite output resistance,
+while a poor current source has an output resistance that is large but not negligibly so. We also
+learned that an object acts most like a good current source when it the load resistance is much
+lower than the circuit’s output resistance. What is the equivalent input resistance of the op amp
+circuit, i.e. everything to the right of $I _{in}$? Is this a good circuit to load an imperfect current
+source?
+
+\item
+
+This circuit might appear to be overkill. One might wonder why not just run $I _{in}$ into a grounded
+resistor of value $r$ to get the same current-to-voltage conversion factor. Explain why this would
+not be as good of an idea.
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{5.png}
+\end{figure}
+
+\end{problem}
+
+\pagebreak
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Perform node analysis on $V_-$,
+
+\begin{align*}
+I _{in} &= \frac{V_- - V_o}{R_f} \\
+I _{in} &= \frac{V_-}{R_f} - \frac{V_o}{R_f} \\
+V_o &= A(V_+ - V_-) \\
+V_+ &= 0 \\
+V_o &= -AV_- \\
+V_- &= - \frac{V_o}{A} \\
+I _{in} &= - \frac{V_o}{A R_f} - \frac{V_o}{R_f} \\
+I _{in} &= - V_o \left(\frac{1}{A R_f} + \frac{1}{R_f}\right) \\
+I _{in} &= - V_o \left(\frac{1 + A}{A R_f} \right) \\
+\frac{V_o}{I _{in}} &= \boxed{r = - \frac{A R_f}{1 + A}}
+\end{align*}
+
+Take $A \rightarrow \infty$,
+
+\begin{align*}
+r &= \lim _{A \rightarrow \infty} - \frac{A R_f}{1 + A} \\
+r &= \lim _{A \rightarrow \infty} - \frac{R_f}{\frac{1}{A} + 1} \\
+r &= \boxed{- R_f}
+\end{align*}
+
+\item
+
+Perform node analysis on $V_-$,
+
+\begin{align*}
+I _{in} &= \frac{V_- - V_o}{R_f} \\
+V_o &= - AV_- \\
+I _{in} &= \frac{V_- + AV_-}{R_f} \\
+I _{in} &= \frac{V_- (1 + A)}{R_f} \\
+\frac{V_-}{I _{in}} &= \frac{R_f}{1 + A}
+\end{align*}
+
+As $A \rightarrow \infty$,
+
+\begin{align*}
+\frac{V_-}{I _{in}} &= \boxed{R _{in} = 0}
+\end{align*}
+
+In this case, the load or input resistance is 0, which quite literaly is
+the best case scenario for loading an imperfect current source.
+
+\item
+
+bruh
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+Duality
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+An op amp is a 3-terminal object: two input terminals (+) and (-) and one output terminal.
+Consider the following statements about op amps: \textit{An op amp measures the voltage across the
+two input terminals $v_d$ and produces an output voltage that is proportional to the input, $v_o = A v_d$ 
+Real op amps are modeled as having some input resistance $R_i$ (between + and ― ) and
+some output resistance $R_o$ (in series with the output voltage $A v_d$)}. Ideal op amps have $R_i \rightarrow \infty$,
+$R_o \rightarrow 0$, and $A \rightarrow \infty$. Based on this description, what would the dual of an op amp be? Copy these
+statements, replacing words as needed to exchange the role of voltage and current. Draw a
+circuit model to represent the op amp’s dual (both non-ideal and ideal).
+
+\item
+
+What is the dual of an open switch? What is the dual of a closed switch? Suppose a switch is
+turned on and off at a frequency $f$ (period $T$). Further suppose that the switch spends a fraction
+of the period $DT$ ($D$ < 1) in the on position and the other fraction $(1 - D)T$ in the off position.
+(The on-fraction $D$ is called the ''duty cycle''). If you took the dual of this switch, what would the
+dual’s duty cycle $D'$ be?
+
+\item
+
+A poor man’s Digital to Analog converter is shown in the figure, in which two switches are
+alternately turned on such that only one switch is closed at a time. The top switch is closed with
+a duty cycle of $D$ and the lower switch is closed whenever the top switch is open (i.e., a duty
+cycle of $(1 - D)$). This circuit involves a component we have not yet studied (but that we
+mentioned in lecture) called a \textit{capacitor}, which has a value of $C$, units of \textit{Farads} $= \frac{C}{V} = \frac{A \times s}{V}$, and
+a component law $i_c = C \frac{d v_c}{dt}$. You’re not prepared to derive this circuit’s operation yet, but the
+circuit’s function is to cause $v_c$ to be equal to $DV _{in}$. By adjusting the duty cycle of the top
+switch (and the corresponding duty cycle of the lower switch), the output voltage can be made
+to be any voltage less than $V _{in}$. There’s a good chance you will implement this circuit in ECE
+319K.
+
+What would the component law be for the dual of a capacitor? Research what kind of
+component has that law. What would the dual of this circuit be? What would the dual’s
+function be? What units would all of the components have, and what would the duty cycles of
+the switches be?
+
+\end{enumerate}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{6.png}
+\end{figure}
+
+\end{problem}
+
+\end{document}
