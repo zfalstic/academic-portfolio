@@ -11,7 +11,7 @@ A collection of my university coursework, organized by semester.
 - [Structure](#structure)
 - [Courses](#courses)
   - [Fall 2025](#fall-2025)
-    - [ECE 302H](./ECE 302H/)
+    - [ECE 302H](./ECE%20302H/)
 
 ---
 
