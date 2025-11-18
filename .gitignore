@@ -13,15 +13,12 @@
 *.log
 *.out
 
-/TEMPLATE/*.out
 /TEMPLATE/*.png
 /TEMPLATE/*.jpg
 
-/*/Homework/*/*.out
 /*/Homework/*/*.png
 /*/Homework/*/*.jpg
 
-/*/Notes/*/*.out
 /*/Notes/*/*.png
 /*/Notes/*/*.jpg
 
