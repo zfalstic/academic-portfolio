@@ -19,3 +19,10 @@ The source of all stress and academic anxiety of a ECE Honors Freshman
 - [HW 08 Small Signal Analysis and Sine Waves](./assignments/completed/ZHANG_HW08.pdf)
 - [HW 09 Python, QAM, and Complex Numbers](./assignments/completed/ZHANG_HW09.pdf)
 - [HW 10 Transfer Functions](./assignments/completed/ZHANG_HW10.pdf)
+
+---
+
+## Notes
+
+- [My Notes](./notes/)
+- [Dr. Hanson's Notes](./notes-hanson/)
