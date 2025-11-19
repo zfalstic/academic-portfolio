@@ -3,6 +3,7 @@
 A major split between those who like to code and those who don't. Programming experience preferable 👨‍💻
 
 [Syllabus](./syllabus-f25-yeraballi.pdf)
+[Textbook](./textbook.pdf)
 
 ---
 
