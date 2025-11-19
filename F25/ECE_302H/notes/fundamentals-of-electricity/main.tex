@@ -1,0 +1,153 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\newcommand{\coursename}{\textbf{Introduction to Electrical Engineering}}
+\newcommand{\coursecode}{ECE 302H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ Hanson}
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Fundamentals of Electricity}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[C]{\leftmark}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\section{Charge}
+\begin{itemize}
+  \item Proton $= 1e$
+  \item Electron $= -1e$
+  \item \textbf{Coulomb} $= 6.24*10^{18}e$
+\end{itemize}
+
+\section{Electricity}
+\begin{itemize}
+  \item Imbalance of Charge: \textbf{Static Electricity}
+  \item Imbalance in Flow of Charge: \textbf{Current}
+  \begin{remark}
+  Dr. Hanson drew two examples of charge flowing. In the first example,
+  there are 2 positive charges moving right and 2 negative charges
+  moving right. In the second example, there are 2 positive charges
+  moving right, \textbf{but} 2 negative charges moving left.
+
+  The first example experiences no current while the second example does.
+  \end{remark}
+  \begin{remark}
+  I want to clarify here that conventional current follows the direction
+  that the positive charges move. Dr. Hanson's second example would
+  therefore imply that the conventional current moves towards the right.
+  \end{remark}
+\end{itemize}
+
+\section{Current}
+\begin{definition}
+\textbf{Current} is definied as a coulomb per second also known as an
+amp or ampere and is represented with $i$.
+\end{definition}
+insert circuit diagram
+
+\section{Potential (Energy)}
+\begin{definition}
+\textbf{Electric potential} is defined as a joule per coulomb also known as a volt.
+Because of this, electric potential is often refered to as voltage.
+\end{definition}
+
+\section{Power}
+\begin{remark}
+Recall that power in mechanics comes from a joule per second. If we 
+multiply current and electric potential (voltage), coulombs cancel out
+and we end up with joules per second or watts
+\begin{equation*}
+\frac{J}{C} \times \frac{C}{s} = \frac{J}{s} = W 
+\end{equation*}
+\end{remark}
+
+\section{Circuits}
+\begin{remark}
+Dr. Hanson breaks down ``solving'' a circuit into two steps:
+\begin{enumerate}
+  \item Laws of Physics
+  \item Solving Systems of Equations
+\end{enumerate}
+\end{remark}
+\subsection{Relevant Laws of Physics}
+\begin{itemize}
+  \item Conservation of Charge
+  \begin{equation*}
+    \sum_{\text{into node region}} i=0  
+  \end{equation*}
+  also known as Kirchoff's Current Law \textbf{(KCL)}
+  \item Conservation of Energy
+  \begin{equation*}
+    \sum_{\text{loop}} V=0
+  \end{equation*}
+  also known as Kirchoff's Voltage Law \textbf{(KVL)}
+  \item Component $i$-$V$ Relationship
+  \begin{itemize}
+    \item Voltage Source
+    \begin{equation*}
+    V(i) = V_{\text{value}}  
+    \end{equation*}
+    \begin{remark}
+    Note that just because current is not in the equation, it is not zero
+    \end{remark}
+    \item Resistor
+    \begin{equation*}
+    V(i) = Ri  
+    \end{equation*}
+    where $R$ is resistance measured in $\frac{V}{A}=\Omega$.
+  \end{itemize}
+\end{itemize}
+
+insert example of circuit with 3V source and 1.5ohm resistor
+
+\subsection{Important Circuit Terminology}
+
+\begin{itemize}
+\item Node - Wire
+\item Loop - Think of it as anywhere you can draw a loop
+\item Series - Two components experience same current by KCL
+\item Parallel - Two components experience same voltage by KVL
+\end{itemize}
+
+\subsection{Passive Sign Convention}
+
+\begin{definition}
+an electrical engineering standard where the current is assumed to flow from the positive (+) terminal of a component to the negative (-) terminal, and the power absorbed by the component is considered positive (a sink of power)
+\end{definition}
+
+\begin{remark}
+Basically just label current going from the positive to negative terminal.
+\end{remark}
+
+\subsection{Equivalent Circuits}
+
+\begin{definition}
+If two circuits have the same $i$-$v$ relationship, they are \textbf{equivalent}
+\end{definition}
+
+\end{document}

@@ -16,11 +16,11 @@
 /TEMPLATE/*.png
 /TEMPLATE/*.jpg
 
-/*/assignments/*/*.png
-/*/assignments/*/*.jpg
+/*/*/assignments/*/*.png
+/*/*/assignments/*/*.jpg
 
-/*/notes/*/*.png
-/*/notes/*/*.jpg
+/*/*/notes/*/*.png
+/*/*/notes/*/*.jpg
 
 # KiCad
 *.gm1
@@ -37,5 +37,5 @@
 *.obj
 
 # Course Specific
-/ECE_302H/labs/pcbs/
-/ECE_306H/arm-development/
+/F25/ECE_302H/labs/pcbs/
+/F25/ECE_306H/arm-development/

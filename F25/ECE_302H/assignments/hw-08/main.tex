@@ -1,0 +1,667 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\usepackage[sexy]{evan}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage[siunitx]{circuitikz}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{chemformula}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{statistics}
+
+\newcommand{\coursename}{\textbf{Introduction to Electrical Engineering}}
+\newcommand{\coursecode}{ECE 302H}
+\newcommand{\term}{Fall 2025}
+\newcommand{\instructor}{Dr.\ Hanson}
+\newcommand{\notetaker}{Dawson Zhang}
+\newcommand{\lecturetitle}{Homework 8}
+
+\fancyhead[L]{\coursecode}
+\fancyhead[C]{\lecturetitle}
+\fancyhead[R]{\term}
+\fancyfoot[R]{\thepage}
+
+\title{\coursename~(\coursecode) -- \lecturetitle}
+\author{\notetaker~~|~~Instructor: \instructor}
+\date{\term}
+
+\begin{document}
+  
+\maketitle
+\pagebreak
+
+\setcounter{section}{8}
+
+\begin{problem}
+
+\textbf{Log Scale}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+You read that a function of frequency ``rolls off at \SI{20}{\decibel} per decade.'' Describe what this means.
+
+\item
+
+Convert the ratio 40:1 to \SI{}{\decibel}
+
+\item
+
+Convert the ratio 3710:1 to \SI{}{\decibel}
+
+\item
+
+Convert \SI{65}{\decibel} to a ratio
+
+\item
+
+Convert \SI{33}{\decibel} to a ratio
+
+\item
+
+How many volts is \SI{65}{\decibel \micro \volt}? How many volts is \SI{33}{\decibel \milli \volt}? 
+
+\item
+
+A paper reports that an input signal has been attenuated by \SI{60}{\decibel}. Has the signal become
+bigger or smaller, and by what factor?
+
+\item
+
+On a log plot, you want to plot a number between $X$ and $10X$ (e.g., between $10$ and $100$). If the
+number you want to plot is $2.5X$, where will it appear on the plot (i.e., what percentage of the
+distance from the $X$ tick mark to $10X$ tick mark). Does it matter what $X$ is?
+
+\item
+
+On a linear plot, a data point halfway between tick marks is the ``arithmetic mean'' of the tick
+mark values (e.g., $2.5$ is the average of $2$ and $3$ and it appears halfway between the tick mark for
+$2$ and the tick mark for $3$). Explain why a data point halfway between two tick marks on a log
+plot represents the ``geometric mean'' of the tick mark values, i.e. $\sqrt{Tick_1 \times Tick_2}$.
+
+\end{enumerate}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+The statement of a frequency ``rolling off at $\SI{20}{\decibel}$ per decade''
+means that the function decreases by \SI{20}{\decibel} when the frequency
+increases by a factor of $10$.
+
+\item
+
+\begin{align*}
+20 \times \log{40} \\
+\boxed{\SI{32.041}{\decibel}}
+\end{align*}
+
+\item
+
+\begin{align*}
+20 \times \log{3710} \\
+\boxed{\SI{71.387}{\decibel}}
+\end{align*}
+
+\item
+
+\begin{align*}
+10 ^{\frac{65}{20}} \\
+\boxed{1778:1}
+\end{align*}
+
+\item
+
+\begin{align*}
+10 ^{\frac{33}{20}} \\
+\boxed{45:1}
+\end{align*}
+
+\item
+
+\begin{align*}
+\SI{65}{\decibel \micro \volt} &= 10^{\frac{65}{20}} \SI{}{\micro \volt} \\
+\SI{65}{\decibel \micro \volt} &= \SI{1778}{\micro \volt} \\
+\multicolumn{2}{c}{
+\boxed{\SI{65}{\decibel \micro \volt} = \SI{1.778}{\milli \volt}}
+}
+\end{align*}
+
+\begin{align*}
+\SI{33}{\decibel \milli \volt} &= 10^{\frac{33}{20}} \SI{}{\milli \volt} \\
+\multicolumn{2}{c}{
+\boxed{\SI{33}{\decibel \milli \volt} = \SI{44.7}{\milli \volt}}
+}
+\end{align*}
+
+\item
+
+The signal would become $\boxed{\text{smaller}}$ by a factor of,
+
+\begin{align*}
+\boxed{10 ^{\frac{-60}{20}} = 0.001}
+\end{align*}
+
+\item
+
+\begin{align*}
+\text{tick} \% &= \log{\frac{2.5}{1}} \times 100 \% \\
+\multicolumn{2}{c}{
+\boxed{\text{tick} \% = 39.79 \%}
+} 
+\end{align*}
+
+It does not depend on $X$.
+
+\item
+
+Consider the two tick marks $T_1$ and $T_2$, where $T_1 < T_2$ the value $x$ $50 \%$ between
+the two ticks is,
+
+\begin{align*}
+0.5 &= \frac{\log{\frac{x}{T_1}}}{\log{\frac{T_2}{T_1}}} \\
+0.5 \log{\frac{T_2}{T_1}} &= \log{\frac{x}{T_1}} \\
+\log{\left( \frac{T_2}{T_1} \right)^{0.5}} &= \log \frac{x}{T_1} \\
+\sqrt{\frac{T_2}{T_1}} &= \frac{x}{T_1} \\
+\multicolumn{2}{c}{
+\boxed{x = \sqrt{T_1 T_2}}
+}
+\end{align*}
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{Sine Wave Technology}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+For any function $f(x)$, we know that $f(x - a)$ represents a horizontal translation of the graph. If
+$a > 0$, does the graph translate left or right?
+
+\item
+
+Consider a sine wave $A \cos (\omega t)$. What does the function $A \cos (\omega t + \phi)$ look like if $\phi > 0$? If
+$\phi < 0$? Sketch both scenarios relative to the base sine wave.
+
+\item
+
+When $\phi > 0$, do we say that the new wave lags or leads the original? How about when $\phi < 0$?
+In two or three sentences, explain why this terminology makes sense.
+
+\item
+
+It’s often easier to measure the size of a sine wave from ``peak to peak,'' meaning from its highest
+point to its lowest point. How does the peak-to-peak size of the sine wave relate to the amplitude
+$A$?
+
+\item
+
+If we look at a sine wave, we can’t measure $\omega$ directly. The easiest thing we can measure is the
+period $T$. How would we calculate $\omega$ from $T$?
+
+\item
+
+Explain the difference between frequency $f$ and angular frequency $\omega$? (Not just the formulas)
+
+\end{enumerate}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+The translation $f(x - a)$, where $a > 0$, translates the graph to the $\boxed{\text{right}}$ by $a$ units.
+
+\item
+
+Based on the answer to the previous question, we can conclude that for a
+function $f(t) = A \cos (\omega t + \phi)$, 
+
+\begin{align*}
+\phi < 0 \quad &\Rightarrow \quad \text{right shift} \\
+\phi > 0 \quad &\Rightarrow \quad \text{left shift}
+\end{align*}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{2b1.png}
+\end{figure}
+
+\begin{align*}
+A &= 1.5 \\
+\omega &= 1.5 \\
+\textcolor{red}{\phi} &= 0 \\
+\textcolor{green}{\phi} &= -1 \\
+\textcolor{blue}{\phi} &= 1
+\end{align*}
+
+\item
+
+When $\phi < 0$, the wave can be closely modeled by the green line on 
+the previous graph where $\phi = -1$. As you can see, the green line lags behind the
+base red line. Conversely, $\phi > 0$, which can be modeled by the blue
+line $\phi = 1$, leads the base red line. This explanation makes
+sense because relative to time ($x$-axis), the blue line experiences changes before
+red line, which experiences changes before the green line.
+
+\item
+
+The highest point to its lowest point on a sine wave (peak-to-trough) is
+double its amplitude. $\boxed{\text{peak-to-trough} = 2A}$
+
+\item
+
+\begin{align*}
+\boxed{\omega = \frac{2 \pi}{T}}
+\end{align*}
+
+\item
+
+Frequency measures the amount of cycles that something happened each second,
+while angular frequency captures a full cycle of that same something
+within the period of a circle ($2 \pi \SI{}{\radian}$ think $\sin$ and $\cos$). That's what
+defines the relationship between the two,
+
+\begin{align*}
+\omega = 2 \pi f
+\end{align*}
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{Combining Sine Waves}
+
+When two sine waves of the same frequency are added together, the result is a single sine wave of the
+same frequency, even if the original sine waves had different phases. Let us derive the amplitude and
+phase of the new sine wave. In particular, consider adding together two waves, $a = A \sin (\omega t)$ and
+$b = B \sin (\omega t + \delta)$. The result is a new sine wave $c = C \sin (\omega t + \phi)$, where the amplitude $C$ and phase
+$\phi$ are unknown.
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+We contend that $a + b = c$. In particular, this must be true for any time $t$. Plug in $t = 0$ and
+solve for $\sin ( \phi )$. Your answer will include knowns and unknowns, but it’s a good constraint that
+your final answer must obey.
+
+\item
+
+Now set $t = \pi / 2 \omega$ and solve for $\cos ( \phi )$, again in terms of knowns and unknowns.
+
+\item
+
+Use the fact that $\cos^2 (x) + \sin^2 (x) = 1$ to solve for $C$ only in terms of knowns. This is your final
+answer for $C$. What trigonometric law does your answer remind you of?
+
+\item
+
+Plug your answer for $C$ back into part (a) or (b) and solve for $\phi$ only in terms of knowns. This is
+your final answer for $\phi$.
+
+\end{enumerate}
+
+Note – later in the course, we will learn an easier way to add sine waves using complex numbers.
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+\begin{align*}
+a + b &= c \\
+A \sin (\omega t) + B \sin (\omega t + \delta) &= C \sin (\omega t + \phi) \\
+A \sin (0) + B \sin (\delta) &= C \sin (\phi) \\
+\multicolumn{2}{c}{
+\boxed{\sin (\phi) = \frac{B \sin (\delta)}{C}}
+}
+\end{align*}
+
+\item
+
+\begin{align*}
+A \sin (\omega t) + B \sin (\omega t + \delta) &= C \sin (\omega t + \phi) \\
+A \sin (\omega \times \frac{\pi}{2 \omega}) + B \sin (\omega \times \frac{\pi}{2 \omega} + \delta) &= C \sin (\omega \times \frac{\pi}{2 \omega} + \phi) \\
+A \sin (\frac{\pi}{2}) + B \sin (\frac{\pi}{2} + \delta) &= C \sin (\frac{\pi}{2} + \phi) \\
+A + B \cos (\delta) &= C \cos (\phi) \\
+\multicolumn{2}{c}{
+\boxed{\cos (\phi) = \frac{A + B \cos (\delta)}{C}}
+}
+\end{align*}
+
+\item
+
+\begin{align*}
+\sin^2 (\phi) + \cos^2 (\phi) &= 1 \\
+\left( \frac{B \sin (\delta)}{C} \right)^{2} + \left( \frac{A + B \cos (\delta)}{C} \right)^{2} &= 1 \\
+B^2 \sin^2 (\delta) + A^2 + 2 A B \cos (\delta) + B^2 \cos^2 (\delta) &= C^2 \\
+A^2 + B^2 (\sin^2 (\delta) + \cos^2 (\delta)) + 2 A B \cos (\delta) &= C^2 \\
+A^2 + B^2 + 2 A B \cos (\delta) &= C^2 \\
+\multicolumn{2}{c}{
+\boxed{C = \sqrt{ A^2 + B^2 + 2 A B \cos (\delta) }}
+}
+\end{align*}
+
+This equation looks a lot like the law of cosines.
+
+\item
+
+\begin{align*}
+\sin (\phi) &= \frac{B \sin (\delta)}{C} \\
+\sin (\phi) &= \frac{B \sin (\delta)}{\sqrt{ A^2 + B^2 + 2 A B \cos (\delta) }} \\
+\multicolumn{2}{c}{
+\boxed{\phi = \arcsin \left( \frac{B \sin (\delta)}{\sqrt{ A^2 + B^2 + 2 A B \cos (\delta) }} \right)}
+}
+\end{align*}
+
+However, there is an easier way to solve for $\phi$. Notice the two
+equations for $\sin (\phi)$ and $\cos (\phi)$,
+
+\begin{align*}
+\sin (\phi) &= \frac{B \sin (\delta)}{C} \\
+\cos (\phi) &= \frac{A + B \cos (\delta)}{C} \\
+\tan (\phi) &= \frac{\sin (\phi)}{\cos (\phi)} = \frac{B \sin (\delta)}{A + B \cos (\delta)} \\
+\multicolumn{2}{c}{
+\boxed{\phi = \arctan \left( \frac{B \sin (\delta)}{A + B \cos (\delta)} \right)}
+}
+\end{align*}
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{Mixing Sine Waves}
+
+One function that is commonly done (purposefully or not) to sine waves is to multiply them together.
+This is known as ``mixing.''
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Use the identity $\cos (\theta_1 \pm \theta_2) = \cos \theta_1 \cos \theta_2 \pm \sin \theta_1 \sin \theta_2$ to prove that $\cos \theta_1 + \cos \theta_2 = 2$
+$\cos \left( \frac{\theta_1 - \theta_2}{2} \right) \cos \left( \frac{\theta_1 + \theta_2}{2} \right)$.
+
+\item
+
+When you listen to a speaker generate a sine wave, it sounds like a pure tone. If you add two
+identical sine waves together, it still sounds like a pure tone. However, if you add two sine
+waves together at slightly different frequencies, you hear a single tone play that slowly gets
+louder and quieter. Use the above identity to explain this concept. If the sine waves are at
+frequencies $f_1$ and $f_2$ which are close to each other, what tone do you expect to hear and how
+long do you expect it to take for the tone to go from loud to quiet and back to loud again?
+
+\item
+
+In part (b), we explored what happens when you add two sine waves of different frequencies
+and we gained intuition by thinking of the sum instead as a product of two sine waves. In rf
+systems, we also do the opposite: we multiply two sine waves together and interpret the result
+as a sum of sine waves. The most common rf receiver architecture is called a
+``superheterodyne'' structure. It works by multiplying (``mixing'') the incoming rf signal at a
+frequency $f _{rf}$ by another sine wave at frequency $f _{LO}$ (LO stands for local oscillator; it can be
+lower or higher than $f _{rf}$). The difference between $f _{rf}$ and $f _{LO}$ is called the ``intermediate
+frequency,'' $f _{IF}$. Suppose that you want to listen to KUT 90.5 which transmits at \SI{90.5}{\mega \hertz}, and
+you multiply that signal with a local oscillator of the same magnitude at \SI{40.25}{\mega \hertz}. On a plot
+versus frequency, sketch the rf signal, the local oscillator signal, and the frequencies of the signal
+after mixing, each as impulses whose height corresponds to the magnitude of the sine wave.
+Label the intermediate frequency and every other frequency both symbolically and numerically.
+Make sure your magnitudes are roughly to scale.
+
+\end{enumerate}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+\begin{align*}
+2 \cos \left( \frac{\theta_1 - \theta_2}{2} \right) \cos \left( \frac{\theta_1 + \theta_2}{2} \right) \\
+2 \left( \cos \left( \frac{\theta_1}{2} \right) \cos \left( \frac{\theta_2}{2} \right) + \sin \left( \frac{\theta_1}{2} \right) \sin \left( \frac{\theta_2}{2} \right) \right) \left( \cos \left( \frac{\theta_1}{2} \right) \cos \left( \frac{\theta_2}{2} \right) - \sin \left( \frac{\theta_1}{2} \right) \sin \left( \frac{\theta_2}{2} \right) \right) \\
+2 \left( \left( \cos \left( \frac{\theta_1}{2} \right) \cos \left( \frac{\theta_2}{2} \right) \right)^{2} + \left( \sin \left( \frac{\theta_1}{2} \right) \sin \left( \frac{\theta_2}{2} \right) \right)^{2} \right) \\
+2 \left( \cos^2 \left( \frac{\theta_1}{2} \right) \cos^2 \left( \frac{\theta_2}{2} \right) + \sin^2 \left( \frac{\theta_1}{2} \right) \sin^2 \left( \frac{\theta_2}{2} \right) \right) \\
+2 \left( \frac{1 + \cos \theta_1}{2} \frac{1 + \cos \theta_2}{2} - \frac{1 - \cos \theta_1}{2} \frac{1 - \cos \theta_2}{2} \right) \\
+\frac{1}{2} (1 + \cos \theta_1) (1 + \cos \theta_2) - \frac{1}{2} (1 - \cos \theta_1) (1 - \cos \theta_2) \\
+\frac{1}{2} (1 + \cos \theta_1 + \cos \theta_2 + \cos \theta_1 \cos \theta_2) - \frac{1}{2} (1 - \cos \theta_1 - \cos \theta_2 + \cos \theta_1 \cos \theta_2) \\
+\frac{1}{2} \cos \theta_1 + \frac{1}{2} \cos \theta_2 + \frac{1}{2} \cos \theta_1 + \frac{1}{2} \cos \theta_2 \\
+\cos \theta_1 + \cos \theta_2
+\end{align*}
+
+\item
+
+\begin{align*}
+\theta_1 &= 2 \pi f_1 t \\
+\theta_2 &= 2 \pi f_2 t
+\end{align*}
+
+For frequencies close togehter, $f_2 \rightarrow f_1 \quad \Rightarrow \quad f_2 = f_1$
+
+\begin{align*}
+\theta_2 &= 2 \pi f_1 t \\
+\theta_1 &= \theta 2
+\end{align*}
+
+\begin{align*}
+2 \cos \left( \frac{\theta_1 - \theta_2}{2} \right) \cos \left( \frac{\theta_1 + \theta_2}{2} \right) \\
+2 \cos (0) \cos \left( \frac{4 \pi f_1 t}{2} \right) \\
+2 \cos (2 \pi f_1 t)
+\end{align*}
+
+\begin{remark*}
+Notice that the amplitude is constant, $2$.
+\end{remark*}
+
+For frequencies far apart, $f_2 \neq f_1$,
+
+\begin{align*}
+\theta_1 &= 2 \pi f_1 t \\
+\theta_2 &= 2 \pi f_2 t
+\end{align*}
+
+\begin{align*}
+2 \cos \left( \frac{\theta_1 - \theta_2}{2} \right) \cos \left( \frac{\theta_1 + \theta_2}{2} \right) \\
+2 \cos \left( \frac{2 \pi f_1 t - 2 \pi f_2 t}{2} \right) \cos \left( \frac{2 \pi f_1 t + 2 \pi f_2 t}{2} \right) \\
+2 \cos (\pi t (f_1 - f_2)) \cos (\pi t (f_1 + f_2))
+\end{align*}
+
+If we think about $\cos (\pi t (f_1 + f_2))$ as the ``base'' wave,
+the amplitude of this wave can be modeled by $2 \cos (\pi t (f_1 - f_2))$,
+since $A \times \cos(\omega t + \phi)$.
+
+Notice that if $f_1 - f_2 = 0 \Rightarrow f_1 = f_2$, we would get the
+previous case with an amplitude of $2 \cos (\pi t (f_1 - f_1)) = 2$
+
+Now to find the period of this wave, AKA the time the it takes for it
+to go from loud to quiet and get back loud again, conceptually this
+would just be the time difference between consequtive max amplitudes.
+
+\begin{align*}
+2 \cos (\pi t (f_1 - f_2)) &= 2 \\
+\pi t (f_1 - f_2) &= k \pi \\
+t = \frac{k}{f_1 - f_2}&, \quad \text{for } f_1 \neq f_2
+\end{align*}
+
+\begin{align*}
+T &= t _{n+1} - t_n \\
+T &= \frac{n + 1}{f_1 - f_2} - \frac{n}{f_1 - f_2} \\
+\multicolumn{2}{c}{
+\boxed{T = \frac{1}{f_1 - f_2}}
+}
+\end{align*}
+
+\item
+
+\begin{align*}
+b = 2 \pi f _{rf} t \\
+a = 2 \pi f _{LO} t
+\end{align*}
+
+\begin{align*}
+\cos (a) \cos(b) &= \cos \left( \frac{\theta_1 - \theta_2}{2} \right) \cos \left( \frac{\theta_1 + \theta_2}{2} \right) \\
+a &= \frac{\theta_1 - \theta_2}{2} \\
+b &= \frac{\theta_1 + \theta_2}{2} \\
+\end{align*}
+
+\begin{align*}
+\theta_1 &= 2a + \theta_2 \\
+\frac{2a + \theta_2 + \theta_2}{2} &= b \\
+a + \theta_2 &= b \\
+\theta_2 &= b - a = 2 \pi t (f _{rf} - f _{LO}) \\
+\theta_1 &= a + b = 2 \pi t (f _{rf} + f _{LO})
+\end{align*}
+
+\begin{align*}
+\cos \left( \frac{\theta_1 - \theta_2}{2} \right) \cos \left( \frac{\theta_1 + \theta_2}{2} \right) &= \frac{1}{2} \cos \theta_1 + \frac{1}{2} \cos \theta_2 \\
+&= \boxed{\frac{1}{2} \cos (2 \pi t (f _{rf} + f _{LO})) + \frac{1}{2} \cos (2 \pi t (f _{LO} - f _{rf}))}
+\end{align*}
+
+\begin{align*}
+f _{rf} &= \SI{90.5}{\mega \hertz} \\
+f _{LO} &= \SI{40.25}{\mega \hertz} \\
+f _{IF} &= \SI{50.25}{\mega \hertz}
+\end{align*}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{4c1.jpg}
+\end{figure}
+
+\end{enumerate}
+
+\pagebreak
+
+\begin{problem}
+
+\textbf{Balanced 3-Phase Systems}
+
+In power transmission and distribution systems, it is common to use ``three-phase'' power with the source
+and load divided into three parts. Usually the voltages and resistances are balanced, meaning $v_a(t) + v_b(t) + v_c(t) = 0$
+and $R_a = R_b = R_c$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{5.png}
+\end{figure}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+If the central node of the source (also known as the ``neutral'' voltage) is at ground, what will the
+central node of the load be? Use node analysis to prove it.
+
+\item
+
+One way to ensure balancing ($v_a(t) + v_b(t) + v_c(t) = 0$) is to have each voltage be a sine wave,
+each phase-shifted by a third of a cycle, i.e. $v_a(t) = V \cos (\omega t)$, $v_b(t) = V \cos \left( \omega t + \frac{2 \pi}{3} \right)$, and $v_c(t) = V \cos \left( \omega t - \frac{2 \pi}{3} \right)$. Show that their sum is always zero. Hint: recall the following
+trigonometric identities:
+
+\begin{align*}
+\sin (\alpha + \beta) &= \sin (\alpha) \cos (\beta) + \sin (\beta) \cos (\alpha) \\
+\sin (- \alpha) &= - \sin (\alpha) \\
+\cos (- \alpha) &= \cos (\alpha)
+\end{align*}
+
+\end{enumerate}
+
+\end{problem}
+
+\pagebreak
+
+\begin{soln}
+\end{soln}
+
+\begin{enumerate}[\alph*)]
+
+\item
+
+Node analysis at the load node ($V_L$),
+
+\begin{align*}
+\frac{V_a - V_L}{R_a} + \frac{V_b - V_L}{R_b} + \frac{V_c - V_L}{R_c} &= 0 \\
+\frac{V_a}{R_a} + \frac{V_b}{R_b} + \frac{V_c}{R_c} &= \frac{V_L}{R_a} + \frac{V_L}{R_b} + \frac{V_L}{R_c} \\
+\frac{V_a}{R_a} + \frac{V_b}{R_b} + \frac{V_c}{R_c} &= V_L \left( \frac{1}{R_a} + \frac{1}{R_b} + \frac{1}{R_c} \right) \\
+\multicolumn{2}{c}{
+\boxed{V_L = \left( \frac{\frac{V_a}{R_a} + \frac{V_b}{R_b} + \frac{V_c}{R_c}}{\frac{1}{R_a} + \frac{1}{R_b} + \frac{1}{R_c}} \right)}
+}
+\end{align*}
+
+Balanced case,
+
+\begin{align*}
+V_L &= \left( \frac{\frac{V_a}{R_a} + \frac{V_b}{R_b} + \frac{V_c}{R_c}}{\frac{1}{R_a} + \frac{1}{R_b} + \frac{1}{R_c}} \right) \\
+V_L &= \left( \frac{\frac{V_a}{R} + \frac{V_b}{R} + \frac{V_c}{R}}{\frac{1}{R} + \frac{1}{R} + \frac{1}{R}} \right) \\
+V_L &= \left( \frac{V_a + V_b + V_c}{3} \right) \\
+V_L &= \left( \frac{0}{3} \right) \\
+\multicolumn{2}{c}{
+\boxed{V_L = 0}
+}
+\end{align*}
+
+\item
+
+\begin{align*}
+v_a(t) + v_b(t) + v_c(t) \\
+V \cos (\omega t) + V \cos \left( \omega t + \frac{2 \pi}{3} \right) + V \cos \left( \omega t - \frac{2 \pi}{3} \right) \\
+V \cos (\omega t) + V \cos (\omega t) \cos \frac{2 \pi}{3} - V \sin (\omega t) \sin \frac{2 \pi}{3} + V \cos (\omega t) \cos \frac{2 \pi}{3} + V \sin (\omega t) \sin \frac{2 \pi}{3} \\
+V \cos (\omega t) + V \cos (\omega t) \cos \frac{2 \pi}{3} + V \cos (\omega t) \cos \frac{2 \pi}{3} \\
+V \cos (\omega t) \left( 1 + 2 \cos \frac{2 \pi}{3} \right) \\
+V \cos (\omega t) \left( 1 + 2 \left( - \frac{1}{2} \right) \right) \\
+V \cos (\omega t) (0) \\
+\multicolumn{2}{c}{
+\boxed{V \cos (\omega t) (0) = 0}
+}
+\end{align*}
+
+\end{enumerate}
+
+\pagebreak
+
+\end{document}
