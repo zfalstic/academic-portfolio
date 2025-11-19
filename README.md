@@ -28,7 +28,7 @@ A collection of my university coursework, organized by semester.
 │   ├── ECE_306H
 │   ├── M_408D
 │   └── MAN_101H
-├── S25
+├── S26
 │   ├── ECE_312H
 │   ├── ECE_319H
 │   ├── M_427J
