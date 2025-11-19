@@ -25,3 +25,13 @@ A major split between those who like to code and those who don't. Programming ex
 - [Program 02 Array Sorting and Searching](./assignments/program-02/program02.asm)
 - [Program 03 Linked List Traversal, 2D Arrays, and Console Output](./assignments/program-03/program03.asm)
 - [Program 04 Console Input, and Conditional Logic](./assignments/program-04/program04.asm)
+
+---
+
+## [LC3 Resources](./lc3-resources/)
+
+![LC3 Instruction Set](./lc3-resources/lc3-isa-annotated.png)
+![LC3 Finite State Machine](./lc3-resources/lc3-state-machine.png)
+![LC3 Datapath](./lc3-resources/lc3-datapath.png)
+![LC3 Interrupt Control](./lc3-resources/lc3-interrupt-control.png)
+
