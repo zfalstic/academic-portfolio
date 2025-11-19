@@ -2,6 +2,9 @@
 
 The source of all stress and academic anxiety of a ECE Honors Freshman
 
+[Syllabus](./syllabus-f25-hanson.pdf)
+[Textbook](./textbook.pdf)
+
 ---
 
 ## Homework Solutions
