@@ -2,5 +2,3 @@
 
 [Syllabus](./syllabus-f25-sarower.pdf)
 [Textbook](./textbook.pdf)
-
----
