@@ -22,9 +22,6 @@
 /*/notes/*/*.png
 /*/notes/*/*.jpg
 
-# Textbooks
-*textbook.pdf
-
 # KiCad
 *.gm1
 *.gbrjob
