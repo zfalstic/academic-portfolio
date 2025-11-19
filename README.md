@@ -8,7 +8,7 @@ A collection of my university coursework, organized by semester.
 
 ## Course Directory
 - [Fall 2025](./F25/)
-    - [ECE 302H Introduction to Electrical and Computer Engineering: Honors](./F25/ECE_302H/)
+    - [ECE 302H Introduction to Electrical Engineering: Honors](./F25/ECE_302H/)
     - [ECE 306H Introduction to Computing: Honors](./F25/ECE_306H/)
     - [M 408D Sequences, Series, and Multivariable Calculus](./F25/M_408D/)
     - [BA 324H Oral and Written Business Communication: Honors](./F25/BA_324H/)
