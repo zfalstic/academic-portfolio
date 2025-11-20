@@ -7,8 +7,8 @@
 10 Credit Hours
 
 - [ECE 302H Introduction to Electrical Engineering: Honors](./ECE_302H/)
-- [ECE_306H Introduction to Computing: Honors](./ECE_306H/)
-- [M 408D Sequences, Series, and Multivariable Calculus](./M_408D/)
+- [ECE 306H Introduction to Computing: Honors](./ECE_306H/)
+- M 408D Sequences, Series, and Multivariable Calculus
 
 ---
 
