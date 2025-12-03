@@ -34,7 +34,11 @@
 *.drl
 
 # Assembly
+libs/
+obj/
 *.obj
+*.rom
+*.gdb_history
 
 # Course Specific
 /F25/ECE_302H/labs/pcbs/
