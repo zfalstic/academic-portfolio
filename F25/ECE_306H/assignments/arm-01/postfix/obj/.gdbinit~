@@ -1,0 +1,14 @@
+echo Executing GDB with .gdbinit to connect to pyOCD.\n
+# Connect to OpenOCD
+target extended-remote localhost:3333
+# load the latest elf binary
+load
+# Reset the target and call its init script
+monitor reset init
+# Halt the target. The init script should halt the target, but just in case
+monitor halt
+# Display disassembly of next instruction
+#set disassemble-next-line on
+layout regs
+winheight regs -10
+winheight src +10
