@@ -20,6 +20,10 @@ AND R0, R0, R1
 NOT R0, R0
 STI R0, KBSR
 
+AND R0, R0, #0
+STI R0, GLOB
+STI R0, GLOB2
+
 ; This loop is the proper way to read an input
 Loop
     LDI R0, GLOB
