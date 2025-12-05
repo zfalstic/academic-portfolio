@@ -9,7 +9,7 @@ A collection of my university coursework, organized by semester.
 ## Week at a Glance
 
 - Notes
-    - [ECE 306H M 12/01](./F25/ECE_306H/notes/12.03-arm-memory-alignment-and-program5.pdf)
+    - [ECE 306H M 12/01](./F25/ECE_306H/notes/12.01-program-5.pdf)
     - [ECE 302H M 12/01](./F25/ECE_302H/notes/12.01-power-electronics-introduction-2.pdf)
     - [ECE 306H W 12/03](./F25/ECE_306H/notes/12.03-arm-memory-alignment-and-program5.pdf)
     - [ECE 302H W 12/03](./F25/ECE_302H/notes/12.03-dc-to-ac.pdf)
