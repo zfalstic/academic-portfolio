@@ -6,7 +6,7 @@ A collection of my university coursework, organized by semester.
 
 ---
 
-## Week at a Glance
+## ⭐ Week at a Glance
 
 - Notes
     - [ECE 306H M 12/01](./F25/ECE_306H/notes/12.01-program-5.pdf)
@@ -20,7 +20,7 @@ A collection of my university coursework, organized by semester.
 
 ---
 
-## Course Directory
+## 📚 Course Directory
 
 - [Fall 2025](./F25/)
     - [ECE 302H Introduction to Electrical Engineering: Honors](./F25/ECE_302H/)
@@ -32,7 +32,7 @@ A collection of my university coursework, organized by semester.
 
 ---
 
-## Structure
+## 📁 Structure
 
 ```text
 .
