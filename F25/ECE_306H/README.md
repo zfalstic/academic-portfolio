@@ -15,6 +15,7 @@ A major split between those who like to code and those who don't. Programming ex
 - [HW 04 FSMs and Memory (MAR, MDR, and cycles)](./assignments/completed/ZHANG_HW04.pdf)
 - [HW 05 LC3 ISA](./assignments/completed/ZHANG_HW05.pdf)
 - [HW 06 Code Tracing, Arrays, and Linked Lists](./assignments/completed/ZHANG_HW06.pdf)
+- [HW 07 Traps, Interrupts, and Stacks](./assignments/completed/ZHANG_HW07.pdf)
 
 ---
 
@@ -25,6 +26,12 @@ A major split between those who like to code and those who don't. Programming ex
 - [Program 02 Array Sorting and Searching](./assignments/program-02/program02.asm)
 - [Program 03 Linked List Traversal, 2D Arrays, and Console Output](./assignments/program-03/program03.asm)
 - [Program 04 Console Input, and Conditional Logic](./assignments/program-04/program04.asm)
+
+---
+
+## ARM Assembly Programs
+
+- [ARM 01 Postfix](./assignments/arm-01/postfix/src/main.s)
 
 ---
 
