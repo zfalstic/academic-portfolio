@@ -1,7 +1,5 @@
 # ECE 302H Introduction to Electrical Engineering: Honors
 
-The source of all stress and academic anxiety of an ECE Honors Freshman
-
 [Syllabus](./syllabus-f25-hanson.pdf)
 [Textbook](./textbook.pdf)
 
