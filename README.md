@@ -9,14 +9,7 @@ A collection of my university coursework, organized by semester.
 ## ⭐ Week at a Glance
 
 - Notes
-    - [ECE 306H M 12/01](./F25/ECE_306H/notes/12.01-program-5.pdf)
-    - [ECE 302H M 12/01](./F25/ECE_302H/notes/12.01-power-electronics-introduction-2.pdf)
-    - [ECE 306H W 12/03](./F25/ECE_306H/notes/12.03-arm-memory-alignment-and-program5.pdf)
-    - [ECE 302H W 12/03](./F25/ECE_302H/notes/12.03-dc-to-ac.pdf)
 - Assignments
-    - [ECE 306H HW 7](./F25/ECE_306H/assignments/completed/ZHANG_HW07.pdf)
-    - [ECE 306H Program 5 w/ Nathan Aaker](./F25/ECE_306H/assignments/program-05/program05.asm)
-    - [ECE 306H Postfix ARM](./F25/ECE_306H/assignments/arm-01/postfix/src/main.s)
 
 ---
 
@@ -29,6 +22,12 @@ A collection of my university coursework, organized by semester.
     - [BA 324H Oral and Written Business Communication: Honors](./F25/BA_324H/)
     - BA 101H Professional Development and Career Planning: Honors
     - MAN 101H Leadership Challenges and Innovation: Honors
+- [Spring 2026](./S26/)
+    - [ECE 312H Software Design / Implementation I: Honors](./S26/ECE_312H)
+    - [ECE 319H Introduction to Embedded Systems: Honors](./S26/ECE_319H)
+    - [M 427J Differential Equations with Linear Algebra](./S26/M_427J)
+    - [MIS 301H Introduction to Management Technology: Honors](./S26/MIS_301H)
+    - [STA 301H Introduction to Data Science: Honors](./S26/STA_301H)
 
 ---
 
