@@ -2,3 +2,7 @@
 
 - [Syllabus](./syllabus-s26-cabrera.pdf)
 - [Textbook](https://lib.undercaffeinated.xyz/get/pdf/7579)
+
+---
+
+![homework-questions1](./homework-questions1.png)
