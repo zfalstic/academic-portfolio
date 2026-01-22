@@ -33,10 +33,13 @@
 *.gto
 *.drl
 
-# Assembly
+# Compilation
 libs/
 obj/
+bin/
+build/
 *.obj
+*.o
 *.rom
 *.gdb_history
 
