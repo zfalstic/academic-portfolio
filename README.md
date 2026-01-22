@@ -8,8 +8,8 @@ A collection of my university coursework, organized by semester.
 
 ## ⭐ Week at a Glance
 
-- Notes
 - Assignments
+    -[ECE 312H Lab 1](./S26/ECE_312H/labs/lab-1/dynarray.c)
 
 ---
 
