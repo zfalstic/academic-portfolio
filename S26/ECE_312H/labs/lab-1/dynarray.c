@@ -1,6 +1,6 @@
 // ECE 312 - Dynamic Array Lab
-// Name: <Your Name Here>
-// EID:  <Your EID Here>
+// Name: Dawson Zhang
+// EID: ddz249
 
 #include <stdlib.h>
 #include "dynarray.h"
@@ -12,8 +12,8 @@
 DynamicArray* createArray(int initialCapacity) {
     if(initialCapacity <= 0) return NULL;
 
-    DynamicArray* arr = malloc(sizeof(DynamicArray));
-    int* dataptr = malloc(sizeof(int) * initialCapacity);
+    DynamicArray* arr = (DynamicArray*)malloc(sizeof(DynamicArray));
+    int* dataptr = (int*)malloc(sizeof(int) * initialCapacity);
 
     if(dataptr == NULL) {
         free(dataptr);
@@ -43,7 +43,7 @@ void destroyArray(DynamicArray* arr) {
 int addElement(DynamicArray* arr, int value) {
     if(arr == NULL) return -1;
     if(arr->size == arr->capacity) {
-        int* newptr = realloc(arr->data, arr->capacity * 2 * sizeof(int));
+        int* newptr = (int*)realloc(arr->data, arr->capacity * 2 * sizeof(int));
         if(newptr == NULL) return -1;
         arr->capacity = arr->capacity * 2;
         arr->data = newptr;
