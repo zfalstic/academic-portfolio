@@ -1,0 +1,502 @@
+lottery,skydiving,steak,steak_prep,smoke,drink,gamble,speed,cheated,gender,education,age,income
+B,No,Yes,Rare,Yes,No,No,No,No,not Male,college,69,19023
+B,No,Yes,Medium Well,No,Yes,Yes,No,No,not Male,high school,65,19411
+B,No,Yes,Medium,No,Yes,Yes,No,No,not Male,college,75,24542
+B,No,Yes,Medium Well,Yes,Yes,No,No,No,Male,college,23,21906
+A,No,Yes,Medium,No,Yes,No,No,No,not Male,college,27,24687
+B,No,Yes,Medium rare,No,No,No,No,No,not Male,college,46,23731
+A,No,No,,No,Yes,Yes,No,No,Male,college,46,19635
+A,No,No,,No,No,No,No,No,not Male,high school,21,133337
+B,No,Yes,Well,No,Yes,Yes,No,No,not Male,college,59,145107
+B,No,Yes,Medium,No,Yes,No,No,No,not Male,college,33,297256
+A,No,No,,No,Yes,Yes,No,No,not Male,college,45,283592
+B,No,No,,No,No,No,No,No,not Male,college,82,45438
+A,No,No,,Yes,No,No,No,No,not Male,high school,81,25780
+B,No,Yes,Medium rare,No,No,No,No,No,not Male,college,79,36606
+A,No,Yes,Medium,No,Yes,Yes,No,No,not Male,high school,81,26372
+B,No,Yes,Medium rare,No,Yes,Yes,No,No,Male,college,81,28312
+B,No,Yes,Medium Well,No,No,Yes,No,No,Male,college,63,48709
+A,No,Yes,Medium rare,No,No,No,No,No,not Male,college,24,26163
+B,No,Yes,Medium rare,Yes,Yes,Yes,No,No,Male,college,43,31695
+A,No,No,,No,Yes,No,No,No,Male,high school,50,49127
+A,No,No,,No,No,No,No,No,not Male,high school,49,28745
+A,No,Yes,Medium Well,Yes,No,No,No,No,not Male,college,46,44062
+A,No,No,,No,No,Yes,No,No,not Male,college,48,36023
+A,No,No,,No,No,No,No,No,not Male,college,77,66073
+B,No,Yes,Medium rare,No,No,No,No,No,not Male,college,79,80688
+A,No,Yes,Medium rare,No,Yes,No,No,No,Male,college,64,66159
+A,No,Yes,Medium,No,No,Yes,No,No,not Male,high school,67,63666
+A,No,Yes,Medium rare,No,Yes,Yes,No,No,Male,college,28,53797
+B,No,Yes,Medium rare,No,No,Yes,No,No,Male,high school,25,71816
+A,No,No,,No,No,No,No,No,Male,college,37,71682
+A,No,Yes,Medium rare,No,No,No,No,No,Male,college,39,86603
+B,No,Yes,Medium,No,Yes,Yes,No,No,Male,college,32,94108
+B,No,Yes,Well,No,No,No,No,No,Male,college,60,82228
+A,No,No,,No,Yes,No,No,No,not Male,college,45,83001
+B,No,No,,No,Yes,No,No,No,Male,college,54,75787
+B,No,Yes,Medium rare,Yes,Yes,Yes,No,No,Male,college,58,55110
+A,No,Yes,Medium rare,No,Yes,No,No,No,not Male,college,63,157622
+B,No,Yes,Medium rare,No,No,No,No,No,not Male,college,62,165789
+A,No,No,,No,No,No,No,No,not Male,college,23,140876
+A,No,Yes,Medium,No,Yes,No,No,No,Male,college,20,80060
+B,No,Yes,Well,No,No,No,No,No,Male,college,40,111157
+A,No,Yes,Medium rare,No,Yes,No,No,No,Male,high school,57,67567
+B,No,No,,No,Yes,No,No,No,not Male,college,52,88583
+A,Yes,Yes,Medium Well,Yes,No,No,No,No,not Male,high school,20,31583
+B,Yes,Yes,Medium,No,Yes,No,No,No,not Male,college,49,45016
+A,No,No,,No,Yes,No,Yes,No,not Male,college,67,18769
+A,No,Yes,Well,No,Yes,Yes,Yes,No,Male,college,81,18687
+B,No,Yes,Medium,No,No,Yes,Yes,No,Male,college,74,22097
+B,No,Yes,Medium Well,Yes,Yes,Yes,Yes,No,Male,college,80,22939
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,high school,63,20980
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,83,18230
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,28,21827
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,22,21624
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,Male,college,26,21078
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,28,20227
+A,No,Yes,Medium,No,No,No,Yes,No,Male,college,25,23801
+A,No,Yes,Medium rare,Yes,Yes,No,Yes,No,not Male,college,28,22720
+B,No,No,,No,No,No,Yes,No,not Male,high school,20,23395
+A,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,29,21453
+B,No,No,,No,Yes,No,Yes,No,Male,college,23,23694
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,29,20295
+B,No,Yes,Medium,Yes,Yes,No,Yes,No,Male,college,25,19772
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,27,18933
+B,No,Yes,Medium rare,Yes,Yes,No,Yes,No,Male,college,20,24303
+B,No,No,,No,Yes,Yes,Yes,No,not Male,college,23,18684
+B,No,Yes,Medium,Yes,Yes,Yes,Yes,No,Male,high school,24,20101
+B,No,No,,No,No,No,Yes,No,Male,college,34,23705
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,36,19234
+A,No,Yes,Medium Well,No,No,Yes,Yes,No,not Male,college,37,23729
+B,No,Yes,Rare,No,No,Yes,Yes,No,not Male,college,37,19286
+A,No,Yes,Medium rare,Yes,No,No,Yes,No,not Male,college,57,21164
+B,No,No,,No,Yes,No,Yes,No,Male,college,58,22114
+B,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,50,20939
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,high school,54,24504
+A,No,Yes,Medium rare,No,No,Yes,Yes,No,Male,college,53,20111
+B,No,No,,No,No,Yes,Yes,No,Male,college,47,20357
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,78,129918
+A,No,No,,No,Yes,No,Yes,No,not Male,college,67,140985
+B,No,No,,No,Yes,No,Yes,No,not Male,college,60,107921
+B,No,Yes,Rare,No,Yes,No,Yes,No,not Male,college,73,147231
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,66,109970
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,76,135587
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,72,121054
+B,No,Yes,Medium Well,No,No,No,Yes,No,Male,college,69,120201
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,68,127423
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,29,118555
+A,No,No,,No,No,No,Yes,No,not Male,college,20,122232
+B,No,Yes,Well,Yes,Yes,No,Yes,No,not Male,high school,28,111551
+A,No,Yes,Medium,No,No,No,Yes,No,Male,college,21,113416
+B,No,Yes,Medium Well,No,No,No,Yes,No,not Male,college,20,124803
+B,No,No,,No,Yes,No,Yes,No,not Male,college,29,141675
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,21,107054
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,No,Male,college,23,147845
+B,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,18,124479
+A,No,Yes,Medium rare,No,No,Yes,Yes,No,Male,college,18,120647
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,31,102227
+A,No,Yes,Medium rare,Yes,No,No,Yes,No,Male,college,32,141093
+B,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,32,115345
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,40,148965
+B,No,Yes,Medium Well,Yes,Yes,No,Yes,No,not Male,college,43,138716
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,38,120419
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,37,117898
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,37,135122
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,33,128142
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,34,125038
+B,No,Yes,Medium Well,No,Yes,Yes,Yes,No,not Male,college,37,105714
+B,No,No,,No,Yes,Yes,Yes,No,Male,college,33,111787
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,43,133132
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,34,119543
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,34,106674
+A,No,No,,Yes,Yes,Yes,Yes,No,not Male,high school,34,118855
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,53,127765
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,57,105970
+B,No,Yes,Medium rare,Yes,Yes,No,Yes,No,not Male,college,51,109396
+A,No,No,,No,No,No,Yes,No,Male,college,47,134354
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,58,133483
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,47,117191
+A,No,Yes,Rare,No,Yes,Yes,Yes,No,Male,college,51,146942
+A,No,Yes,Well,No,Yes,Yes,Yes,No,Male,college,47,143407
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,47,132304
+A,No,No,,No,Yes,Yes,Yes,No,Male,college,52,143405
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,No,Male,college,50,109027
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,Male,college,59,140947
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,52,122876
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,49,140297
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,49,100075
+B,No,Yes,Rare,No,Yes,Yes,Yes,No,Male,college,51,126746
+B,No,Yes,Rare,No,Yes,Yes,Yes,No,not Male,college,58,114941
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,48,118090
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,high school,49,100067
+A,No,Yes,Well,No,Yes,Yes,Yes,No,not Male,college,60,108401
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,52,108840
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,No,not Male,college,56,107600
+B,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,56,140082
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,83,317243
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,69,180469
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,70,343704
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,71,280908
+A,No,Yes,Rare,No,Yes,No,Yes,No,Male,college,76,184051
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,Male,college,78,270913
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,62,292016
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,80,256375
+B,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,73,183260
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,74,212019
+B,No,No,,Yes,Yes,No,Yes,No,Male,college,24,207539
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,25,288504
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,21,188077
+B,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,29,157570
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,40,229899
+A,No,No,,No,Yes,No,Yes,No,Male,college,41,215559
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,36,151713
+A,No,No,,Yes,Yes,Yes,Yes,No,not Male,college,42,273760
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,38,168428
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,34,201560
+A,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,48,336577
+A,No,Yes,Well,No,No,No,Yes,No,not Male,college,58,176451
+A,No,Yes,Medium,Yes,Yes,No,Yes,No,not Male,college,46,332295
+B,No,No,,No,Yes,No,Yes,No,not Male,college,52,302748
+B,No,Yes,Medium Well,No,No,No,Yes,No,not Male,college,58,187436
+A,No,No,,No,No,No,Yes,No,not Male,college,57,175300
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,45,301094
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,52,220206
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,47,336207
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,58,301756
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,60,331415
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,60,328741
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,54,202485
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,46,265956
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,45,332216
+B,No,No,,No,Yes,Yes,Yes,No,not Male,college,51,173443
+B,No,Yes,Medium,No,No,Yes,Yes,No,Male,college,56,322907
+A,No,Yes,Medium rare,No,No,No,Yes,No,not Male,college,70,40328
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,72,38518
+A,No,Yes,Medium,No,Yes,No,Yes,No,not Male,high school,79,27641
+A,No,No,,No,Yes,No,Yes,No,not Male,college,82,25469
+A,No,Yes,Medium,No,No,No,Yes,No,not Male,college,67,36875
+B,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,77,31837
+B,No,No,,Yes,No,Yes,Yes,No,not Male,college,66,38563
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,68,26439
+B,No,Yes,Medium,Yes,Yes,Yes,Yes,No,not Male,college,63,26088
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,high school,72,29794
+B,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,71,48463
+A,No,No,,No,Yes,No,Yes,No,not Male,college,25,38310
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,21,30327
+B,No,No,,No,Yes,No,Yes,No,Male,college,21,27632
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,27,45065
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,19,37069
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,29,34176
+A,No,Yes,Medium rare,No,No,No,Yes,No,not Male,high school,23,32204
+B,No,Yes,Well,No,Yes,No,Yes,No,Male,high school,27,31800
+B,No,Yes,Medium rare,No,No,No,Yes,No,not Male,high school,27,39193
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,Male,college,23,41098
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,18,28185
+A,No,Yes,Medium rare,No,No,Yes,Yes,No,not Male,college,19,37299
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,No,not Male,high school,22,30365
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,19,44685
+A,No,No,,Yes,Yes,Yes,Yes,No,not Male,college,24,33324
+B,No,Yes,Rare,Yes,Yes,Yes,Yes,No,Male,college,20,37181
+A,No,No,,No,Yes,No,Yes,No,not Male,college,40,33401
+B,No,Yes,Rare,No,Yes,No,Yes,No,Male,college,35,25992
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,31,28623
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,40,48974
+A,No,Yes,Medium,No,No,No,Yes,No,Male,college,39,28665
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,31,40203
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,not Male,college,30,26476
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,43,38020
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,32,33598
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,39,35525
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,41,41389
+A,No,No,,No,Yes,Yes,Yes,No,Male,college,43,40939
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,38,30713
+B,No,Yes,Medium,Yes,Yes,Yes,Yes,No,Male,college,39,30090
+B,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,46,44889
+B,No,Yes,Medium rare,No,No,No,Yes,No,not Male,high school,51,28230
+A,No,Yes,Medium,No,No,No,Yes,No,not Male,college,56,25276
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,not Male,college,50,47028
+A,No,No,,No,Yes,No,Yes,No,Male,college,60,78377
+A,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,60,99066
+B,No,Yes,Well,No,Yes,No,Yes,No,not Male,college,83,54597
+B,No,Yes,Well,No,Yes,No,Yes,No,not Male,college,75,51929
+A,No,Yes,Medium Well,Yes,Yes,No,Yes,No,Male,college,72,98163
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,77,88526
+A,No,No,,No,No,No,Yes,No,not Male,college,72,84721
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,82,63548
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,83,96377
+B,No,Yes,Medium rare,No,No,No,Yes,No,not Male,college,73,62322
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,72,67000
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,70,94982
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,73,74293
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,high school,83,72951
+A,No,Yes,Medium,No,No,No,Yes,No,not Male,college,61,64380
+B,No,No,,No,No,No,Yes,No,not Male,college,60,92763
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,62,82948
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,75,99322
+A,No,Yes,Medium rare,No,No,Yes,Yes,No,not Male,college,81,91210
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,82,66880
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,67,59746
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,61,59105
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,63,53923
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,69,64939
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,64,57623
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,74,67231
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,65,73695
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,78,53732
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,69,69463
+A,No,Yes,Rare,No,Yes,Yes,Yes,No,not Male,college,75,94928
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,not Male,college,77,65230
+A,No,No,,Yes,Yes,Yes,Yes,No,Male,college,72,98793
+A,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,18,63972
+A,No,Yes,Medium,No,No,No,Yes,No,Male,college,22,77486
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,19,72171
+B,No,No,,No,Yes,No,Yes,No,not Male,college,27,76981
+B,No,Yes,Rare,No,Yes,No,Yes,No,not Male,college,23,54764
+A,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,18,91817
+B,No,No,,No,Yes,No,Yes,No,not Male,college,27,61855
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,23,66497
+B,No,Yes,Rare,Yes,Yes,No,Yes,No,Male,high school,25,92315
+B,No,No,,No,Yes,No,Yes,No,Male,college,22,88534
+B,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,20,50305
+B,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,23,97735
+B,No,No,,No,No,No,Yes,No,Male,college,23,58102
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,No,Male,college,18,89905
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,25,51694
+A,No,Yes,Rare,Yes,Yes,Yes,Yes,No,Male,college,22,64295
+B,No,Yes,Medium Well,No,Yes,Yes,Yes,No,not Male,college,23,98664
+A,No,Yes,Medium Well,Yes,Yes,Yes,Yes,No,Male,high school,25,64345
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,18,90967
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,25,97070
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,29,61795
+B,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,18,81682
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,40,72041
+B,No,Yes,Medium,No,No,No,Yes,No,Male,college,43,60119
+B,No,Yes,Well,No,No,No,Yes,No,not Male,college,40,79090
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,32,74037
+B,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,31,96639
+B,No,Yes,Medium,No,No,No,Yes,No,not Male,college,41,62226
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,41,62114
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,32,55577
+A,No,No,,No,Yes,No,Yes,No,not Male,college,39,68056
+B,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,44,72193
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,36,95758
+B,No,No,,No,No,No,Yes,No,not Male,college,34,56017
+B,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,30,75795
+A,No,No,,No,Yes,No,Yes,No,Male,high school,35,77143
+A,No,Yes,Medium rare,Yes,Yes,No,Yes,No,Male,college,37,90584
+B,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,30,90016
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,42,54405
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,35,65677
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,32,92635
+A,No,Yes,Medium Well,No,No,Yes,Yes,No,Male,college,30,67655
+B,No,Yes,Well,No,Yes,Yes,Yes,No,not Male,college,34,87210
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,37,79820
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,36,71325
+A,No,Yes,Rare,Yes,Yes,Yes,Yes,No,not Male,college,41,99354
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,39,91565
+A,No,Yes,Well,No,Yes,Yes,Yes,No,Male,college,33,57588
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,43,94908
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,No,not Male,college,39,87445
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,Male,college,38,69867
+B,No,Yes,Medium,Yes,Yes,Yes,Yes,No,Male,college,35,78556
+B,No,Yes,Medium,No,No,Yes,Yes,No,Male,college,34,62196
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,34,97853
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,40,50702
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,Male,college,60,72432
+B,No,Yes,Medium Well,No,No,No,Yes,No,Male,college,52,91316
+B,No,Yes,Medium rare,No,No,No,Yes,No,Male,college,50,79717
+B,No,Yes,Well,No,No,No,Yes,No,Male,college,46,67590
+B,No,No,,No,No,No,Yes,No,Male,college,55,65174
+B,No,Yes,Medium,Yes,Yes,No,Yes,No,Male,college,54,69827
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,45,86587
+A,No,Yes,Medium Well,No,Yes,No,Yes,No,Male,college,45,80773
+A,No,Yes,Well,No,Yes,No,Yes,No,not Male,college,47,94764
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,48,56734
+B,No,No,,No,Yes,No,Yes,No,not Male,college,56,68160
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,58,75240
+A,No,Yes,Well,Yes,Yes,Yes,Yes,No,Male,college,60,74352
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,No,not Male,college,48,87878
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,51,65345
+B,No,No,,No,Yes,Yes,Yes,No,not Male,college,58,69121
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,57,96929
+B,No,No,,No,Yes,Yes,Yes,No,Male,college,57,79888
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,59,82316
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,52,56725
+A,No,Yes,Well,No,No,Yes,Yes,No,Male,college,46,99857
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,52,90691
+A,No,No,,No,No,Yes,Yes,No,not Male,college,58,72414
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,47,98001
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,60,62822
+B,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,50,68861
+B,No,No,,No,Yes,No,Yes,No,not Male,college,67,58440
+B,No,No,,No,Yes,No,Yes,No,Male,college,62,105569
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,83,91833
+A,No,No,,No,Yes,No,Yes,No,not Male,college,73,154167
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,60,45304
+B,No,Yes,Rare,No,Yes,No,Yes,No,Male,college,74,163118
+B,No,Yes,Medium Well,No,No,No,Yes,No,not Male,college,81,75556
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,61,157642
+B,No,Yes,Medium Well,No,No,No,Yes,No,not Male,high school,65,147452
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,68,123954
+B,No,Yes,Medium rare,No,No,No,Yes,No,not Male,college,62,42964
+A,No,Yes,Rare,Yes,Yes,Yes,Yes,No,Male,college,70,41393
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,72,173080
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,79,42437
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,72,38501
+B,No,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,67,120603
+B,No,Yes,Well,No,Yes,Yes,Yes,No,not Male,college,82,157806
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,high school,65,98159
+B,No,Yes,Medium rare,No,No,Yes,Yes,No,Male,high school,60,54329
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,73,112776
+B,No,Yes,Medium rare,No,No,Yes,Yes,No,not Male,college,66,126557
+B,No,Yes,Medium Well,No,Yes,Yes,Yes,No,not Male,college,81,125509
+B,No,No,,No,Yes,No,Yes,No,not Male,college,29,116703
+B,No,No,,No,Yes,No,Yes,No,not Male,college,19,127414
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,21,172058
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,24,163997
+A,No,Yes,Medium,No,No,No,Yes,No,not Male,high school,24,115209
+B,No,Yes,Medium,No,No,No,Yes,No,Male,high school,21,40423
+A,No,Yes,Medium,No,Yes,No,Yes,No,not Male,college,18,48035
+A,No,No,,No,No,Yes,Yes,No,Male,college,21,140408
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,19,80510
+A,No,Yes,Well,Yes,Yes,Yes,Yes,No,not Male,college,21,43726
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,19,156817
+A,No,No,,No,Yes,No,Yes,No,not Male,college,40,63064
+A,No,No,,No,Yes,No,Yes,No,Male,college,42,130743
+B,No,Yes,Well,No,No,No,Yes,No,not Male,college,35,108366
+B,No,Yes,Medium rare,Yes,Yes,No,Yes,No,not Male,college,40,45641
+B,No,No,,Yes,Yes,Yes,Yes,No,Male,college,36,159496
+B,No,Yes,Well,No,Yes,Yes,Yes,No,Male,college,32,59962
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,42,140087
+A,No,Yes,Well,No,No,Yes,Yes,No,not Male,college,41,126456
+A,No,Yes,Medium,No,Yes,No,Yes,No,Male,college,46,166713
+B,No,No,,No,No,No,Yes,No,Male,college,53,49958
+B,No,No,,No,Yes,No,Yes,No,not Male,college,46,156048
+A,No,Yes,Medium,No,No,No,Yes,No,not Male,college,45,136450
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,60,126867
+A,No,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,47,155772
+B,No,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,48,149697
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,not Male,college,47,57966
+A,No,Yes,Medium,No,No,Yes,Yes,No,not Male,college,57,168872
+A,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,Male,college,52,134581
+A,No,No,,No,Yes,Yes,Yes,No,not Male,college,48,45283
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,not Male,college,50,153704
+B,No,Yes,Medium rare,Yes,Yes,Yes,Yes,No,Male,high school,49,57373
+A,No,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,50,52646
+A,No,Yes,Well,No,No,Yes,Yes,No,not Male,college,57,137617
+B,No,Yes,Medium Well,No,Yes,Yes,Yes,No,Male,college,55,53828
+B,No,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,55,158439
+B,No,Yes,Medium,No,No,Yes,Yes,No,Male,college,55,138764
+B,No,Yes,Well,No,Yes,Yes,Yes,No,not Male,college,54,159580
+B,Yes,No,,Yes,Yes,Yes,Yes,No,not Male,college,41,23233
+B,Yes,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,47,20029
+A,Yes,Yes,Medium,No,Yes,Yes,Yes,No,not Male,college,21,115279
+A,Yes,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,33,110022
+B,Yes,Yes,Medium,No,Yes,No,Yes,No,not Male,college,40,119860
+A,Yes,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,31,107754
+A,Yes,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,34,127950
+B,Yes,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,37,102491
+B,Yes,Yes,Medium Well,Yes,Yes,Yes,Yes,No,Male,college,51,116049
+B,Yes,No,,No,No,No,Yes,No,not Male,college,22,272389
+B,Yes,No,,No,Yes,No,Yes,No,not Male,college,34,283556
+A,Yes,No,,No,Yes,No,Yes,No,not Male,college,18,31050
+A,Yes,Yes,Medium rare,No,Yes,Yes,Yes,No,Male,college,18,29458
+B,Yes,Yes,Medium Well,No,Yes,No,Yes,No,Male,college,72,58821
+A,Yes,No,,No,Yes,No,Yes,No,not Male,college,64,61039
+A,Yes,Yes,Medium,No,No,Yes,Yes,No,Male,college,82,75971
+B,Yes,Yes,Medium,No,Yes,Yes,Yes,No,Male,college,28,60456
+B,Yes,No,,No,No,No,Yes,No,not Male,college,43,59917
+A,Yes,Yes,Medium Well,Yes,Yes,Yes,Yes,No,not Male,college,38,55932
+A,Yes,Yes,Medium rare,No,Yes,No,Yes,No,not Male,college,49,68605
+B,Yes,Yes,Rare,No,No,No,Yes,No,not Male,college,49,81576
+B,Yes,Yes,Medium Well,No,No,No,Yes,No,Male,college,19,108304
+A,Yes,Yes,Medium rare,No,Yes,No,Yes,No,Male,college,40,38731
+A,Yes,Yes,Well,No,Yes,No,Yes,No,not Male,college,30,115631
+B,No,Yes,Well,No,Yes,Yes,No,No,not Male,high school,47,326948
+B,No,Yes,Medium rare,Yes,Yes,No,No,Yes,Male,college,20,24058
+B,No,Yes,Well,No,Yes,No,No,Yes,Male,college,35,23471
+B,No,No,,No,No,Yes,No,Yes,not Male,college,20,31290
+B,No,No,,No,Yes,No,No,Yes,not Male,college,72,71505
+A,No,No,,Yes,Yes,Yes,No,Yes,Male,college,25,73284
+B,No,Yes,Medium rare,Yes,Yes,Yes,No,Yes,not Male,college,32,63110
+B,No,Yes,Well,No,No,No,No,Yes,not Male,high school,42,136200
+A,No,Yes,Medium,Yes,Yes,Yes,No,Yes,Male,high school,39,167873
+B,No,Yes,Medium rare,Yes,No,Yes,Yes,Yes,not Male,college,68,24044
+B,No,Yes,Medium,No,No,No,Yes,Yes,Male,college,18,24573
+B,No,Yes,Medium Well,No,No,No,Yes,Yes,not Male,college,26,23111
+B,No,No,,No,Yes,No,Yes,Yes,Male,college,26,20904
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,Yes,Male,college,21,19821
+B,No,No,,Yes,Yes,Yes,Yes,Yes,not Male,college,41,22911
+A,No,Yes,Well,Yes,Yes,Yes,Yes,Yes,Male,high school,35,18547
+B,No,Yes,Medium,No,Yes,Yes,Yes,Yes,Male,college,66,126610
+B,No,Yes,Medium rare,No,No,No,Yes,Yes,Male,college,19,131252
+A,No,Yes,Medium rare,No,No,No,Yes,Yes,Male,college,30,115503
+A,No,Yes,Medium,No,Yes,Yes,Yes,Yes,Male,college,44,134989
+B,No,Yes,Medium rare,Yes,Yes,Yes,Yes,Yes,Male,college,39,120588
+A,No,Yes,Medium,No,No,Yes,Yes,Yes,Male,college,52,105704
+B,No,Yes,Medium Well,No,Yes,No,Yes,Yes,Male,college,67,197940
+A,No,No,,No,Yes,No,Yes,Yes,Male,college,60,151716
+A,No,Yes,Rare,No,Yes,Yes,Yes,Yes,Male,college,82,305050
+A,No,Yes,Medium,No,Yes,No,Yes,Yes,not Male,college,30,199532
+B,No,Yes,Medium,No,Yes,Yes,Yes,Yes,not Male,college,44,341681
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,Yes,Male,college,37,176675
+B,No,Yes,Rare,No,Yes,Yes,Yes,Yes,not Male,college,39,169951
+A,No,Yes,Medium,No,Yes,Yes,Yes,Yes,Male,college,60,327188
+A,No,Yes,Medium,No,Yes,Yes,Yes,Yes,not Male,college,46,225117
+A,No,Yes,Rare,No,Yes,No,Yes,Yes,not Male,college,83,40910
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,Yes,not Male,college,71,38073
+B,No,Yes,Medium rare,No,Yes,No,Yes,Yes,Male,high school,21,43722
+B,No,Yes,Well,No,No,Yes,Yes,Yes,not Male,college,21,27600
+B,No,Yes,Medium Well,No,Yes,No,Yes,Yes,not Male,college,44,33117
+B,No,No,,Yes,No,Yes,Yes,Yes,not Male,college,33,36335
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,Yes,Male,college,43,47150
+B,No,Yes,Medium,No,Yes,Yes,Yes,Yes,not Male,college,32,47798
+B,No,Yes,Medium,No,Yes,No,Yes,Yes,Male,college,80,92317
+B,No,Yes,Medium rare,No,Yes,No,Yes,Yes,not Male,college,68,78142
+B,No,Yes,Medium,No,Yes,No,Yes,Yes,Male,college,77,78217
+B,No,Yes,Medium,Yes,Yes,Yes,Yes,Yes,Male,college,83,81293
+B,No,No,,No,No,Yes,Yes,Yes,not Male,high school,71,60618
+A,No,No,,No,Yes,Yes,Yes,Yes,Male,college,79,55942
+B,No,Yes,Medium,No,Yes,Yes,Yes,Yes,not Male,college,75,52685
+A,No,Yes,Medium,No,Yes,No,Yes,Yes,Male,college,28,61053
+B,No,Yes,Medium Well,No,Yes,No,Yes,Yes,not Male,college,39,84370
+A,No,No,,No,No,No,Yes,Yes,not Male,college,37,87190
+A,No,Yes,Medium rare,No,Yes,No,Yes,Yes,not Male,college,32,98188
+B,No,Yes,Medium,No,Yes,No,Yes,Yes,Male,college,39,89211
+B,No,Yes,Medium Well,Yes,Yes,Yes,Yes,Yes,Male,college,39,57993
+B,No,Yes,Medium,Yes,Yes,Yes,Yes,Yes,Male,college,33,90993
+B,No,Yes,Medium,No,Yes,Yes,Yes,Yes,not Male,college,38,80460
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,Yes,not Male,college,32,79737
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,Yes,Male,college,34,84507
+B,No,No,,No,No,Yes,Yes,Yes,Male,college,41,86989
+A,No,No,,No,Yes,No,Yes,Yes,Male,college,52,64769
+B,No,Yes,Well,No,Yes,No,Yes,Yes,not Male,college,50,96119
+A,No,Yes,Medium Well,No,Yes,No,Yes,Yes,not Male,college,57,87458
+A,No,Yes,Rare,No,Yes,No,Yes,Yes,not Male,college,56,78242
+B,No,Yes,Medium,No,No,No,Yes,Yes,not Male,college,49,90521
+A,No,Yes,Medium rare,No,Yes,No,Yes,Yes,Male,college,55,76261
+A,No,Yes,Medium,No,Yes,No,Yes,Yes,not Male,college,55,69574
+A,No,Yes,Medium,Yes,Yes,Yes,Yes,Yes,Male,college,60,90432
+A,No,No,,No,Yes,Yes,Yes,Yes,Male,college,54,84705
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,Yes,Male,college,51,58314
+A,No,No,,No,Yes,Yes,Yes,Yes,not Male,college,46,93530
+A,No,Yes,Medium Well,No,Yes,No,Yes,Yes,not Male,college,83,139931
+A,No,Yes,Medium rare,Yes,Yes,No,Yes,Yes,Male,high school,28,37985
+A,No,Yes,Well,No,Yes,No,Yes,Yes,Male,college,20,117863
+A,No,No,,No,Yes,No,Yes,Yes,not Male,college,43,110569
+A,No,Yes,Medium rare,No,Yes,No,Yes,Yes,not Male,college,33,139271
+B,No,Yes,Rare,No,Yes,No,Yes,Yes,not Male,college,59,73009
+A,No,Yes,Medium,No,No,No,Yes,Yes,not Male,college,58,133587
+A,No,Yes,Medium rare,No,Yes,Yes,Yes,Yes,not Male,college,48,116650
+A,No,Yes,Medium Well,No,Yes,Yes,Yes,Yes,Male,college,52,96063
+B,Yes,Yes,Medium,No,Yes,Yes,Yes,Yes,Male,college,31,116944
+A,Yes,Yes,Medium rare,Yes,No,No,Yes,Yes,not Male,college,50,114367
+B,Yes,Yes,Medium Well,No,Yes,No,Yes,Yes,Male,college,49,254910
+B,Yes,No,,No,Yes,No,Yes,Yes,not Male,college,45,156204
+B,Yes,No,,No,Yes,No,Yes,Yes,not Male,college,42,48413
+B,Yes,Yes,Medium rare,No,Yes,Yes,Yes,Yes,Male,college,55,28704
+B,Yes,Yes,Medium rare,No,No,No,Yes,Yes,not Male,college,64,84178
+B,Yes,Yes,Medium rare,No,Yes,Yes,Yes,Yes,Male,college,32,95488
+A,No,Yes,Medium rare,Yes,Yes,No,Yes,Yes,Male,college,65,71511
+B,No,Yes,Medium rare,No,No,No,No,Yes,Male,college,83,84966
+B,No,Yes,Medium Well,No,Yes,No,Yes,No,not Male,college,56,111130
