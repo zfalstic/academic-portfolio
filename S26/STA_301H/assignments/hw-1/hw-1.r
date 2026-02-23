@@ -49,7 +49,7 @@ ggplot(candies) +
 xtabs(~Nougat + Caramel, data=candies) %>% 
   prop.table %>% 
   addmargins() %>% 
-  round(2)
+  round(4)
 
 ggplot(candies, aes(x=Fruit)) +
   geom_bar() +
