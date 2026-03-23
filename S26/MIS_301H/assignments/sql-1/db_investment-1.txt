@@ -1,0 +1,410 @@
+
+CREATE TABLE Investors (
+    InvestorID INT PRIMARY KEY,
+    Name VARCHAR(100),
+    Email VARCHAR(100),
+    RiskTolerance VARCHAR(100)
+);
+
+-- Portfolios Table
+CREATE TABLE Portfolios (
+    PortfolioID INT PRIMARY KEY,
+    InvestorID INT,
+    PortfolioName VARCHAR(100),
+    CreatedDate DATE DEFAULT CURRENT_DATE
+);
+
+-- Assets Table (Stocks, Bonds, etc.)
+CREATE TABLE Assets (
+    AssetID INT PRIMARY KEY,
+    Symbol VARCHAR(10) UNIQUE,
+    AssetType VARCHAR(100),
+    CurrentPrice DECIMAL(10,2)
+);
+
+-- Transactions Table
+CREATE TABLE Transactions (
+    TransactionID INT PRIMARY KEY,
+    PortfolioID INT,
+    AssetID INT,
+    TransactionType VARCHAR(100),
+    Quantity INT,
+    PricePerUnit DECIMAL(10,2),
+    TransactionDate DATE 
+);
+
+-- Insert Investors
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (1, 'Mr. Peter Walker', 'investor1@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (2, 'Michael Hernandez', 'investor2@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (3, 'Donald Clark', 'investor3@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (4, 'Elizabeth Hicks', 'investor4@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (5, 'Angel Jackson', 'investor5@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (6, 'Amber Esparza', 'investor6@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (7, 'Robert Dixon', 'investor7@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (8, 'Lindsay Phillips', 'investor8@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (9, 'Melinda Blake', 'investor9@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (10, 'Jay Brown', 'investor10@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (11, 'Katie Gutierrez', 'investor11@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (12, 'Daniel Mueller', 'investor12@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (13, 'Eugene Hawkins', 'investor13@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (14, 'Paul Lara', 'investor14@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (15, 'Dana Davis', 'investor15@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (16, 'Michelle Sanders', 'investor16@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (17, 'Randall Love', 'investor17@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (18, 'Jeffrey Diaz', 'investor18@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (19, 'Mr. Brandon Rodgers MD', 'investor19@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (20, 'Amanda Howell', 'investor20@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (21, 'Donald Clark', 'investor21@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (22, 'Lori Pollard', 'investor22@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (23, 'Barry Harris', 'investor23@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (24, 'Amanda Butler', 'investor24@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (25, 'Amanda Freeman', 'investor25@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (26, 'Derrick Kim', 'investor26@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (27, 'Molly Campbell', 'investor27@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (28, 'Jacob Davis', 'investor28@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (29, 'Jerry Frazier', 'investor29@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (30, 'Ana Fleming', 'investor30@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (31, 'Rickey Sanchez', 'investor31@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (32, 'Brenda Holland', 'investor32@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (33, 'Brian Velasquez', 'investor33@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (34, 'Elizabeth Cook', 'investor34@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (35, 'Andrew Brown', 'investor35@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (36, 'Jared Guerrero', 'investor36@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (37, 'Catherine Martin', 'investor37@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (38, 'Brandon Mann', 'investor38@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (39, 'Douglas Hester', 'investor39@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (40, 'Jeffrey Smith', 'investor40@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (41, 'Sandra Gonzalez', 'investor41@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (42, 'Casey Adams', 'investor42@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (43, 'Darlene Buck', 'investor43@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (44, 'Stephanie Santiago', 'investor44@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (45, 'Jacob Rose', 'investor45@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (46, 'Sandra Reeves', 'investor46@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (47, 'Carl Murillo', 'investor47@example.com', 'Low');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (48, 'Ross Ho', 'investor48@example.com', 'Medium');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (49, 'Jamie Lucas', 'investor49@example.com', 'High');
+INSERT INTO Investors (InvestorID, Name, Email, RiskTolerance) VALUES (50, 'Matthew Romero', 'investor50@example.com', 'High');
+
+-- Insert Portfolios
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (1, 1, 'Portfolio 1', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (2, 2, 'Portfolio 2', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (3, 3, 'Portfolio 3', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (4, 4, 'Portfolio 4', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (5, 5, 'Portfolio 5', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (6, 6, 'Portfolio 6', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (7, 7, 'Portfolio 7', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (8, 8, 'Portfolio 8', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (9, 9, 'Portfolio 9', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (10, 10, 'Portfolio 10', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (11, 11, 'Portfolio 11', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (12, 12, 'Portfolio 12', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (13, 13, 'Portfolio 13', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (14, 14, 'Portfolio 14', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (15, 15, 'Portfolio 15', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (16, 16, 'Portfolio 16', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (17, 17, 'Portfolio 17', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (18, 18, 'Portfolio 18', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (19, 19, 'Portfolio 19', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (20, 20, 'Portfolio 20', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (21, 21, 'Portfolio 21', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (22, 22, 'Portfolio 22', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (23, 23, 'Portfolio 23', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (24, 24, 'Portfolio 24', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (25, 25, 'Portfolio 25', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (26, 26, 'Portfolio 26', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (27, 27, 'Portfolio 27', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (28, 28, 'Portfolio 28', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (29, 29, 'Portfolio 29', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (30, 30, 'Portfolio 30', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (31, 31, 'Portfolio 31', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (32, 32, 'Portfolio 32', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (33, 33, 'Portfolio 33', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (34, 34, 'Portfolio 34', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (35, 35, 'Portfolio 35', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (36, 36, 'Portfolio 36', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (37, 37, 'Portfolio 37', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (38, 38, 'Portfolio 38', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (39, 39, 'Portfolio 39', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (40, 40, 'Portfolio 40', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (41, 41, 'Portfolio 41', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (42, 42, 'Portfolio 42', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (43, 43, 'Portfolio 43', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (44, 44, 'Portfolio 44', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (45, 45, 'Portfolio 45', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (46, 46, 'Portfolio 46', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (47, 47, 'Portfolio 47', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (48, 48, 'Portfolio 48', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (49, 49, 'Portfolio 49', '2025-01-01');
+INSERT INTO Portfolios (PortfolioID, InvestorID, PortfolioName, CreatedDate) VALUES (50, 50, 'Portfolio 50', '2025-01-01');
+
+-- Insert Assets
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (1, 'AAPL', 'Stock', 180.5);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (2, 'GOOGL', 'Stock', 2900.25);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (3, 'TSLA', 'Stock', 750.3);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (4, 'BTC', 'Crypto', 45000.75);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (5, 'ETH', 'Crypto', 3200.0);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (6, 'AMZN', 'Stock', 3300.75);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (7, 'MSFT', 'Stock', 310.5);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (8, 'NFLX', 'Stock', 650.75);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (9, 'FB', 'Stock', 380.25);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (10, 'US10Y', 'Bond', 100.0);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (11, 'TLT', 'Bond', 145.6);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (12, 'BND', 'Bond', 85.3);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (13, 'AGG', 'Bond', 112.45);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (14, 'VTI', 'ETF', 240.8);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (15, 'SPY', 'ETF', 430.5);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (16, 'QQQ', 'ETF', 360.4);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (17, 'DIA', 'ETF', 345.2);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (18, 'IWM', 'ETF', 225.7);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (19, 'GLD', 'ETF', 172.0);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (20, 'SLV', 'ETF', 24.3);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (21, 'XLF', 'ETF', 38.5);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (22, 'XLE', 'ETF', 65.2);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (23, 'XLI', 'ETF', 99.4);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (24, 'XLB', 'ETF', 84.75);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (25, 'XLV', 'ETF', 133.6);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (26, 'XLY', 'ETF', 170.1);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (27, 'XLC', 'ETF', 75.2);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (28, 'ARKK', 'ETF', 105.3);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (29, 'ARKG', 'ETF', 72.5);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (30, 'ARKW', 'ETF', 90.7);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (31, 'MSTR', 'Stock', 750.8);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (32, 'NVDA', 'Stock', 620.9);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (33, 'AMD', 'Stock', 155.4);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (34, 'SNAP', 'Stock', 18.25);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (35, 'COIN', 'Stock', 280.6);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (36, 'TSM', 'Stock', 120.75);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (37, 'BABA', 'Stock', 92.3);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (38, 'JPM', 'Stock', 152.4);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (39, 'GS', 'Stock', 380.1);
+INSERT INTO Assets (AssetID, Symbol, AssetType, CurrentPrice) VALUES (40, 'BRK.B', 'Stock', 342.5);
+
+-- Insert Transactions
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (1, 1, 21, 'Buy', 32, 36.8, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (2, 1, 30, 'Buy', 11, 95.31, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (3, 1, 5, 'Buy', 20, 3111.18, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (4, 2, 37, 'Buy', 3, 98.71, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (5, 2, 16, 'Buy', 28, 378.21, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (6, 2, 19, 'Sell', 40, 156.2, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (7, 2, 1, 'Buy', 8, 173.69, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (8, 3, 26, 'Buy', 39, 170.93, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (9, 3, 28, 'Sell', 24, 109.38, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (10, 3, 1, 'Sell', 24, 189.86, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (11, 4, 32, 'Buy', 49, 603.07, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (12, 4, 17, 'Buy', 46, 328.68, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (13, 4, 18, 'Buy', 4, 246.73, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (14, 4, 30, 'Sell', 40, 88.39, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (15, 4, 35, 'Buy', 31, 293.52, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (16, 4, 19, 'Buy', 36, 158.35, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (17, 5, 4, 'Buy', 17, 44099.52, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (18, 5, 37, 'Buy', 47, 93.79, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (19, 5, 32, 'Sell', 50, 603.24, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (20, 5, 22, 'Sell', 39, 66.76, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (21, 6, 31, 'Buy', 25, 721.19, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (22, 6, 29, 'Buy', 35, 66.63, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (23, 6, 35, 'Sell', 37, 289.79, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (24, 6, 9, 'Sell', 35, 396.54, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (25, 7, 20, 'Sell', 39, 24.3, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (26, 7, 19, 'Sell', 23, 188.36, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (27, 7, 33, 'Sell', 43, 143.91, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (28, 7, 9, 'Sell', 24, 383.42, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (29, 8, 39, 'Buy', 15, 382.31, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (30, 8, 8, 'Buy', 7, 700.6, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (31, 8, 25, 'Buy', 12, 144.53, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (32, 8, 39, 'Sell', 15, 366.92, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (33, 8, 1, 'Buy', 34, 169.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (34, 8, 6, 'Buy', 8, 3251.22, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (35, 9, 14, 'Buy', 25, 232.53, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (36, 9, 12, 'Buy', 13, 87.12, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (37, 9, 4, 'Buy', 23, 48811.08, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (38, 10, 26, 'Buy', 3, 183.79, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (39, 10, 20, 'Buy', 47, 25.5, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (40, 10, 13, 'Sell', 37, 108.08, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (41, 10, 31, 'Buy', 50, 790.57, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (42, 11, 29, 'Sell', 5, 69.76, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (43, 11, 21, 'Buy', 7, 41.73, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (44, 11, 27, 'Sell', 17, 77.67, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (45, 11, 22, 'Buy', 6, 65.14, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (46, 12, 18, 'Sell', 4, 217.81, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (47, 12, 10, 'Sell', 47, 95.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (48, 12, 16, 'Sell', 38, 373.69, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (49, 13, 15, 'Buy', 21, 414.46, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (50, 13, 4, 'Buy', 29, 45221.65, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (51, 13, 21, 'Buy', 25, 37.75, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (52, 13, 28, 'Sell', 20, 111.61, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (53, 13, 29, 'Sell', 42, 69.7, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (54, 13, 20, 'Buy', 50, 22.48, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (55, 14, 28, 'Buy', 19, 100.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (56, 14, 17, 'Buy', 41, 322.4, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (57, 14, 16, 'Sell', 47, 344.14, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (58, 15, 25, 'Sell', 50, 145.21, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (59, 15, 26, 'Sell', 10, 174.12, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (60, 15, 33, 'Sell', 44, 147.23, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (61, 15, 6, 'Sell', 18, 3336.87, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (62, 15, 4, 'Buy', 34, 43730.15, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (63, 15, 17, 'Buy', 46, 349.6, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (64, 16, 4, 'Buy', 45, 44105.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (65, 16, 3, 'Sell', 49, 728.37, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (66, 16, 27, 'Sell', 17, 71.59, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (67, 16, 4, 'Sell', 50, 40538.8, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (68, 17, 11, 'Buy', 44, 138.96, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (69, 17, 5, 'Sell', 27, 3239.31, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (70, 17, 17, 'Buy', 31, 343.87, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (71, 17, 9, 'Sell', 43, 365.09, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (72, 17, 30, 'Buy', 21, 88.73, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (73, 17, 28, 'Buy', 23, 98.26, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (74, 18, 40, 'Sell', 20, 361.15, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (75, 18, 30, 'Sell', 33, 93.92, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (76, 18, 20, 'Buy', 22, 26.34, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (77, 18, 9, 'Buy', 47, 383.92, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (78, 19, 2, 'Sell', 45, 2617.07, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (79, 19, 35, 'Buy', 30, 277.73, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (80, 19, 18, 'Sell', 9, 230.68, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (81, 20, 40, 'Sell', 44, 374.35, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (82, 20, 17, 'Sell', 38, 350.78, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (83, 20, 29, 'Buy', 40, 65.4, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (84, 20, 2, 'Sell', 5, 2678.37, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (85, 20, 19, 'Buy', 38, 187.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (86, 21, 6, 'Buy', 49, 3006.79, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (87, 21, 13, 'Sell', 23, 106.43, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (88, 21, 32, 'Sell', 23, 637.2, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (89, 22, 29, 'Buy', 26, 79.27, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (90, 22, 38, 'Sell', 3, 163.01, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (91, 22, 35, 'Sell', 44, 300.51, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (92, 22, 30, 'Buy', 36, 88.18, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (93, 22, 40, 'Sell', 46, 364.29, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (94, 22, 13, 'Buy', 19, 102.23, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (95, 23, 2, 'Buy', 49, 2820.55, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (96, 23, 16, 'Buy', 25, 356.81, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (97, 23, 33, 'Sell', 35, 144.29, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (98, 23, 36, 'Buy', 10, 130.9, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (99, 23, 35, 'Sell', 23, 302.23, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (100, 23, 25, 'Buy', 50, 130.39, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (101, 24, 30, 'Sell', 41, 83.07, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (102, 24, 14, 'Sell', 44, 231.91, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (103, 24, 21, 'Buy', 48, 39.68, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (104, 24, 26, 'Buy', 12, 159.63, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (105, 25, 13, 'Sell', 50, 114.02, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (106, 25, 22, 'Buy', 40, 71.59, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (107, 25, 13, 'Sell', 2, 109.35, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (108, 25, 13, 'Buy', 31, 105.36, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (109, 25, 23, 'Sell', 43, 105.31, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (110, 26, 16, 'Sell', 34, 360.89, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (111, 26, 35, 'Sell', 27, 279.91, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (112, 26, 27, 'Sell', 4, 73.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (113, 26, 28, 'Sell', 16, 100.38, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (114, 27, 37, 'Buy', 22, 94.78, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (115, 27, 7, 'Sell', 13, 304.58, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (116, 27, 17, 'Buy', 30, 379.46, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (117, 28, 10, 'Sell', 27, 94.18, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (118, 28, 20, 'Buy', 9, 24.2, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (119, 28, 28, 'Buy', 19, 97.7, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (120, 28, 21, 'Buy', 17, 36.57, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (121, 28, 10, 'Buy', 4, 95.8, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (122, 29, 39, 'Buy', 31, 391.81, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (123, 29, 8, 'Sell', 4, 713.26, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (124, 29, 4, 'Buy', 13, 46789.11, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (125, 29, 19, 'Buy', 30, 183.76, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (126, 29, 26, 'Sell', 14, 178.38, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (127, 30, 1, 'Buy', 37, 174.82, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (128, 30, 13, 'Sell', 36, 120.03, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (129, 30, 30, 'Sell', 34, 84.54, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (130, 30, 15, 'Buy', 28, 439.5, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (131, 30, 38, 'Buy', 31, 156.19, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (132, 30, 4, 'Buy', 38, 44635.36, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (133, 31, 36, 'Sell', 18, 126.21, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (134, 31, 7, 'Sell', 29, 334.61, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (135, 31, 14, 'Buy', 50, 226.2, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (136, 31, 8, 'Sell', 35, 607.52, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (137, 32, 2, 'Buy', 23, 2808.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (138, 32, 4, 'Sell', 39, 40705.27, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (139, 32, 10, 'Buy', 21, 106.38, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (140, 32, 7, 'Buy', 1, 330.46, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (141, 33, 15, 'Buy', 33, 459.37, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (142, 33, 38, 'Buy', 16, 149.47, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (143, 33, 8, 'Sell', 32, 673.21, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (144, 33, 28, 'Sell', 48, 101.95, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (145, 33, 36, 'Sell', 4, 111.08, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (146, 33, 6, 'Sell', 30, 3131.46, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (147, 34, 17, 'Sell', 17, 346.69, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (148, 34, 28, 'Sell', 49, 99.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (149, 34, 24, 'Buy', 37, 78.32, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (150, 34, 10, 'Buy', 42, 105.02, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (151, 34, 37, 'Buy', 26, 92.77, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (152, 34, 13, 'Buy', 3, 104.13, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (153, 35, 23, 'Buy', 50, 97.27, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (154, 35, 24, 'Buy', 10, 77.6, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (155, 35, 16, 'Sell', 14, 359.85, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (156, 35, 8, 'Sell', 5, 678.32, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (157, 35, 26, 'Sell', 31, 164.19, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (158, 36, 20, 'Sell', 28, 25.73, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (159, 36, 19, 'Sell', 32, 166.82, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (160, 36, 20, 'Buy', 9, 24.32, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (161, 36, 36, 'Buy', 41, 117.53, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (162, 37, 25, 'Buy', 12, 141.48, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (163, 37, 20, 'Buy', 23, 23.04, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (164, 37, 37, 'Buy', 41, 87.27, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (165, 37, 11, 'Sell', 7, 137.75, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (166, 37, 29, 'Buy', 17, 76.55, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (167, 38, 37, 'Sell', 4, 94.21, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (168, 38, 30, 'Buy', 30, 86.99, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (169, 38, 24, 'Sell', 11, 91.2, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (170, 39, 20, 'Sell', 17, 25.56, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (171, 39, 18, 'Buy', 37, 222.89, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (172, 39, 38, 'Sell', 26, 146.76, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (173, 40, 4, 'Sell', 5, 42484.99, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (174, 40, 34, 'Buy', 42, 19.25, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (175, 40, 37, 'Sell', 10, 94.98, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (176, 40, 16, 'Sell', 10, 363.7, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (177, 40, 18, 'Buy', 44, 241.1, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (178, 41, 9, 'Buy', 7, 404.1, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (179, 41, 22, 'Sell', 44, 68.09, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (180, 41, 7, 'Sell', 39, 310.57, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (181, 41, 8, 'Buy', 3, 699.71, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (182, 41, 9, 'Buy', 6, 369.12, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (183, 41, 17, 'Sell', 10, 346.68, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (184, 42, 11, 'Sell', 23, 146.34, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (185, 42, 6, 'Buy', 37, 3472.29, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (186, 42, 18, 'Buy', 38, 217.36, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (187, 42, 13, 'Buy', 15, 118.68, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (188, 43, 14, 'Sell', 24, 258.21, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (189, 43, 5, 'Sell', 4, 3368.92, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (190, 43, 15, 'Sell', 49, 396.87, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (191, 43, 30, 'Sell', 23, 88.45, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (192, 43, 38, 'Buy', 8, 167.34, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (193, 43, 10, 'Sell', 11, 107.33, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (194, 44, 11, 'Sell', 14, 146.05, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (195, 44, 37, 'Sell', 12, 91.91, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (196, 44, 16, 'Sell', 31, 377.75, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (197, 44, 4, 'Sell', 21, 44867.86, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (198, 45, 31, 'Sell', 26, 685.3, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (199, 45, 25, 'Buy', 1, 122.44, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (200, 45, 37, 'Buy', 4, 98.36, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (201, 46, 24, 'Sell', 21, 87.49, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (202, 46, 16, 'Sell', 22, 334.31, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (203, 46, 34, 'Buy', 38, 16.59, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (204, 46, 33, 'Sell', 13, 150.37, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (205, 46, 14, 'Sell', 37, 227.05, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (206, 46, 9, 'Sell', 47, 362.38, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (207, 47, 4, 'Buy', 1, 45214.15, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (208, 47, 15, 'Buy', 34, 464.94, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (209, 47, 4, 'Sell', 16, 48961.67, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (210, 48, 23, 'Sell', 50, 100.79, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (211, 48, 29, 'Buy', 41, 78.97, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (212, 48, 38, 'Sell', 1, 144.4, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (213, 49, 29, 'Sell', 42, 73.24, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (214, 49, 35, 'Buy', 13, 286.14, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (215, 49, 30, 'Buy', 48, 93.79, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (216, 49, 37, 'Buy', 5, 98.81, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (217, 49, 36, 'Buy', 29, 122.25, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (218, 49, 39, 'Buy', 16, 391.3, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (219, 50, 18, 'Buy', 9, 231.34, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (220, 50, 23, 'Buy', 2, 95.36, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (221, 50, 3, 'Buy', 35, 722.02, '2025-02-01');
+INSERT INTO Transactions (TransactionID, PortfolioID, AssetID, TransactionType, Quantity, PricePerUnit, TransactionDate) VALUES (222, 50, 4, 'Sell', 24, 43001.2, '2025-02-01');
+
+ 
+
+
+
+
