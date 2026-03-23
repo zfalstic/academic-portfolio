@@ -1,0 +1,1034 @@
+respondent,gender,region,important,prefer_comma,heard_comma,care_comma,write_following,data_noun,care_data,care_grammar,age,income,education
+1,Male,Mountain,No,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,29,34602,Bachelor degree
+2,not Male,East South Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,49,67172,Graduate degree
+3,not Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,43,66513,Graduate degree
+4,not Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,44,71672,Some college or Associate degree
+5,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,28,107236,Some college or Associate degree
+6,not Male,East South Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,44,85787,Graduate degree
+7,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat unimportant,25,42987,Graduate degree
+8,not Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,20,39836,Bachelor degree
+9,Male,Pacific,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,76617,High school degree
+10,not Male,East North Central,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,78,79657,Some college or Associate degree
+11,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,43,39883,High school degree
+12,not Male,New England,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,57,72554,Graduate degree
+13,not Male,Middle Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,49,18653,High school degree
+14,not Male,South Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,52,139769,Graduate degree
+15,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,82,121472,Graduate degree
+16,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,58,85439,Graduate degree
+17,Male,Mountain,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,39,50033,Some college or Associate degree
+18,not Male,New England,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,48,113730,Graduate degree
+19,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,18,70970,Graduate degree
+20,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,51,126146,Bachelor degree
+21,not Male,New England,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,83,63016,Bachelor degree
+22,not Male,New England,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,83,79094,Bachelor degree
+23,Male,East North Central,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Somewhat important,52,68073,Bachelor degree
+24,not Male,East North Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,19,22651,Some college or Associate degree
+25,not Male,West South Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,50,61501,Some college or Associate degree
+26,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,46,94681,Graduate degree
+27,not Male,South Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,26,184622,Some college or Associate degree
+28,not Male,Pacific,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,64,94657,Graduate degree
+29,not Male,Pacific,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,44,43400,High school degree
+30,not Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,37,122518,Graduate degree
+31,Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,20,23837,Bachelor degree
+32,not Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,54,128545,Bachelor degree
+33,not Male,New England,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,55,91187,Some college or Associate degree
+34,not Male,Pacific,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,25,47939,Bachelor degree
+35,not Male,Middle Atlantic,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,31,82859,Graduate degree
+36,not Male,West South Central,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,54,135009,Bachelor degree
+37,Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,50,151483,Graduate degree
+38,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,51,105989,Graduate degree
+39,not Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,58,81086,High school degree
+40,not Male,Middle Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,85,57908,Bachelor degree
+41,not Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,18,23651,Some college or Associate degree
+42,not Male,East North Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,30,108113,Bachelor degree
+43,not Male,New England,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,26,64658,Bachelor degree
+44,not Male,South Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,24,37694,Some college or Associate degree
+45,not Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,26,41272,High school degree
+46,Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,46,51308,Some college or Associate degree
+47,Male,New England,No,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,46,82724,Bachelor degree
+48,not Male,West North Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,20,38158,Bachelor degree
+49,not Male,West North Central,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,52,32368,Some college or Associate degree
+50,not Male,New England,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,37,48262,Graduate degree
+51,not Male,West North Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,49334,Bachelor degree
+52,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,18,111722,Less than high school degree
+53,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,26,49915,Some college or Associate degree
+54,not Male,Middle Atlantic,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,58,61434,Bachelor degree
+55,not Male,New England,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,57,39072,Bachelor degree
+56,Male,West South Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,40,48243,Some college or Associate degree
+57,not Male,South Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,62,23903,Some college or Associate degree
+58,Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,97834,High school degree
+59,not Male,West South Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,59,158329,Some college or Associate degree
+60,not Male,New England,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,49,58830,Some college or Associate degree
+61,not Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,28,37750,Some college or Associate degree
+62,not Male,West South Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,68,36084,Some college or Associate degree
+63,Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,52,67494,Some college or Associate degree
+64,not Male,Middle Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,33,50334,Bachelor degree
+65,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,47,42636,Graduate degree
+66,Male,Pacific,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,52,41920,Bachelor degree
+67,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,27,21912,Bachelor degree
+68,not Male,Middle Atlantic,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,49,122580,High school degree
+69,not Male,West North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,29,92576,Bachelor degree
+70,Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,33,50905,Bachelor degree
+71,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,28,21900,Bachelor degree
+72,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,57,125608,Graduate degree
+73,not Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,73136,Bachelor degree
+74,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,52,44334,High school degree
+75,not Male,Middle Atlantic,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,55,173188,Graduate degree
+76,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,55,86174,Some college or Associate degree
+77,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,71,99936,Graduate degree
+78,Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,32,26830,Graduate degree
+79,not Male,South Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,48,52666,Graduate degree
+80,not Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,39,52102,Graduate degree
+81,not Male,West North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,19,24635,High school degree
+82,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,58,86106,Bachelor degree
+83,not Male,Pacific,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,64,32558,Some college or Associate degree
+84,Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,27,91936,High school degree
+85,not Male,East North Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,59,115346,Graduate degree
+86,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,71,38818,Bachelor degree
+87,not Male,East North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,21,107219,Some college or Associate degree
+88,Male,East South Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,37,150951,High school degree
+89,not Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,54,86787,Graduate degree
+90,not Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,22,19022,Bachelor degree
+91,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,55,55137,Bachelor degree
+92,Male,West South Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,53,101724,Some college or Associate degree
+93,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,23,87719,Bachelor degree
+94,Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,76,66977,Bachelor degree
+95,not Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,58,155090,Bachelor degree
+96,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,42,28443,High school degree
+97,not Male,Middle Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,58,93515,Some college or Associate degree
+98,not Male,East North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,62,62797,Graduate degree
+99,Male,New England,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,31,138340,Graduate degree
+100,Male,East South Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,74,105170,Some college or Associate degree
+101,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,28,20137,High school degree
+102,not Male,East North Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,25,22844,Less than high school degree
+103,Male,Mountain,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,52,23770,Bachelor degree
+104,Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,75,111437,Bachelor degree
+105,not Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,33,65914,Bachelor degree
+106,not Male,Pacific,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,78,32192,Graduate degree
+107,not Male,West South Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,37,99141,Bachelor degree
+108,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,22,23288,Bachelor degree
+109,not Male,West South Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,84,45756,Some college or Associate degree
+110,not Male,South Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,79,43143,High school degree
+111,not Male,South Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,29,70453,High school degree
+112,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,66,93744,Some college or Associate degree
+113,not Male,Middle Atlantic,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,21,83976,Bachelor degree
+114,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,20484,Some college or Associate degree
+115,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,29,73468,Bachelor degree
+116,not Male,West North Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,42,89594,Graduate degree
+117,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,186442,Some college or Associate degree
+118,not Male,New England,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,27,69849,Some college or Associate degree
+119,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,35,58377,Some college or Associate degree
+120,not Male,Middle Atlantic,No,Yes,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,25,81774,Some college or Associate degree
+121,Male,East North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,79,42651,High school degree
+122,Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,56,56662,Some college or Associate degree
+123,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,48,39531,Graduate degree
+124,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,45,91980,Bachelor degree
+125,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,43,48140,Bachelor degree
+126,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,47,106392,Graduate degree
+127,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,28728,Bachelor degree
+128,not Male,East North Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,57,192982,Some college or Associate degree
+129,not Male,East North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,34,31940,Graduate degree
+130,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,40,79170,Graduate degree
+131,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,35,38274,Bachelor degree
+132,Male,East North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,32,92139,Graduate degree
+133,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,34,59139,Graduate degree
+134,Male,South Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,36,34296,Some college or Associate degree
+135,Male,South Atlantic,Yes,Yes,Yes,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,63,157588,Bachelor degree
+136,not Male,West South Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,21,174369,High school degree
+137,not Male,West South Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,58,147359,Bachelor degree
+138,not Male,Mountain,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,23,45669,Some college or Associate degree
+139,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,59,96965,Some college or Associate degree
+140,not Male,East North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,39,57680,Some college or Associate degree
+141,not Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,21,51135,Bachelor degree
+142,not Male,West North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,25,55309,High school degree
+143,not Male,Pacific,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,32,55533,Bachelor degree
+144,Male,New England,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,33,25188,Graduate degree
+145,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,24,46502,High school degree
+146,not Male,West North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,42,33998,Bachelor degree
+147,not Male,New England,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,47,45019,Graduate degree
+148,Male,East South Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,60,122478,Graduate degree
+149,not Male,New England,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,40,45294,Bachelor degree
+150,Male,West South Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,85,123404,Some college or Associate degree
+151,not Male,Middle Atlantic,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,22773,Bachelor degree
+152,Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,28,23663,Bachelor degree
+153,not Male,South Atlantic,No,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,21,43194,Bachelor degree
+154,not Male,East North Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,22,67107,Bachelor degree
+155,Male,Pacific,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Somewhat important,52,110683,Some college or Associate degree
+156,not Male,West North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,19,185771,Bachelor degree
+157,not Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,43,19862,Some college or Associate degree
+158,not Male,New England,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,24,24830,Bachelor degree
+159,not Male,West South Central,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,20,32284,Graduate degree
+160,not Male,East North Central,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,37,47244,Some college or Associate degree
+161,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,24,128807,Some college or Associate degree
+162,not Male,Pacific,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,69,50027,Graduate degree
+163,not Male,Pacific,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,33,51228,Some college or Associate degree
+164,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,26,143177,Bachelor degree
+165,not Male,West North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,22,30587,Bachelor degree
+166,not Male,New England,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,53,75262,Graduate degree
+167,not Male,West North Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,38,35349,Bachelor degree
+168,not Male,South Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,70,49067,Some college or Associate degree
+169,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,85,36391,Graduate degree
+170,Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,54,54288,Bachelor degree
+171,Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,58,131256,Bachelor degree
+172,not Male,East South Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,23,19718,Some college or Associate degree
+173,Male,Mountain,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,80,46580,Some college or Associate degree
+174,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,45,97989,Bachelor degree
+175,not Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,44,108124,Graduate degree
+176,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,21,24927,Some college or Associate degree
+177,Male,Pacific,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,21,20981,Graduate degree
+178,Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Somewhat important,52,118613,Graduate degree
+179,Male,Pacific,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,56,74037,Some college or Associate degree
+180,not Male,West North Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,26,53731,Some college or Associate degree
+181,not Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,41,69372,Bachelor degree
+182,Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,49,23959,Bachelor degree
+183,not Male,West South Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,39,24107,High school degree
+184,not Male,Pacific,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,28,81351,Some college or Associate degree
+185,Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,41,127529,Bachelor degree
+186,not Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,76,23823,Graduate degree
+187,Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,19,40829,Bachelor degree
+188,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,36,21121,Graduate degree
+189,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,24,65684,Some college or Associate degree
+190,not Male,East North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,40,154421,Bachelor degree
+191,Male,West South Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,26,51953,Bachelor degree
+192,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,48,155943,Graduate degree
+193,Male,South Atlantic,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,25,54230,High school degree
+194,Male,Pacific,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,56,27353,Bachelor degree
+195,Male,West South Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,28,98680,Some college or Associate degree
+196,not Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,56,180096,Bachelor degree
+197,Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,85,41935,Bachelor degree
+198,not Male,East North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,71,90592,Graduate degree
+199,not Male,Middle Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,72,171921,Graduate degree
+200,Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,47,122980,Some college or Associate degree
+201,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,25,19743,Some college or Associate degree
+202,Male,Middle Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,73,80366,Bachelor degree
+203,not Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,79,128228,Graduate degree
+204,Male,South Atlantic,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,49,42386,High school degree
+205,Male,New England,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,70,24622,Some college or Associate degree
+206,not Male,East South Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,36,120890,Bachelor degree
+207,not Male,Middle Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,78,65119,Some college or Associate degree
+208,not Male,South Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,27,148769,Bachelor degree
+209,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,31,95569,Bachelor degree
+210,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,33,97579,High school degree
+211,Male,New England,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,77,41626,Graduate degree
+212,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,107204,Graduate degree
+213,not Male,New England,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,53,89992,Bachelor degree
+214,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,18,55179,Bachelor degree
+215,not Male,Middle Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,39,154228,Bachelor degree
+216,not Male,Middle Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,82,146621,Bachelor degree
+217,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,30,148185,Graduate degree
+218,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,57,115584,Some college or Associate degree
+219,Male,Middle Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,61,156937,Graduate degree
+220,Male,South Atlantic,No,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat unimportant,58,97970,Bachelor degree
+221,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,56,29050,Bachelor degree
+222,not Male,Middle Atlantic,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,41,141919,High school degree
+223,not Male,New England,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,51,128473,Graduate degree
+224,not Male,East North Central,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,33,81887,Bachelor degree
+225,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,40,175977,Bachelor degree
+226,not Male,West North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,43,21211,Some college or Associate degree
+227,Male,East North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,60,169665,Graduate degree
+228,not Male,Pacific,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,53,36641,Bachelor degree
+229,Male,Pacific,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,81,176220,Bachelor degree
+230,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,21,89643,Graduate degree
+231,not Male,New England,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,29,41257,Less than high school degree
+232,Male,South Atlantic,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,49,181751,High school degree
+233,not Male,New England,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,58,24704,Some college or Associate degree
+234,Male,West South Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,57,70478,Some college or Associate degree
+235,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,36,139798,Graduate degree
+236,Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,52,196161,Some college or Associate degree
+237,Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,49,142928,Some college or Associate degree
+238,Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,54,126712,Some college or Associate degree
+239,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,74,60882,Graduate degree
+240,not Male,South Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,53,117446,Graduate degree
+241,Male,South Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,20,95791,Bachelor degree
+242,Male,New England,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,83,36278,Graduate degree
+243,Male,Middle Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,74,113323,Graduate degree
+244,not Male,New England,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,49,63257,Some college or Associate degree
+245,Male,Mountain,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,30,89206,Graduate degree
+246,not Male,New England,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,48,80269,Graduate degree
+247,Male,East South Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,39567,Bachelor degree
+248,not Male,New England,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,24,19869,Some college or Associate degree
+249,not Male,New England,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,38,113921,Bachelor degree
+250,not Male,East North Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,55,78481,Some college or Associate degree
+251,not Male,West North Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,55,47280,High school degree
+252,Male,Pacific,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,54,197522,Graduate degree
+253,Male,Pacific,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,58,95224,Bachelor degree
+254,not Male,Middle Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,40,111669,Graduate degree
+255,Male,West North Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,43,22960,Graduate degree
+256,Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,19,160010,Bachelor degree
+257,Male,Pacific,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,84,125193,Graduate degree
+258,not Male,South Atlantic,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,66,34815,Some college or Associate degree
+259,not Male,South Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,83,136805,Graduate degree
+260,Male,South Atlantic,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,42,33697,Some college or Associate degree
+261,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,57,53645,Some college or Associate degree
+262,Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,58,44159,NA
+263,Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,23,35718,High school degree
+264,Male,South Atlantic,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,37,99669,Graduate degree
+265,not Male,Middle Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,45,71997,Bachelor degree
+266,Male,West South Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very unimportant,44,42056,Graduate degree
+267,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,51,78655,High school degree
+268,not Male,New England,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,66,61144,Graduate degree
+269,not Male,West South Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,73,52600,Some college or Associate degree
+270,not Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,57,148879,Some college or Associate degree
+271,not Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,41,134212,Graduate degree
+272,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,54,84401,Some college or Associate degree
+273,not Male,East North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,77,56784,Bachelor degree
+274,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,48,194067,Bachelor degree
+275,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,51,60422,Graduate degree
+276,Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,46,83794,Some college or Associate degree
+277,not Male,East North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,54,50278,Graduate degree
+278,not Male,Pacific,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,34,164484,Bachelor degree
+279,Male,South Atlantic,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,63,195294,Bachelor degree
+280,not Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,53,183511,Bachelor degree
+281,not Male,New England,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,81,144249,Some college or Associate degree
+282,Male,New England,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,58,172924,Graduate degree
+283,not Male,Middle Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,42,53351,High school degree
+284,Male,New England,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,66,85217,Graduate degree
+285,not Male,West North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,56,199223,Some college or Associate degree
+286,not Male,East North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,47,147291,Bachelor degree
+287,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,38,73471,Bachelor degree
+288,not Male,Pacific,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,22,50293,Graduate degree
+289,Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,20,163973,Bachelor degree
+290,Male,Pacific,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,38,99079,Bachelor degree
+291,Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,35,30970,Some college or Associate degree
+292,Male,East North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,18,24873,High school degree
+293,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,20266,Graduate degree
+294,Male,South Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,53,67403,Bachelor degree
+295,Male,West South Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Somewhat important,29,159192,Graduate degree
+296,not Male,East South Central,No,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,28,95599,Some college or Associate degree
+297,Male,East North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Neutral,32,18583,High school degree
+298,not Male,West North Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,58,187944,Bachelor degree
+299,not Male,South Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,18,21025,Less than high school degree
+300,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,55,194476,Bachelor degree
+301,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,28,19290,Graduate degree
+302,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,25,67504,Graduate degree
+303,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,59,185015,Graduate degree
+304,Male,West South Central,No,Yes,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,43,56654,Some college or Associate degree
+305,not Male,West South Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,45,154366,Graduate degree
+306,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,26,76181,Some college or Associate degree
+307,not Male,West North Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,21,115326,Graduate degree
+308,not Male,South Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,58,69867,Bachelor degree
+309,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,35,62023,Bachelor degree
+310,Male,Pacific,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,119019,Bachelor degree
+311,Male,East North Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very unimportant,25,113283,Less than high school degree
+312,not Male,West South Central,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,56,195166,Graduate degree
+313,Male,Middle Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,27,156792,Bachelor degree
+314,Male,Pacific,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,52,82293,Bachelor degree
+315,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,27,45194,Bachelor degree
+316,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,33,44684,Some college or Associate degree
+317,Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,29,91132,Graduate degree
+318,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,36,35807,Bachelor degree
+319,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,28,68973,Graduate degree
+320,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,46,37678,Some college or Associate degree
+321,not Male,East North Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,60,73197,Some college or Associate degree
+322,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,19,21260,Graduate degree
+323,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,43,18070,Bachelor degree
+324,Male,Mountain,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,28,22186,Some college or Associate degree
+325,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,49,78728,Bachelor degree
+326,not Male,East North Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,48,57785,Graduate degree
+327,Male,Pacific,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,47,91797,Some college or Associate degree
+328,not Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,42567,High school degree
+329,not Male,Mountain,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,39,37544,Bachelor degree
+330,not Male,West North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,57,19600,Some college or Associate degree
+331,Male,Middle Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,28,49955,Some college or Associate degree
+332,Male,East South Central,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,22,196117,Graduate degree
+333,not Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,19,21442,Bachelor degree
+334,Male,South Atlantic,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,25,87619,Bachelor degree
+335,not Male,East South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,29,100458,Bachelor degree
+336,Male,East North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,29,41187,Some college or Associate degree
+337,not Male,Middle Atlantic,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,24,43528,Some college or Associate degree
+338,Male,East North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,52,92528,Some college or Associate degree
+339,Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,23,67153,High school degree
+340,not Male,West South Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,57,114432,Graduate degree
+341,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,48,70550,Bachelor degree
+342,not Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,20,20580,Some college or Associate degree
+343,Male,New England,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,48,199994,Graduate degree
+344,not Male,East North Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,24,70969,Graduate degree
+345,Male,West North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,22,23255,Graduate degree
+346,not Male,Pacific,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,55,24918,Some college or Associate degree
+347,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,43,52492,Bachelor degree
+348,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,44,23811,Graduate degree
+349,Male,West North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,37,63072,Bachelor degree
+350,not Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,53,188546,Graduate degree
+351,not Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,21,47350,Bachelor degree
+352,Male,West North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,54,85175,Bachelor degree
+353,not Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,43,20383,Bachelor degree
+354,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,52,41118,Graduate degree
+355,not Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,55,58678,Bachelor degree
+356,Male,Middle Atlantic,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,32,100009,Some college or Associate degree
+357,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,48,71689,Graduate degree
+358,not Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,36,81017,Bachelor degree
+359,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,70525,Graduate degree
+360,not Male,West North Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,50,34564,Some college or Associate degree
+361,not Male,East North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,48,121105,High school degree
+362,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,54,91790,Bachelor degree
+363,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,60758,Some college or Associate degree
+364,Male,West North Central,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,27,44820,Graduate degree
+365,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,59,51978,High school degree
+366,not Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,26,28701,Some college or Associate degree
+367,not Male,East North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,22,94143,Graduate degree
+368,Male,West South Central,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Somewhat important,48,174793,Bachelor degree
+369,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,47,109869,Bachelor degree
+370,Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,50,90824,Graduate degree
+371,not Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,50,53718,Some college or Associate degree
+372,not Male,West North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,38,73070,Some college or Associate degree
+374,Male,East North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,59517,Graduate degree
+375,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,62731,Some college or Associate degree
+376,not Male,Middle Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,25,53406,Graduate degree
+377,not Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,96276,Some college or Associate degree
+378,Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,19,93964,Graduate degree
+379,not Male,East South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,34,33720,Some college or Associate degree
+380,Male,New England,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,43,55386,Bachelor degree
+381,not Male,Pacific,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,24,44933,Graduate degree
+382,Male,West South Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,51,117664,Graduate degree
+383,Male,Middle Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,58,96534,Some college or Associate degree
+384,not Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,21,28831,Some college or Associate degree
+385,Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,24,99456,Graduate degree
+386,Male,New England,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,42,140133,Graduate degree
+387,Male,West North Central,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,40,31472,Bachelor degree
+388,Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,38,45781,High school degree
+389,Male,East North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,53,145939,Bachelor degree
+390,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,41,76749,Some college or Associate degree
+391,Male,Pacific,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,28,158699,Bachelor degree
+392,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,51,183003,Bachelor degree
+393,not Male,West South Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,20,112898,Bachelor degree
+394,Male,West South Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,21,75070,Bachelor degree
+395,Male,West North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,43,77425,Some college or Associate degree
+396,not Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,24,56705,Bachelor degree
+397,Male,New England,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,26,151335,High school degree
+398,not Male,Pacific,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,28,52862,Graduate degree
+399,Male,Pacific,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,35,122306,Some college or Associate degree
+400,not Male,Mountain,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,22,58211,Bachelor degree
+401,Male,East South Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,56,160189,Some college or Associate degree
+402,Male,West North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,53,185241,Graduate degree
+403,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,23205,Some college or Associate degree
+404,Male,East North Central,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,23,158858,Graduate degree
+405,not Male,West South Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,55357,Some college or Associate degree
+406,not Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,20,68680,Some college or Associate degree
+407,Male,Middle Atlantic,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,39,85062,Bachelor degree
+408,not Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,34,97437,Some college or Associate degree
+409,not Male,East North Central,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,58,94414,Some college or Associate degree
+410,not Male,Middle Atlantic,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,51,67012,High school degree
+411,not Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,31,163201,Graduate degree
+412,not Male,Middle Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,40,84340,Bachelor degree
+413,Male,Pacific,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,38,86214,Bachelor degree
+414,not Male,Pacific,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,146950,Bachelor degree
+415,not Male,New England,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,36,158077,Bachelor degree
+416,not Male,East South Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,22,38757,High school degree
+417,Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,29,167924,Graduate degree
+418,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,25,159519,Graduate degree
+419,Male,Pacific,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,43,23135,High school degree
+420,not Male,South Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,47253,Graduate degree
+421,not Male,New England,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,42,133930,Graduate degree
+422,Male,East North Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,54,90548,Graduate degree
+423,not Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,21,188760,Graduate degree
+424,not Male,Mountain,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,23,35940,Bachelor degree
+425,Male,South Atlantic,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,21,27037,Graduate degree
+426,Male,South Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,24,67330,Bachelor degree
+427,not Male,New England,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,40,63747,Bachelor degree
+428,not Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,37,146157,Graduate degree
+429,not Male,East South Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,37,50580,Bachelor degree
+430,not Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,49,115968,Bachelor degree
+431,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,57,70542,Bachelor degree
+432,Male,East North Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Somewhat important,19,66699,Bachelor degree
+433,not Male,West South Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,49,54919,Bachelor degree
+434,Male,South Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,28,180755,Graduate degree
+435,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,27,104189,High school degree
+436,Male,New England,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,50,22691,Bachelor degree
+437,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,32,156117,Bachelor degree
+438,Male,Pacific,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,19,24850,High school degree
+439,not Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,41,64462,Some college or Associate degree
+440,not Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,23,63648,Some college or Associate degree
+441,not Male,East North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,53,110192,Bachelor degree
+442,Male,East South Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,46,177665,Some college or Associate degree
+443,not Male,West South Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,20,18543,High school degree
+444,Male,New England,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,21,71267,Bachelor degree
+445,Male,Middle Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,20,48110,Bachelor degree
+446,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,34,137896,Bachelor degree
+447,not Male,South Atlantic,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,33,65755,Graduate degree
+448,not Male,Pacific,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,24,87240,Graduate degree
+450,Male,East South Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,46,85950,Graduate degree
+451,not Male,South Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,35,81482,Some college or Associate degree
+452,Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,57,147576,Bachelor degree
+453,not Male,Middle Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,50,59586,Graduate degree
+454,not Male,Mountain,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,34,91140,Some college or Associate degree
+455,not Male,East North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,22,25565,Some college or Associate degree
+456,Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,34,24234,Bachelor degree
+457,Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,18,81860,Some college or Associate degree
+458,Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,54,148505,Some college or Associate degree
+459,not Male,Pacific,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,41,148572,Graduate degree
+460,not Male,West North Central,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,27,27281,Some college or Associate degree
+461,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,36,104289,Bachelor degree
+462,not Male,East South Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,29,45798,Bachelor degree
+463,not Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,26,97525,Some college or Associate degree
+464,Male,Mountain,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,21,62164,Graduate degree
+465,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,50,108385,Bachelor degree
+466,not Male,Mountain,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,20,144411,High school degree
+467,Male,West South Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,142995,Bachelor degree
+468,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,28,42982,Some college or Associate degree
+469,not Male,Mountain,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,25,30579,Some college or Associate degree
+470,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,103209,Bachelor degree
+471,Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,43,83280,Bachelor degree
+472,not Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,24,41166,Some college or Associate degree
+473,not Male,South Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,55,76224,Some college or Associate degree
+474,not Male,New England,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,54,194490,Graduate degree
+475,not Male,Pacific,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,25,128075,Graduate degree
+476,not Male,South Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,90513,Bachelor degree
+477,not Male,East North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,41,118656,Graduate degree
+478,not Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,19,38627,Some college or Associate degree
+479,not Male,New England,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,35,88740,Graduate degree
+480,not Male,Middle Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,31,67800,Bachelor degree
+481,not Male,Middle Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,22,72989,Graduate degree
+482,Male,Middle Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,19,47786,Bachelor degree
+483,not Male,East South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,31,113786,Graduate degree
+484,Male,East North Central,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,26,114144,Graduate degree
+485,not Male,West South Central,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,23,26193,High school degree
+486,Male,Mountain,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,28,45260,High school degree
+487,not Male,Middle Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,22,65787,Graduate degree
+488,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,20,65834,Graduate degree
+489,Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,24,70825,Graduate degree
+490,Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,27,67018,Bachelor degree
+491,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,31,19282,Some college or Associate degree
+492,not Male,Mountain,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,26,46726,Some college or Associate degree
+493,not Male,East North Central,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,31,54098,Bachelor degree
+494,not Male,Middle Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,27,22857,Bachelor degree
+495,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,35,41398,Bachelor degree
+496,not Male,West North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,42,33940,Graduate degree
+497,not Male,West North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,55,114517,Some college or Associate degree
+498,not Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,40,37515,Graduate degree
+499,Male,Pacific,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,21,80143,NA
+500,not Male,Pacific,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,26,53270,Bachelor degree
+501,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,44,92548,Graduate degree
+502,Male,Mountain,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,24,42834,Some college or Associate degree
+503,Male,East North Central,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,31,35050,Bachelor degree
+504,not Male,South Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,25,58065,Bachelor degree
+505,not Male,East North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,26,20570,High school degree
+506,not Male,South Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,19,35032,Bachelor degree
+507,Male,South Atlantic,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,21,94087,Graduate degree
+508,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,33,52110,NA
+509,Male,Pacific,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,40,153504,Bachelor degree
+510,Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,27,22889,Some college or Associate degree
+511,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,29,55914,Graduate degree
+512,Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,46,39370,Bachelor degree
+513,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,31,41192,Some college or Associate degree
+514,Male,New England,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,57,61183,Bachelor degree
+515,not Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,23,52034,Some college or Associate degree
+516,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,18,100514,Graduate degree
+517,Male,East South Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,29,95283,Bachelor degree
+518,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,19,113648,Bachelor degree
+519,not Male,New England,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,26,115273,Bachelor degree
+520,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,25,161705,Bachelor degree
+521,Male,South Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,47,174184,Graduate degree
+522,Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,21,34370,Bachelor degree
+523,not Male,East North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,35,115300,Graduate degree
+524,Male,East North Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,26,105856,Some college or Associate degree
+525,Male,South Atlantic,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,22,119669,High school degree
+526,Male,East North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,22,38544,High school degree
+527,Male,South Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,49,192653,Bachelor degree
+528,Male,New England,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,52,95871,Graduate degree
+529,not Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,18,49151,Some college or Associate degree
+530,not Male,East North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,24,55952,High school degree
+531,Male,West South Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,51,86414,Graduate degree
+532,not Male,New England,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,36,177349,Graduate degree
+533,not Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,24,94075,Some college or Associate degree
+534,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,22,78745,Bachelor degree
+535,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,23,195508,Bachelor degree
+536,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,20,168010,Graduate degree
+537,Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,32,21452,Bachelor degree
+538,not Male,South Atlantic,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,25,79332,Bachelor degree
+539,not Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,21,49997,Some college or Associate degree
+540,Male,East North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,20,56839,Some college or Associate degree
+541,not Male,West North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,33,82772,Graduate degree
+542,not Male,Pacific,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,18,24866,Bachelor degree
+543,not Male,West North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,58,38518,Graduate degree
+544,not Male,Middle Atlantic,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,25,57568,Bachelor degree
+545,Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,24,86964,Bachelor degree
+546,Male,New England,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,46,119152,Bachelor degree
+547,Male,Mountain,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,119396,Graduate degree
+548,not Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,24,26070,Graduate degree
+549,not Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,29,66485,Graduate degree
+550,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,38,96562,Graduate degree
+551,not Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,58,84613,Bachelor degree
+552,Male,Middle Atlantic,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,25,48533,Some college or Associate degree
+553,Male,East South Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,30,81339,Bachelor degree
+554,Male,Mountain,No,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,27,82103,Graduate degree
+555,Male,West South Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,46,75418,Some college or Associate degree
+556,Male,East South Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,51,109132,Bachelor degree
+557,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,42,29806,Bachelor degree
+558,Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,23,90262,Some college or Associate degree
+559,not Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,59,96567,Some college or Associate degree
+560,not Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,22,58354,Graduate degree
+561,not Male,West South Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,25,79805,Some college or Associate degree
+562,Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,61708,Graduate degree
+563,Male,Middle Atlantic,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,27,166010,Graduate degree
+564,Male,West South Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,32,21124,Some college or Associate degree
+565,not Male,New England,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,52,122336,Some college or Associate degree
+566,not Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,21,23028,Some college or Associate degree
+567,Male,South Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very unimportant,53,53517,Graduate degree
+568,Male,Pacific,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,56,59784,Graduate degree
+569,Male,Middle Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,25,102907,Bachelor degree
+570,Male,Mountain,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,51,149112,Graduate degree
+571,Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,56,123175,Graduate degree
+572,not Male,East South Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,20,86646,Graduate degree
+573,Male,Middle Atlantic,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,28,53389,Bachelor degree
+574,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,37,21141,Less than high school degree
+575,Male,Middle Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,75089,Bachelor degree
+576,Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,58,54324,Bachelor degree
+577,Male,Middle Atlantic,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,52,24696,High school degree
+578,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,39,147304,Bachelor degree
+579,Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,32,88211,Bachelor degree
+580,Male,South Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,54,81650,NA
+581,not Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,26,100658,High school degree
+582,not Male,New England,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,26,125194,Graduate degree
+583,Male,Middle Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,19,18125,High school degree
+584,not Male,South Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,25,80291,Some college or Associate degree
+585,not Male,Pacific,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,22,20789,Some college or Associate degree
+586,not Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,52,46137,High school degree
+587,Male,West South Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,31,60529,Bachelor degree
+588,Male,Pacific,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Neutral,44,105760,Bachelor degree
+589,Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,20,68332,Bachelor degree
+590,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,25,44913,Some college or Associate degree
+591,Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,34,34124,Bachelor degree
+592,Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,19,20816,Bachelor degree
+593,not Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,20,41212,Some college or Associate degree
+594,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,53,128405,Bachelor degree
+595,Male,West South Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,28,108708,Bachelor degree
+596,not Male,West North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,39,76695,High school degree
+597,Male,South Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,24,97971,High school degree
+598,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,48,46284,Graduate degree
+599,Male,East South Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,53,71532,Bachelor degree
+600,not Male,New England,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,58,92229,Bachelor degree
+601,Male,West South Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,54,87368,Some college or Associate degree
+602,Male,New England,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,58,58380,Some college or Associate degree
+603,Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,48,62186,Bachelor degree
+604,Male,West North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,58,184451,Bachelor degree
+605,not Male,New England,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,54,67569,Graduate degree
+606,Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,23,195491,Some college or Associate degree
+607,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,20,172768,Graduate degree
+608,Male,East South Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,55,96359,Graduate degree
+609,not Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,40,70735,Some college or Associate degree
+610,not Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,32,22466,Bachelor degree
+611,not Male,East North Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,26,88155,Some college or Associate degree
+612,not Male,Mountain,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,19,57586,Bachelor degree
+613,not Male,East North Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,29,23798,Graduate degree
+614,Male,South Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,21,57423,Bachelor degree
+615,not Male,South Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,27,142246,Bachelor degree
+616,Male,East North Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,21,173951,Graduate degree
+617,Male,South Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,34,109639,Graduate degree
+618,Male,New England,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,24,113852,Bachelor degree
+619,not Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,51,68270,Some college or Associate degree
+620,Male,Middle Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,28,144741,Bachelor degree
+621,not Male,East North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,48,21472,Some college or Associate degree
+622,Male,South Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,58,19315,High school degree
+623,Male,South Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,23,124942,Bachelor degree
+624,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,54,98659,Some college or Associate degree
+625,not Male,Pacific,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,25,23632,Graduate degree
+626,Male,South Atlantic,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,28,21340,High school degree
+627,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,24,72171,Some college or Associate degree
+628,Male,East North Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,28,144310,Bachelor degree
+629,Male,Mountain,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,20,60312,NA
+630,Male,Pacific,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,31,130112,High school degree
+631,not Male,New England,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,22,24547,Bachelor degree
+632,Male,Middle Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,31,86107,Some college or Associate degree
+633,Male,South Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,25,65573,High school degree
+634,not Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,58,53864,Graduate degree
+635,not Male,South Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,28,150011,Some college or Associate degree
+636,not Male,Mountain,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,54,139934,Graduate degree
+637,Male,Middle Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,37,23841,Bachelor degree
+638,not Male,East South Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,28,49900,Some college or Associate degree
+639,Male,West South Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,58,50667,Bachelor degree
+640,not Male,West North Central,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,55,177453,Bachelor degree
+641,not Male,New England,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,33,79616,Graduate degree
+642,Male,Middle Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,44,140995,Graduate degree
+643,Male,West North Central,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,23,43662,Some college or Associate degree
+644,not Male,South Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,27,151675,Graduate degree
+645,Male,New England,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,21,64694,Graduate degree
+646,Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,20,162934,Bachelor degree
+647,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,26,117517,Bachelor degree
+648,not Male,East North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,46,21154,High school degree
+649,not Male,East South Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,51,40081,Bachelor degree
+650,Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,28,191902,Graduate degree
+651,not Male,Pacific,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,36,42173,Some college or Associate degree
+652,Male,Middle Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,53,22900,Some college or Associate degree
+653,not Male,East North Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,21,109256,Some college or Associate degree
+654,not Male,East South Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,56,86084,Bachelor degree
+655,not Male,West South Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,51,186465,Graduate degree
+656,not Male,Middle Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,18,76875,Bachelor degree
+657,Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,27,90085,Graduate degree
+658,Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,44,40700,Bachelor degree
+659,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,58,138024,Some college or Associate degree
+660,Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,52,98641,Graduate degree
+661,not Male,Mountain,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,21,20484,Some college or Associate degree
+662,not Male,South Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,26,95412,Bachelor degree
+663,not Male,Mountain,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,55,50346,Some college or Associate degree
+664,not Male,Middle Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Neutral,27,87418,Graduate degree
+665,Male,Pacific,No,Yes,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,26,100339,Bachelor degree
+666,not Male,West North Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,19,148273,Some college or Associate degree
+667,not Male,East South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,43,71961,Graduate degree
+668,Male,Mountain,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,53,45972,Graduate degree
+669,not Male,Pacific,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,25,53636,Bachelor degree
+670,not Male,Pacific,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,20,28792,Some college or Associate degree
+671,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,28,67421,Some college or Associate degree
+672,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,51,101448,Bachelor degree
+673,not Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,25,62947,Graduate degree
+674,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,23,20684,Bachelor degree
+675,Male,West South Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,54,60397,Some college or Associate degree
+676,Male,South Atlantic,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,49,68901,Some college or Associate degree
+677,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,26,93396,Bachelor degree
+678,Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,57,53062,Graduate degree
+679,not Male,Pacific,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,56,74726,Bachelor degree
+680,Male,Middle Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,119397,Bachelor degree
+681,not Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,28,22164,Some college or Associate degree
+682,not Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,55,80010,Some college or Associate degree
+683,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,27,103264,High school degree
+684,not Male,New England,No,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,25,28532,Bachelor degree
+685,Male,East North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,50,87844,Bachelor degree
+686,Male,East North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,59,76613,High school degree
+687,Male,Mountain,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,20,39421,Bachelor degree
+688,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,29,51953,Some college or Associate degree
+689,Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,59,174874,Bachelor degree
+690,not Male,Middle Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,177514,Graduate degree
+691,Male,South Atlantic,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,52,86846,Some college or Associate degree
+692,Male,East North Central,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,57,40832,Some college or Associate degree
+693,Male,New England,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,57,70781,Some college or Associate degree
+694,not Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,79711,Graduate degree
+695,not Male,South Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,47,39824,Graduate degree
+696,not Male,Mountain,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,29,67465,Some college or Associate degree
+697,Male,Middle Atlantic,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Neutral,59,30193,Some college or Associate degree
+698,Male,New England,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,22,66615,High school degree
+699,not Male,Middle Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,23,160216,Graduate degree
+700,Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,50,94216,NA
+701,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,111132,High school degree
+702,not Male,New England,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,31,161596,Graduate degree
+703,not Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Somewhat important,24,23789,Graduate degree
+705,not Male,West South Central,Yes,Yes,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,53,51280,Some college or Associate degree
+706,not Male,East South Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,41,48512,Some college or Associate degree
+707,Male,Pacific,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,92922,Bachelor degree
+708,not Male,South Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,50,34774,Bachelor degree
+709,Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,33,35678,Graduate degree
+710,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,27,148177,Graduate degree
+711,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,18,57625,Bachelor degree
+712,Male,East North Central,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,39,23309,Some college or Associate degree
+713,not Male,East North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,54,64028,Graduate degree
+714,Male,Pacific,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,53,70671,Bachelor degree
+715,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,35,121907,Bachelor degree
+716,not Male,Pacific,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,29,121652,Some college or Associate degree
+717,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,54,112472,Some college or Associate degree
+718,Male,Middle Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,23,155737,Bachelor degree
+719,not Male,New England,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,22,44536,High school degree
+720,Male,Middle Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,57,93690,Bachelor degree
+721,Male,West North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,56,114225,Bachelor degree
+722,not Male,West South Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,31,64908,Some college or Associate degree
+723,Male,South Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,19,182511,Some college or Associate degree
+724,Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,46,128055,Bachelor degree
+725,not Male,Middle Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,51,152589,Bachelor degree
+726,Male,Middle Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,20,20629,Bachelor degree
+727,not Male,Middle Atlantic,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,19,60623,Some college or Associate degree
+728,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,23,85635,Some college or Associate degree
+729,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,23,89582,Some college or Associate degree
+730,not Male,South Atlantic,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,44,21225,Some college or Associate degree
+731,Male,South Atlantic,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,45,53877,Some college or Associate degree
+732,Male,Middle Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,41,56520,Some college or Associate degree
+733,not Male,West North Central,No,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,32,48544,Less than high school degree
+734,Male,Middle Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,54,35345,Bachelor degree
+735,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,44,133265,Bachelor degree
+736,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,21,90250,Graduate degree
+737,not Male,Pacific,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,21,34796,NA
+738,not Male,West South Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,26,46524,Some college or Associate degree
+739,Male,Pacific,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,26,24978,Some college or Associate degree
+740,not Male,Middle Atlantic,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,22,148618,Bachelor degree
+741,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,37,89226,Graduate degree
+742,not Male,East North Central,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,53,24282,Less than high school degree
+743,Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,59,75143,Graduate degree
+744,Male,East North Central,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,52,72987,Graduate degree
+745,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,57,154044,Graduate degree
+746,Male,Middle Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,54,39512,Some college or Associate degree
+747,not Male,Mountain,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,37,83835,Graduate degree
+748,Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,51,51641,Some college or Associate degree
+749,Male,East North Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,36,125745,Some college or Associate degree
+750,Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,158106,Graduate degree
+751,Male,Pacific,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,59,49250,High school degree
+752,not Male,East North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,41,135738,Bachelor degree
+753,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,21,21066,Some college or Associate degree
+754,not Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,23,56244,NA
+755,Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,46,157729,Graduate degree
+756,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,41,83452,Bachelor degree
+757,Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,19,57442,Bachelor degree
+758,not Male,West North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,23,79879,Some college or Associate degree
+759,Male,South Atlantic,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,56,100819,Graduate degree
+760,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,34,114557,Bachelor degree
+761,Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,58,87178,Bachelor degree
+762,not Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,19,134284,Some college or Associate degree
+763,not Male,West South Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,39,117948,Some college or Associate degree
+764,not Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,19,44390,Bachelor degree
+765,not Male,East South Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,35,18974,Graduate degree
+766,not Male,Middle Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,41,195079,Graduate degree
+767,not Male,Pacific,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,34,185446,Graduate degree
+768,not Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,38837,Some college or Associate degree
+769,not Male,East South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,34,48165,Graduate degree
+770,not Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,32,103690,Graduate degree
+771,not Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,19,36675,Bachelor degree
+772,Male,New England,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,46,23388,Some college or Associate degree
+774,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,26,20274,Some college or Associate degree
+775,Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,22,70950,Bachelor degree
+776,Male,West South Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,59,112804,Some college or Associate degree
+777,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,25,47885,Some college or Associate degree
+778,not Male,East North Central,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,28,29591,High school degree
+779,Male,Mountain,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,24,18023,Some college or Associate degree
+780,not Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,41,51430,Graduate degree
+781,not Male,East North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,41,55324,Some college or Associate degree
+782,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,19,73398,Bachelor degree
+783,not Male,East North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,27,199632,Bachelor degree
+784,Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,52,100699,Bachelor degree
+785,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,37,88346,Bachelor degree
+786,not Male,South Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,49,45407,Some college or Associate degree
+787,not Male,West North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,39,92651,Some college or Associate degree
+788,not Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,20,21503,Bachelor degree
+789,not Male,New England,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,29,114017,Graduate degree
+790,not Male,Pacific,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,22,77825,Some college or Associate degree
+791,not Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,36,125611,Graduate degree
+792,Male,West North Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,59,137203,Graduate degree
+793,Male,Mountain,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,48,53782,Bachelor degree
+794,Male,Middle Atlantic,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,83184,Graduate degree
+795,Male,Pacific,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,40,84077,Graduate degree
+796,not Male,East North Central,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,32,84859,Graduate degree
+797,Male,Pacific,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,50,91338,Bachelor degree
+798,Male,Mountain,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,28,22677,Some college or Associate degree
+799,Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,48,34270,Graduate degree
+800,not Male,East North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,30,44587,Some college or Associate degree
+801,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,19,45418,Some college or Associate degree
+802,not Male,Mountain,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,43,31953,Bachelor degree
+803,not Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,29,139489,High school degree
+804,not Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,43,65341,Graduate degree
+805,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,59,174772,Graduate degree
+806,not Male,West South Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,28,113231,Some college or Associate degree
+807,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,32,38829,Graduate degree
+808,not Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,43,58128,Bachelor degree
+809,not Male,Mountain,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,55,86042,Some college or Associate degree
+810,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,30,69376,Graduate degree
+811,not Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,33,24886,High school degree
+812,Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,49,76171,Some college or Associate degree
+813,Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,83005,Some college or Associate degree
+814,Male,New England,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,23,64772,Graduate degree
+815,Male,East South Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,57,95931,High school degree
+816,not Male,New England,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,23,60169,High school degree
+817,not Male,New England,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,26,26213,High school degree
+818,Male,East South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,22,153354,Graduate degree
+819,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,57,90177,Graduate degree
+820,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,57,43971,Some college or Associate degree
+821,Male,South Atlantic,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,49,91974,Graduate degree
+822,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,50,163529,Some college or Associate degree
+823,not Male,Middle Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,40,104721,Bachelor degree
+824,Male,South Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,55,23660,High school degree
+825,Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,51,154033,Bachelor degree
+826,Male,East South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,54,144390,Bachelor degree
+827,Male,South Atlantic,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,36,77878,Bachelor degree
+828,not Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,25,95176,Some college or Associate degree
+829,not Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,25,119258,Graduate degree
+830,not Male,Middle Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,19,87755,Graduate degree
+831,Male,East North Central,Yes,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,40,101261,Bachelor degree
+832,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,43,104489,Graduate degree
+833,Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,24,42677,Graduate degree
+834,Male,Pacific,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,47,71746,Some college or Associate degree
+835,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,44,92400,Bachelor degree
+836,not Male,West South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,30,22102,Bachelor degree
+837,not Male,Mountain,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,42,44555,Bachelor degree
+838,Male,East South Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,19,60191,Bachelor degree
+839,not Male,West South Central,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,56,71773,Some college or Associate degree
+840,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,22,54245,Bachelor degree
+841,not Male,Pacific,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,22,49609,Some college or Associate degree
+842,Male,West North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,21,124393,Graduate degree
+843,not Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,59,94458,Graduate degree
+844,not Male,East North Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,58,71344,Some college or Associate degree
+845,not Male,South Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,46,64679,Bachelor degree
+846,not Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,22,78968,Bachelor degree
+847,not Male,West North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,22210,Some college or Associate degree
+848,Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,26,140926,High school degree
+849,not Male,Middle Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,27,72736,Some college or Associate degree
+850,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,34,61025,Bachelor degree
+851,not Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,24,55940,High school degree
+852,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,25,23654,Some college or Associate degree
+853,not Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,36,93033,High school degree
+854,Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,42,101924,Bachelor degree
+855,not Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,40,154895,Graduate degree
+856,not Male,Mountain,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,26,46115,Bachelor degree
+857,not Male,East North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,19,47293,Bachelor degree
+858,Male,East South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,51,62110,Graduate degree
+859,not Male,Mountain,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,46,59404,Bachelor degree
+860,not Male,East North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,52,22048,Graduate degree
+861,not Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,19,54650,Some college or Associate degree
+862,not Male,West North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,39,67055,Some college or Associate degree
+863,not Male,South Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,50,39586,Some college or Associate degree
+864,not Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,35,84102,Some college or Associate degree
+865,Male,Mountain,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,40,43548,Some college or Associate degree
+866,not Male,West North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,30,122946,Bachelor degree
+867,not Male,Mountain,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,51,44332,Graduate degree
+868,Male,Mountain,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,54,111427,Graduate degree
+869,not Male,New England,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,23,21318,Bachelor degree
+870,not Male,Middle Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,31,52850,Bachelor degree
+871,not Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,43,26906,Some college or Associate degree
+872,not Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,52,35087,Bachelor degree
+873,not Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,38,115718,Bachelor degree
+874,not Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,20,101578,Bachelor degree
+875,Male,South Atlantic,No,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,27,109326,Some college or Associate degree
+876,not Male,West South Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,23,106641,High school degree
+877,not Male,East North Central,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,83502,High school degree
+878,not Male,Mountain,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,37,25612,Bachelor degree
+879,not Male,South Atlantic,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,23,88329,Bachelor degree
+880,not Male,East North Central,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,59,115083,Some college or Associate degree
+881,Male,East North Central,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,32,111429,Bachelor degree
+882,Male,West South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,38,68723,Graduate degree
+883,Male,East South Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Somewhat important,20,92341,High school degree
+884,Male,West South Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,56,65500,Some college or Associate degree
+885,Male,Pacific,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,19,44720,Graduate degree
+886,Male,West South Central,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,19,74710,Some college or Associate degree
+887,Male,Pacific,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,58,19394,Some college or Associate degree
+888,Male,Mountain,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,60,36154,Bachelor degree
+889,Male,East North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,37,156198,Graduate degree
+890,not Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,28,147748,Graduate degree
+891,Male,Pacific,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,24,22018,Some college or Associate degree
+892,Male,New England,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,31,68250,Some college or Associate degree
+893,Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,40,194456,Graduate degree
+894,Male,East North Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,36,106150,Graduate degree
+895,Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Somewhat important,25,48054,Some college or Associate degree
+896,Male,Pacific,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Neutral,21,64134,Less than high school degree
+897,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,24,88649,Some college or Associate degree
+898,not Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,26,75959,Some college or Associate degree
+899,Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,41,20701,Some college or Associate degree
+900,Male,West North Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,56,74103,Bachelor degree
+901,Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,28,23652,Some college or Associate degree
+902,not Male,South Atlantic,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,45,21021,Some college or Associate degree
+903,Male,Pacific,No,Yes,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,35,79988,Some college or Associate degree
+904,not Male,Pacific,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not at all,Very important,24,61195,High school degree
+905,not Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,21,91062,Graduate degree
+906,not Male,Pacific,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,23,98023,Graduate degree
+907,not Male,East South Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,49,23736,Bachelor degree
+908,Male,Middle Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,27,148836,Bachelor degree
+909,Male,Middle Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,39,89808,High school degree
+910,not Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,49,57211,Some college or Associate degree
+911,not Male,New England,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,27,96361,Graduate degree
+912,not Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,23,123693,Graduate degree
+913,not Male,East North Central,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,24,78218,Graduate degree
+914,not Male,New England,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,55,85053,Graduate degree
+915,Male,East North Central,No,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,53,73104,Some college or Associate degree
+916,not Male,Middle Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,45,105706,Some college or Associate degree
+917,Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,59,25184,Some college or Associate degree
+918,not Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,59,78835,High school degree
+919,not Male,New England,No,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,54,39062,Some college or Associate degree
+920,Male,South Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,59,60544,Some college or Associate degree
+921,not Male,Mountain,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,19,75282,High school degree
+922,Male,West North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,21,120476,Bachelor degree
+923,Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,52,57031,Some college or Associate degree
+924,not Male,South Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,24,50929,Graduate degree
+925,not Male,Middle Atlantic,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,51,61562,Graduate degree
+926,Male,Middle Atlantic,Yes,No,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,22,186499,Bachelor degree
+927,not Male,East South Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,46,35286,High school degree
+928,not Male,South Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,51,124065,Some college or Associate degree
+929,not Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,53,136747,Bachelor degree
+930,Male,East North Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,51,99094,Graduate degree
+931,not Male,South Atlantic,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,45,27666,High school degree
+932,not Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,59,114263,Graduate degree
+933,not Male,Middle Atlantic,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,46,22284,Some college or Associate degree
+934,Male,South Atlantic,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,42,61694,Bachelor degree
+935,Male,East North Central,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,35,93383,Bachelor degree
+936,Male,Middle Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,60,81108,Bachelor degree
+937,Male,Middle Atlantic,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,22,91607,Some college or Associate degree
+938,Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,24,21744,Graduate degree
+939,Male,New England,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,24,167844,Graduate degree
+940,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,19060,Some college or Associate degree
+941,Male,South Atlantic,No,Yes,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,18,39946,Graduate degree
+942,Male,South Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,44,99885,Graduate degree
+943,Male,West South Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,24,99108,Bachelor degree
+944,Male,Middle Atlantic,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,28,24557,Bachelor degree
+945,Male,South Atlantic,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,28,53989,Some college or Associate degree
+946,Male,South Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,28,22024,High school degree
+947,Male,West North Central,Yes,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,25,90554,Bachelor degree
+948,Male,South Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,25,88445,Bachelor degree
+949,Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,34,82519,Some college or Associate degree
+950,Male,West North Central,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,26,84644,NA
+951,Male,East South Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,19,78751,Graduate degree
+952,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,24,39358,NA
+953,Male,Mountain,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,28,92461,Some college or Associate degree
+954,Male,West North Central,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,20,37321,High school degree
+955,Male,Pacific,Yes,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,39,49695,Some college or Associate degree
+956,Male,New England,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,27,106737,Graduate degree
+957,Male,Middle Atlantic,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,26,117201,Graduate degree
+958,Male,West South Central,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,18,34799,Bachelor degree
+959,Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,23,24818,Some college or Associate degree
+960,Male,South Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,37,18333,High school degree
+961,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,21,18016,Graduate degree
+962,Male,Middle Atlantic,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,41,86107,Bachelor degree
+963,Male,Middle Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,40,73398,Graduate degree
+964,Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,19,33555,Bachelor degree
+965,Male,Middle Atlantic,Yes,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,42,149724,Bachelor degree
+966,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,37,72626,High school degree
+967,Male,West North Central,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat unimportant,39,74739,Some college or Associate degree
+968,Male,South Atlantic,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,26,48979,High school degree
+969,Male,Middle Atlantic,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Neutral,40,25594,High school degree
+970,Male,New England,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,35,136611,High school degree
+971,Male,East North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,42,67369,High school degree
+972,Male,West North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,30,64958,Graduate degree
+973,Male,Pacific,No,No,Yes,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,35,25951,Bachelor degree
+974,Male,West North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,39,64691,Graduate degree
+975,Male,Middle Atlantic,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Somewhat important,20,66117,High school degree
+976,Male,East South Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,27,41484,Graduate degree
+977,Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very unimportant,25,20607,Some college or Associate degree
+978,Male,East North Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very unimportant,34,79249,Bachelor degree
+979,Male,Mountain,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,38,42357,Some college or Associate degree
+980,Male,East South Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,19,163382,High school degree
+981,Male,Pacific,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,23,123018,Bachelor degree
+982,Male,New England,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,22,126616,Some college or Associate degree
+983,Male,West South Central,No,Yes,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,18,33223,High school degree
+984,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,39,77994,Bachelor degree
+985,Male,South Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,36,143056,Bachelor degree
+986,Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,32,159528,Bachelor degree
+987,Male,West South Central,No,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,36,55878,Some college or Associate degree
+988,Male,South Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,35,33453,Some college or Associate degree
+989,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,24126,High school degree
+990,Male,East North Central,Yes,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,22,47951,Some college or Associate degree
+991,Male,Pacific,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,24,156323,Bachelor degree
+992,Male,Mountain,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,20,97672,Bachelor degree
+993,Male,West South Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,29,29260,Graduate degree
+994,Male,East South Central,No,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,22,145864,Some college or Associate degree
+995,Male,Middle Atlantic,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,21,44975,Bachelor degree
+996,Male,Middle Atlantic,Yes,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,36,49291,Some college or Associate degree
+997,Male,West South Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,18,34640,Some college or Associate degree
+998,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,27,23340,Some college or Associate degree
+999,Male,Pacific,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,22,22212,Some college or Associate degree
+1000,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,37,121504,Some college or Associate degree
+1001,Male,West North Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,22,19540,Some college or Associate degree
+1002,Male,West South Central,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,20,188214,Less than high school degree
+1003,Male,Mountain,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,42,53004,Bachelor degree
+1004,Male,New England,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,18,47359,High school degree
+1005,Male,Pacific,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Very important,18,67457,Bachelor degree
+1006,Male,New England,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,27,99099,Bachelor degree
+1007,Male,Pacific,Yes,No,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,26,42471,Some college or Associate degree
+1008,Male,West North Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat unimportant,19,66397,Some college or Associate degree
+1009,Male,West South Central,No,No,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,39,109856,Graduate degree
+1010,Male,Pacific,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,43,48029,Bachelor degree
+1011,Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,28,48419,Bachelor degree
+1012,Male,East North Central,No,No,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat unimportant,26,187327,Some college or Associate degree
+1013,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,A lot,Very important,28,24711,Bachelor degree
+1014,Male,East North Central,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,39,32261,Bachelor degree
+1015,Male,South Atlantic,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Somewhat important,27,105934,Bachelor degree
+1016,Male,Pacific,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,22,51245,Bachelor degree
+1017,Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,25,99781,Bachelor degree
+1018,Male,West North Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,25,71075,Some college or Associate degree
+1019,Male,Pacific,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,38,131252,Bachelor degree
+1020,Male,Mountain,Yes,No,No,Some,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,38,138549,Bachelor degree
+1021,Male,East North Central,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,22,45002,Some college or Associate degree
+1022,Male,West North Central,No,Yes,Yes,Not much,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Not much,Somewhat important,31,131664,Graduate degree
+1023,Male,New England,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,35,68477,Graduate degree
+1024,Male,Pacific,Yes,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,20294,Some college or Associate degree
+1025,Male,West North Central,No,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,19,36818,Some college or Associate degree
+1026,Male,East South Central,Yes,Yes,No,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,98774,Bachelor degree
+1027,Male,Middle Atlantic,No,No,No,Not at all,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Somewhat important,34,47821,Some college or Associate degree
+1028,Male,Mountain,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,24,84934,Bachelor degree
+1029,Male,Pacific,Yes,No,No,Not at all,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,36,150682,Bachelor degree
+1030,Male,Mountain,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Very important,32,96727,Graduate degree
+1031,Male,East North Central,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,A lot,Very important,23,34073,Some college or Associate degree
+1032,Male,Pacific,Yes,Yes,Yes,A lot,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Very important,22,23799,Some college or Associate degree
+1033,Male,New England,Yes,Yes,No,A lot,"Some experts say it's important to drink milk, but the data are inconclusive.",Plural,Some,Very important,25,32716,Some college or Associate degree
+1034,Male,Middle Atlantic,No,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Some,Somewhat important,26,53247,Less than high school degree
+1035,Male,East North Central,Yes,Yes,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not at all,Very important,37,68851,NA
+1036,Male,Mountain,No,Yes,No,Not much,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat unimportant,32,58385,Graduate degree
+1037,Male,South Atlantic,No,No,Yes,Some,"Some experts say it's important to drink milk, but the data is inconclusive.",Singular,Not much,Somewhat important,40,80561,Bachelor degree
