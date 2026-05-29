@@ -47,5 +47,6 @@ build/
 /F25/ECE_302H/labs/pcbs/
 /F25/ECE_306H/arm-development/
 
-# PDFs
+# Large files
 *.pdf
+*.pptx
