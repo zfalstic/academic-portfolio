@@ -46,3 +46,6 @@ build/
 # Course Specific
 /F25/ECE_302H/labs/pcbs/
 /F25/ECE_306H/arm-development/
+
+# PDFs
+*.pdf
