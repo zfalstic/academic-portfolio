@@ -93,3 +93,62 @@ A *sum-of-products* form is a two-level circuit, AND and OR.
 
 A *truth table* specifies values of a boolean expression for
 every combination of input variable values.
+
+== Basic Theorems
+
+- Operations with 0 and 1
+  - $X + 0 = X$
+  - $X + 1 = 1$
+  - $X dot 1 = X$
+  - $X dot 0 = 0$
+- Idempotent Laws
+  - $X + X = X$
+  - $X dot X = X$
+- Involution Law
+  - $(X')' = X$
+- Laws of Complementarity
+  - $X + X' = 1$
+  - $X dot X' = 0$
+- Commutative
+  - $a + b = b + a$
+  - $a dot b = b dot a$
+- Associative
+  - $(a + b) + c = a + (b + c)$
+  - $(a dot b) dot c = a dot (b dot c)$
+- Distributive
+  - $a dot (b + c) = a dot b + a dot c$
+  - $a + (b dot c) = (a + b) dot (a + c)$
+
+== Simplification Theorems
+
+- Uniting Theorem: $X Y + X Y' = X$
+- Absorption Theorem: $X + X Y = X$
+- Elimination Theorem: $X + X' Y = X + Y$
+- DeMorgan's Laws:
+  - $(X + Y)' = X' Y'$
+  - $(X Y)' = X' + Y'$
+
+== Canonical Forms
+
+- Sum of minterms
+- Product of maxterms
+
+#table(
+  columns: 4,
+  align: (center, center, left, left),
+  stroke: none,
+  inset: (x: 12pt, y: 5pt),
+
+  [Row No.], table.vline(), [$A B C$], table.vline(), [Minterms], table.vline(), [Maxterms],
+  table.hline(),
+
+  [0], [$0 0 0$], [$A'B'C' = m_0$], [$A + B + C = M_0$],
+  [1], [$0 0 1$], [$A'B'C = m_1$],  [$A + B + C' = M_1$],
+  [2], [$0 1 0$], [$A'B C' = m_2$], [$A + B' + C = M_2$],
+  [3], [$0 1 1$], [$A'B C = m_3$],  [$A + B' + C' = M_3$],
+  [4], [$1 0 0$], [$A B'C' = m_4$], [$A' + B + C = M_4$],
+  [5], [$1 0 1$], [$A B'C = m_5$],  [$A' + B + C' = M_5$],
+  [6], [$1 1 0$], [$A B C' = m_6$], [$A' + B' + C = M_6$],
+  [7], [$1 1 1$], [$A B C = m_7$],  [$A' + B' + C' = M_7$],
+)
+

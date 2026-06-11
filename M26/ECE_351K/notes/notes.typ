@@ -199,3 +199,36 @@ $P("ECE major" inter "likes donuts") = 0.1 * 0.7 = 0.07$
 - And asked you ...
   - What is the probability that I eat oatmeal on any given day?
 
+#figure(
+  image("total-probability.png", width: 70%),
+  caption: [
+    Total probability example.
+  ],
+)
+
+Given $P(A_i)$, and $P(B | A_i)$, how to compute $P(B)$?
+- Partition sample space $Omega$ into $A_1$, $A_2$, and $A_3$
+  - $A_1 union A_2 union A_3 = Omega$, and
+  - $A_1 inter A_2 = A_2 inter A_3 = A_3 inter A_1 = emptyset$
+- Assume we know $P(A_i)$, for every $i$
+- Specify an event of interest $B$
+- Assume we know $P(B|A_i)$, for every $i$
+
+$
+P(B) &= P((A_1 inter B) union (A_2 inter B) union (A_3 inter B)) \
+&= P(A_1 inter B) + P(A_2 inter B) + P(A_3 inter B) \
+&= P(A_1) P(B | A_1) + P(A_2) P(B | A_2) + P(A_3) P(B | A_3)
+$
+
+$
+P(B) = sum^n_(i = 1) P(A_i) P(B | A_i)
+$
+
+== Bayes' Rule
+
+- If I have COVID, the test manufacturer tells me that the test
+  will detect the virus with 99% accuracy. 
+  - $P("+ve test" | "have COVID")$
+- But what I really want to know is ...
+  if my test comes back positive, do I REALLY have COVID?
+  - $P("have COVID" | "+ ve test")$
