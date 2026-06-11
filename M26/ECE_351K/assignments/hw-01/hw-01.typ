@@ -2,7 +2,7 @@
 
 // Feel free to omit any of the below, just set it to "" and it won't show
 #let title = "HW1"
-#let author = "Dawson Zhang"
+#let author = "Dawson Zhang, David Gong, Anh-vu Nguyen" 
 #let collaborators = []
 #let course-id = "ECE 351K: Probability and Random Processes"
 #let instructor = "Prof. Vivek Telang"
