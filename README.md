@@ -8,8 +8,9 @@ A collection of my university coursework, organized by semester.
 
 ## ⭐ Week at a Glance
 
-- Assignments
-    -[ECE 312H Lab 1](./S26/ECE_312H/labs/lab-1/dynarray.c)
+- [ECE 351K Notes](./M26/ECE_351K/notes/notes.typ)
+- [ECE 351K Homework 1](./M26/ECE_351K/assignments/hw-01/hw-01.typ)
+- [ECE 316 Homework 1](./M26/ECE_316/assignments/hw-01/hw-01.typ)
 
 ---
 
@@ -28,6 +29,9 @@ A collection of my university coursework, organized by semester.
     - [M 427J Differential Equations with Linear Algebra](./S26/M_427J)
     - [MIS 301H Introduction to Management Technology: Honors](./S26/MIS_301H)
     - [STA 301H Introduction to Data Science: Honors](./S26/STA_301H)
+- [Summer 2026](./M26/)
+    - [ECE 316 Digital Logic Design](./M26/ECE_316/)
+    - [ECE 351K Probability and Random Processes](./M26/ECE_351K/)
 
 ---
 
@@ -48,5 +52,7 @@ A collection of my university coursework, organized by semester.
 │   ├── M_427J
 │   ├── MIS_301H
 │   └── STA_301H
-└── TEMPLATE
+└── M26
+    ├── ECE_316
+    └── ECE_351K
 ```
