@@ -11,6 +11,8 @@ A collection of my university coursework, organized by semester.
 - [ECE 351K Notes](./M26/ECE_351K/notes/notes.typ)
 - [ECE 351K Homework 1](./M26/ECE_351K/assignments/hw-01/hw-01.typ)
 - [ECE 316 Homework 1](./M26/ECE_316/assignments/hw-01/hw-01.typ)
+- [ECE 316 Lab 1A](./M26/ECE_316/labs/lab-01-a/lab-01-a.typ)
+- [ECE 316 Lab 1B](./M26/ECE_316/labs/lab-01-b/lab-01-b.typ)
 
 ---
 
