@@ -20,6 +20,129 @@
   paper-size: "us-letter",
 )
 
+= Sprinkler Valve Controller
+
+== Truth Table
+
+_The truth table was given by the lab document._
+
+#let sprinkler-tt = table(
+  columns: 12,
+  table.vline(x: 4, stroke: 4pt),
+  table.header(
+    $E$, $A$, $B$, $C$, $d_7$, $d_6$, $d_5$, $d_4$, $d_3$, $d_2$, $d_1$, $d_0$,
+  ),
+  [0], [x], [x], [x], [0], [0], [0], [0], [0], [0], [0], [0],
+  [1], [0], [0], [0], [0], [0], [0], [0], [0], [0], [0], [1],
+  [1], [0], [0], [1], [0], [0], [0], [0], [0], [0], [1], [0],
+  [1], [0], [1], [0], [0], [0], [0], [0], [0], [1], [0], [0],
+  [1], [0], [1], [1], [0], [0], [0], [0], [1], [0], [0], [0],
+  [1], [1], [0], [0], [0], [0], [0], [1], [0], [0], [0], [0],
+  [1], [1], [0], [1], [0], [0], [1], [0], [0], [0], [0], [0],
+  [1], [1], [1], [0], [0], [1], [0], [0], [0], [0], [0], [0],
+  [1], [1], [1], [1], [1], [0], [0], [0], [0], [0], [0], [0],
+)
+
+#figure(caption: [Sprinker Valve Controller Truth Table], sprinkler-tt)
+
+== SOP Equations
+
+_These equations were given by the lab document._
+
+$
+d_0 &= E A' B' C' \
+d_1 &= E A' B' C \
+d_2 &= E A' B C' \
+d_3 &= E A' B C \
+d_4 &= E A B' C' \
+d_5 &= E A B' C \
+d_6 &= E A B C' \
+d_7 &= E A B C \
+$
+
+== Gate-level Schematic
+
+#figure(
+  image("sprinkler-circuit.png", width: 30%),
+  caption: [
+    Hand Drawn Gate-Level Circuit
+  ],
+)
+
+#figure(
+  image("sprinkler-schematic.png", width: 70%),
+  caption: [
+    Gate-Level Sprinkler Schematic
+  ],
+)
+
+== Structural Verilog
+
+_This code was given by the lab document._
+
+#let sprinkler-module = ```verilog
+module sprinkler_decoder(
+    input wire E, A, B, C,
+    output wire d0, d1, d2, d3, d4, d5, d6, d7
+);
+    wire nA, nB, nC;
+    
+    not (nA, A);
+    not (nB, B);
+    not (nC, C);
+    
+    and (d0, E, nA, nB, nC);
+    and (d1, E, nA, nB, C);
+    and (d2, E, nA, B, nC);
+    and (d3, E, nA, B, C);
+    and (d4, E, A, nB, nC);
+    and (d5, E, A, nB, C);
+    and (d6, E, A, B, nC);
+    and (d7, E, A, B, C);
+endmodule
+```
+
+#figure(caption: [Sprinkler Verilog Module], sprinkler-module)
+
+== Testbench Source
+
+_This code was given by the lab document._
+
+#let sprinkler-tb = ```verilog
+`timescale 1ns / 1ps
+module sprinkler_decoder_tb;
+    reg E, A, B, C;
+    wire d0, d1, d2, d3, d4, d5, d6, d7;
+    
+    sprinkler_decoder uut(
+        .E(E), .A(A), .B(B), .C(C),
+        .d0(d0), .d1(d1), .d2(d2), .d3(d3),
+        .d4(d4), .d5(d5), .d6(d6), .d7(d7)
+    );
+    
+    integer i;
+    initial begin
+        // Sweep all 16 combinations of {E, A, B, C}.
+        for (i = 0; i < 16; i = i + 1) begin
+            {E, A, B, C} = i[3:0];
+            #10;
+        end
+        $finish;
+    end
+endmodule
+```
+
+#figure(caption: [Sprinkler Testbench], sprinkler-tb)
+
+== Waveform Simulation
+
+#figure(
+  image("sprinkler-waveform.png", width: 70%),
+  caption: [
+    Waveform Simulation Screenshot
+  ],
+)
+
 = 4-to-1 MUX Design
 
 == Truth Table
@@ -41,6 +164,7 @@ The truth table equivalent of this equation is:
 
 #let four-to-one-mux-tt = table(
   columns: 3,
+  table.vline(x: 2, stroke: 3pt),
   table.header[$s_0$][$s_1$][$d$],
   [0], [0], [$i_0$],
   [0], [1], [$i_1$],
