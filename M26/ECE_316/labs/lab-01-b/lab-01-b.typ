@@ -39,6 +39,25 @@ Click Here
 
 == Written Response
 
+Synthesis #math.arrow Implementation #math.arrow Generate
+Bitstream is the chronological flow of how verilog description
+(code) gets converted to gate-level netlists, assigned to 
+board-specific connections, and converted to a final executable
+that can be flashed.
+
+Each of these stages is part of the critical execution path.
+The output of synthesis is used in implementation. The output
+of implmentation is used in the input of generate bitstream.
+This order can't be rearranged and substituted.
+
+Each level is a step in getting verilog code closer to something
+a FPGA can take in as an input. Synthesis takes abstract
+hardware descriptions and creates a list of gate-level connections.
+Implementation optimizes those connections and configures it
+to be specific to a particular FPGA board model and make. Generate
+Bitstream is the final step that outputs an executable that 
+can be read by a FPGA board.
+
 = Sprinkler Valve Controller on Hardware
 
 == Video Demonstration
@@ -69,7 +88,7 @@ Click Here
   [1],[0],[0],[1],  [0],[0],[0],[1],[1],[0],[0],
 ) 
 
-#figure(caption: [], seven-segment-tt)
+#figure(caption: [Complete Seven Segment Truth Table], seven-segment-tt)
 
 == SOP Expressions
 
