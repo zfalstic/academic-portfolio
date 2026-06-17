@@ -165,7 +165,7 @@ The truth table equivalent of this equation is:
 #let four-to-one-mux-tt = table(
   columns: 3,
   table.vline(x: 2, stroke: 3pt),
-  table.header[$s_0$][$s_1$][$d$],
+  table.header[$s_1$][$s_0$][$d$],
   [0], [0], [$i_0$],
   [0], [1], [$i_1$],
   [1], [0], [$i_2$],
@@ -180,7 +180,7 @@ From the truth table, we can derive the SOP form alebraic
 expression for $d$.
 
 $
-d = i_0 s_1 ' s_0 ' + i_1 s_1 ' s_0 + i_2 s_1 s_0 ' + i_3 s_1 0_2
+d = i_0 s_1 ' s_0 ' + i_1 s_1 ' s_0 + i_2 s_1 s_0 ' + i_3 s_1 s_0
 $
 
 == Gate-level Schematic
@@ -239,6 +239,7 @@ module mux4to1_behav(
             2'b01: temp_d = i1;
             2'b10: temp_d = i2;
             2'b11: temp_d = i3;
+            default: temp_d = 1'bx;
         endcase
     end
 endmodule

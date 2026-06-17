@@ -90,17 +90,19 @@ Click Here
 
 #figure(caption: [Complete Seven Segment Truth Table], seven-segment-tt)
 
-== SOP Expressions
+== SOP Equations
 
-$
-a &= w' x' y' z + w' x y' z' \
-b &= w' x y' z + w' x y z' \ 
-c &= w' x' y z' \ 
-d &= w' x' y' z + w' x y' z' + w' x y z + w x' y' z \
-e &= w' x' y' z + w' x' y z + w' x y' z' + w' x y' z + w' x y z \
-f &= w' x' y' z + w' x' y z' + w' x' y z + w' x y z \
-g &= w' x' y' z' + w' x' y' z + w' x y z
-$
+#table(
+  columns: 3,
+  table.header[Output][k-map][Simplified Equation],
+  [$a$], image("a.png", width: 2in), [$x y' z' + w' x' y' z$],
+  [$b$], image("b.png", width: 2in), [$x y' z + x y z'$],
+  [$c$], image("c.png", width: 2in), [$x' y z'$],
+  [$d$], image("d.png", width: 2in), [$x y' z' + x' y' z + x y z$],
+  [$e$], image("e.png", width: 2in), [$z + x y'$],
+  [$f$], image("f.png", width: 2in), [$w' x' z + y z + w' x' y$],
+  [$g$], image("g.png", width: 2in), [$w' x' y' + x y z$],
+)
 
 == Verilog Source
 
@@ -109,11 +111,12 @@ $
 
 module seven_segment(
     input wire w, x, y, z,
-    output wire a, b, c, d, e, f, g, an0, an1, an2, an3
+    output wire seg_a, seg_b, seg_c, seg_d, 
+    seg_e, seg_f, seg_g, an0, an1, an2, an3
 );
     
 reg [6:0]temp_out;    
-assign {a, b, c, d, e, f, g} = temp_out;
+assign {seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, seg_g} = temp_out;
 
 assign an0 = 1'b1;
 assign an1 = 1'b0;
