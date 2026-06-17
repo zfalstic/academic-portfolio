@@ -165,7 +165,7 @@ module seven_segment_tb;
     // ----- Instantiate the Device Under Test -----
     seven_segment dut (
         .w(w), .x(x), .y(y), .z(z),
-        .a(a), .b(b), .c(c), .d(d), .e(e), .f(f), .g(g)
+        .a_seg(a), .b_seg(b), .c_seg(c), .d_seg(d), .e_seg(e), .f_seg(f), .g_seg(g)
     );
 
     // ----- Golden model: expected active-low pattern for each value -----
