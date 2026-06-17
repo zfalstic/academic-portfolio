@@ -152,3 +152,97 @@ every combination of input variable values.
   [7], [$1 1 1$], [$A B C = m_7$],  [$A' + B' + C' = M_7$],
 )
 
+= Verilog for Combinational Logic Design
+
+Verilog is a c-like hardware description language (HDL).
+
+#figure(
+  image("typical-design-flow.png", width: 70%),
+  caption: [
+    Typical Hardware Design Flow
+  ],
+)
+
+== Verilog Basics
+
+Numeric literals have the form
+
+```verilog
+4'b10_11
+```
+
+== Structural Module
+
+Here is what a 4-bit adder module definition looks like in
+verilog.
+
+```verilog
+module adder (
+  input [3:0] A, B,
+  output cout,
+  output [3:0] sum
+);
+
+endmodule
+```
+
+A module can use other modules. In a 4-bit adder we may use
+multiple full adders that are defined as,
+
+```verilog
+module FA (
+  input a, b, cin,
+  output cout, sum
+);
+
+endmodule
+```
+
+In our 4-bit adder, we need to connect our full adders together
+
+```verilog
+module adder (
+  input [3:0] A, B,
+  output cout,
+  output [3:0] sum
+);
+
+wire c0, c1, c2;
+FA fa0( A[0], B[0], 0, c0, S[0] ); // 4 instances of full adder
+FA fa1( A[1], B[1], c0, c1, S[1] );
+FA fa2( A[2], B[2], c1, c2, S[2] );
+FA fa3( A[3], B[3], c2, cout, S[3] );
+
+endmodule
+```
+
+== Behavioral Module
+
+= Karnaugh Maps
+
+Tool for boolean logic simplification. The motivation behind
+simplifying boolean logic is to end up with smaller circuits.
+Fewer gates = less transistors = smaller and more efficient
+circuits.
+
+#table(
+  columns: 4,
+  table.header[a][b][c][$f_1$],
+  [0], [0], [0], [1],
+  [0], [0], [1], [1],
+  [0], [1], [0], [0],
+  [0], [1], [1], [0],
+  [1], [0], [0], [1],
+  [1], [0], [1], [0],
+  [1], [1], [0], [0],
+  [1], [1], [1], [1],
+)
+
+$
+f_1 &= a' b' c' + a' b' c + a b' c' + a b c \
+f_1 &= a' b' + b' c' + a b c
+$
+
+= Latches and Flip-Flops
+
+
