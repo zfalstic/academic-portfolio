@@ -245,4 +245,26 @@ $
 
 = Latches and Flip-Flops
 
+= Finite State Machines
 
+- Need
+  - A way to _capture_ desired sequential behavior
+  - A way to _convert_ such behavior to a sequential circuit
+- *Finite State Machine (FSM)*
+  - Describes desired behavior of sequential circuit
+
+#figure(
+  image("fsm-example-1.png", width: 50%),
+  caption: [
+    FSM Frequency 2-Divider
+  ],
+)
+
+#figure(
+  image("fsm-example-2.png", width: 50%),
+  caption: [
+    FSM Frequency 4-Divider
+  ],
+)
+
+_example._ Design a divide by 5 frequency divider circuit.

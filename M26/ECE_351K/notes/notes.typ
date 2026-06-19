@@ -523,4 +523,43 @@ $
 
 == Binomial Random Variable
 
+- Experiment: $n$ independent coin tosses of a coin with
+  $P("Heads") = p$
+- Sample space: Set of $2^n$ sequences of H and T, length $n$
+- Random variable $X$: number of Heads
+- Parameter: $p in [0, 1]$
 
+$
+p_X (k "heads") = vec(n, k) p^k (1 - p)^(n - k)
+$
+
+_example._
+
+- Consider a sequence of 10 independent coin tosses with
+  $P(H) = p$.
+- What is the probability that the first two tosses are Heads
+  given that there are 3 Heads in 10 tosses.
+- $A = {"first two are heads"} = {H, H, X, X, X, X, X, X, X, X}$
+- $B = {"3 Heads out of 10 tosses"}$
+
+$
+P(A|B) = P(A inter B) / P(B) = (p^2 dot vec(8, 1) p(1 - p)^7) / (vec(10, 3) p^3 (1 - p)^7)
+$
+
+== Expectation
+
+$
+E[X] = sum_x x p_X (x)
+$
+
+== Functions of Random Variables
+
+Let $X$ be a R.V. with PMF $p_X (x)$, and let $Y$ be another
+R.V., where $Y = g(X)$
+
+What is the PMF of $Y$?
+
+$
+p_Y (y) &= sum_(x | g(x) = y) p_X (x) \
+E[Y] &= sum_x g(x) p_X (x)
+$
