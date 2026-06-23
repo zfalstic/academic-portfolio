@@ -101,7 +101,7 @@ _What is the probability that it is a heart?_
   #figure(
     image("cards-sample-space.png", width: 70%),
     caption: [
-      Sample space of a deck of cards. 
+      Sample Space of a Deck of Cards. 
     ],
   )
 
@@ -120,7 +120,7 @@ Assume an experiment with 12 equally likely outcomes
 #figure(
   image("conditional-a-b.png", width: 70%),
   caption: [
-    Conditional probability example.
+    Conditional Probability Example.
   ],
 )
 
@@ -145,7 +145,7 @@ _defined only when $P(B) > 0$_
 #figure(
   image("conditional-intersect.png", width: 70%),
   caption: [
-    Conditional probability with intersection.
+    Conditional Probability with Intersection.
   ],
 )
 
@@ -154,7 +154,7 @@ _Example._ Two roll of a die
 #figure(
   image("2-dice-conditional.png", width: 40%),
   caption: [
-    Two die roll conditional probability example.
+    Two Die Roll Conditional Probability Example.
   ],
 )
 
@@ -204,7 +204,7 @@ $P("ECE major" inter "likes donuts") = 0.1 * 0.7 = 0.07$
 #figure(
   image("total-probability.png", width: 70%),
   caption: [
-    Total probability example.
+    Total Probability Example.
   ],
 )
 
@@ -281,7 +281,7 @@ _example._ *The Virus Testing Problem*
 $P(A)$ is known to be $0.01$
 
 #figure(
-  image("virus-tree.svg", width: 30%),
+  image("virus-tree.png", width: 30%),
   caption: [
     Virus Testing Tree.
   ],
@@ -562,4 +562,145 @@ What is the PMF of $Y$?
 $
 p_Y (y) &= sum_(x | g(x) = y) p_X (x) \
 E[Y] &= sum_x g(x) p_X (x)
+$
+
+_example._
+
+- If $Y = X^2$, i.e., $g(X) = X^2$
+- If $Y = a X + b$, then $E[Y] = sum_x (a x + b)p_X (x)$
+  - $E[Y] = sum_x a x p_X (x) + sum_x b p_X (x)$
+  - $E[Y] = a sum_x x p_X (x) + b sum_x p_X (x)$
+  - $E[a X + b] = a mu + b$. So, in this case, $E[g(X)] = g(E[X])$
+
+_This is known as the *Linearity of Expectation*_
+
+= Variance
+
+_consider this._
+
+- Suppose you could play one of two games ...
+- In each game the amount of money you win is a random variable $X$
+
+#image("variance-c1.png", width: 30%)
+#image("variance-c2.png", width: 30%)
+
+
+- Both r.v.s have uniform PMFs
+- Both have the same *expectation*
+- But are the games the same?
+- What is different?
+
+*Variance* is a measure of the "spread" of the PMF around the _mean_
+
+$
+"var"(X) = E[(X - mu)^2] = sigma_X^2
+$
+
+Using the expected value rule,
+
+$
+sigma_X^2 = sum_x (x - mu)^2 p_X (x)
+$
+
+*Standard Deviation*
+
+$
+sigma_X = sqrt("var"(X))
+$
+
+_properties of variance._
+
+$
+"var"(a X + b) = a^2 sigma_X^2
+$
+
+$
+"var"(X) &= E[X^2] - (E[X])^2 \
+E[X^2] = "var"(X) + (E[X])^2
+$
+
+== Variance of Bernoulli
+
+$
+"var"(X) = p - p^2
+$
+
+== Variance of Uniform
+
+$
+"var"(X) &= n(n + 2) / 12 \
+&= ((b - a)(b - a + 2)) / 12
+$
+
+#figure(
+  image("variance-table.png", width: 90%),
+  caption: [
+    Variance of Common Distribution
+  ],
+)
+
+== Conditional PMF, Expectation, and Variance
+
+Just like we conditioned the probability of an _event_ on
+_another event_, we can also condition the PMF of a r.v. on an
+_event_.
+
+$
+p_(X | A) (x) = P(X = x | A) = P({X = x} inter A) / P(A)
+$
+
+$
+sum_x P_(X | A) (x) = 1
+$
+
+$
+E[X | A] = sum_x x p_(X | A) (x)
+$
+
+$
+E[g(x) | A] = sum_x g(x) p_(X | A) (x)
+$
+
+_example._
+
+Fair 4-sided die.
+
+#image("conditional-variance-ex.png", width: 40%)
+
+- $E[X] = 1.5$
+- $"var"(X) = 1/12 (b - a) (b - a + 2) = 1/12 dot 3 dot 5 = 1.25$
+
+Let $A = {x >= 1}$
+
+- $P(A) = 3/4$
+
+#image("conditional-variance-ex2.png", width: 40%)
+
+- $E[X | A] = 2$
+- $"var"(X | A) = 1/12 dot 2 dot 4 = 2/3$
+
+== Total Probability and Total Expectation
+
+Recall $P(B) = sum P(B | A_i)P(A_i)$
+
+$
+p_X (x) = sum p_(X | A_i) P(A_i)
+$
+
+$
+E[X] = sum E[X | A_i] P(A_i)
+$
+
+_example._
+
+Compute $E[X]$ for:
+
+#image("total-expect-ex.png", width: 40%)
+
+We could solve it using $E[X] = sum_x x p_X (x)$.
+
+However, notice that this looks like two uniform distributions
+
+$
+E[X] = 3/9 dot (2 + 0)/2 + 6/9 dot (8 + 6)/2 = 5
 $

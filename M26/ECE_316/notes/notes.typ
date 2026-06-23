@@ -268,3 +268,34 @@ $
 )
 
 _example._ Design a divide by 5 frequency divider circuit.
+
+== FSM Implementation
+
+#figure(
+  image("fsm-circuit.png", width: 50%),
+  caption: [
+    FSM Controller
+  ],
+)
+
+#figure(
+  image("moore-controller.png", width: 30%),
+  caption: [
+    Moore Controller
+  ],
+)
+
+#figure(
+  image("mealy-controller.png", width: 30%),
+  caption: [
+    Mealy Controller
+  ],
+)
+
+== Controller Design Process
+
++ Capture the FSM
++ Set up architechture
++ Encode the states
++ Fill in the truth table
++ Implement combinational logic
