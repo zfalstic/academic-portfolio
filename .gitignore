@@ -52,3 +52,6 @@ build/
 *.pdf
 *.pptx
 *.png
+
+# Completed assignments are tracked despite the *.pdf rule above
+!/*/*/assignments/completed/*.pdf
